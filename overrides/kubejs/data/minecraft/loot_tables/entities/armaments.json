@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 600
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 375
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_shovel",
+          "weight": 300
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "weight": 150
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 320
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "weight": 200
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+          "weight": 160
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "weight": 138
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_shovel",
+          "weight": 110
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "weight": 55
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "weight": 28
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 38
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "weight": 8
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+filename = 'dynamiclightsreforged-1.19.2_v1.4.0.jar'
+name = 'Embeddium/Rubidium Dynamic Lights'
+side = 'both'
+
+[download]
+hash = 'c0daf3672f980c4d9ed83dfbebce51b07956c5d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4285414
+project-id = 551736

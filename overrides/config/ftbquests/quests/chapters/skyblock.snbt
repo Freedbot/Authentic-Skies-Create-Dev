@@ -1,0 +1,2804 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 400
+	default_quest_shape: ""
+	filename: "skyblock"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:sky_gui"
+	id: "55EB19B6D0365F1C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&oHey, you.  You're finally awake.  You were caught trying to cross the border, right?&r"
+				""
+				"Kidding, there's no lore here, just me, Freedbot.  Welcome to \"Purgatory\", AKA: world spawn.  This is a safe space where you can't do anything but relax and get your settings in order before you begin.  These quests can also be opened from the book icon in the upper left of the inventory screen or by pressing the ` ~ key.  The book item itself isn't needed."
+				""
+				"If playing on a server, this is also a perfect time to chat with and visit other team's islands before joining one or making your own."
+				""
+				"Oh, and thank you for downloading my mod pack.  Have fun."
+			]
+			icon: "ftbquests:book"
+			id: "5273C522D81D5B4D"
+			rewards: [{
+				id: "410317C8B3944874"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "4726C32F8C41AD67"
+				title: "Vertigo"
+				type: "checkmark"
+			}]
+			x: 1.0499999999999998d
+			y: -8.326672684688674E-17d
+		}
+		{
+			dependencies: ["5273C522D81D5B4D"]
+			description: [
+				"I do have some custom controls bound for mods.  Vanilla controls are mostly default.  Use this as a quick reference for useful mod buttons."
+				""
+				"C - Open any portable crafting item or terminal."
+				"X - Open Occultism remote storage."
+				"B - Open Backpack"
+				"V - Run Backpack Upgrades"
+				"ALT + Z/X - Toggle first/second backpack upgrade slots"
+				"K / CTRL+K / Shift+K - Compress craft stack/item/all respectively."
+				"Delete (+ Shift) - Delete item (all of type)"
+				"Left Alt - Access nearby toolboxes"
+				"` - Quest book"
+				"Y - Skyblock Menu"
+				"M - Map"
+				"Z - Zoom"
+				"=/- - Zoom mini-map"
+				"N - Quick Waypoint"
+				"P - Waypoint Menu"
+				"J - Swap hotbar"
+				"U - Toggle magnet"
+				"G - Toggle Jetpack"
+				"H - Jetpack hover mode"
+				"CTRL + L - Rotation Lock"
+				"F7 - Toggle light overlay"
+				"I - Hud Config"
+				"Left Shift (or with inv open) - Pick up entity (Expand item tooltip)"
+				"\\ - Open Crafting Calculator"
+				"End - Scan for lag sources"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/controller"
+				}
+			}
+			id: "2B0B038376AB1BC3"
+			rewards: [{
+				id: "3F73B3085F027485"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "115940AA93FD3815"
+				title: "Controls"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["674A17872D5104F2"]
+			description: [
+				"Now I'll quickly cover the rest of the menu buttons in the upper left corner of the inventory screen.  By the way, you can drag to arrange them, remove them, or add more options from the + button in the bottom left corner."
+				""
+				"This one is the teams button.  It's specifically for sharing quests and claimed chunks.  If on multiplayer, deal with this now, if not, then don't worry about it other than to know that it has the anti-griefing rule settings for your claimed chunks."
+			]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "30F9917413F39510"
+			rewards: [{
+				id: "7C2039F6C36A1809"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B8436F1258437AB"
+				title: "Teams"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30F9917413F39510"]
+			description: [
+				"Next: the map.  M key also opens it.  You can right click to make/remove waypoints here (N key).  The upper left compass button opens a waypoint manager (P key)."
+				""
+				"The map icon above that is IMPORTANT.  This one opens the chunk claiming UI.  Click to claim a chunk for your team, shift click to force load the chunk.  Right click to unclaim.  Be kind to the game, only keep the chunks loaded that you absolutely need to.  If you prefer, you may remove the normal map button from the inventory screen and replace it with the Chunk Claim button from the + menu on the bottom."
+				""
+				"For that matter, if you don't want the mini-map, it can be disabled from the gear icon in the bottom left of the FTB map screen."
+			]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "653398F0460277AF"
+			rewards: [{
+				id: "1BB4CADF70679E74"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37CCCA006A18245C"
+				title: "Maps \\& Claims"
+				type: "checkmark"
+			}]
+			title: "Maps \\& Claims"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["653398F0460277AF"]
+			description: [
+				"Finally, the Skyblock UI button (Y key) controls your skyblock team, spawn point, and starting island.  It also has options for inviting visitors and teleporting.  You have to make a team to start.  This is different from the FTB team.  Every member must be added to both.  After completing this quest, just look around at the blocks on your island to trigger the correct quest line.  Don't visit another team before it triggers."
+				""
+				"Now choose wisely:"
+				""
+				"The Classic (Normal): Chest contains Ice, Lava, and 10 Obsidian."
+				""
+				"Just Moss (Hard): Nothing to do but twerk and suffer."
+				""
+				"Potato Island (Easy): Start with Create.  By ClaudiusMinimus."
+			]
+			hide: false
+			icon: "kubejs:sky_gui"
+			id: "79F2430624FDF498"
+			rewards: [{
+				id: "3B77C028B6053C55"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EE9A423E0B3C2F2"
+				title: "Skyblock Menu"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79F2430624FDF498"]
+			description: [
+				"Stark, isn't it?  It's not all bad.  As mentioned, you can twerk.  Unlike most grass-like blocks, moss will produce from the power of twerk alone.  Spam that shift key, but be careful.  Any trees you grow will convert the block below to dirt, and you'll want to preserve some of your moss."
+				""
+				"Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
+			]
+			hide_dependent_lines: true
+			id: "7D14566E49E00B34"
+			incompatible: [
+				"3683C72D2F5A9840"
+				"724C09CFF3F604F4"
+			]
+			rewards: [
+				{
+					count: 4
+					id: "7BD297938595EEBC"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p is stuck on a patch of \"Just Moss\"!"
+					id: "3288490AD9A63697"
+					team_reward: true
+					type: "command"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				icon: "minecraft:moss_block"
+				id: "02988EC0EE450BB5"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Moss Block"
+				to_observe: "minecraft:moss_block"
+				type: "observation"
+			}]
+			title: "Just Moss"
+			x: 1.4999999999999996d
+			y: 2.600000000000001d
+		}
+		{
+			dependencies: ["79F2430624FDF498"]
+			description: [
+				"This island is perhaps the oldest well recognized player made structure in minecraft.  It doesn't play much differently either."
+				""
+				"Oh right, there's mods.  After you chop down your tree and replant a sapling, you can twerk (spam the shift key) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:grass_block"
+			id: "724C09CFF3F604F4"
+			incompatible: [
+				"3683C72D2F5A9840"
+				"7D14566E49E00B34"
+			]
+			rewards: [
+				{
+					count: 4
+					id: "4110068813FE7D48"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p embraces tradition with \"The Classic\" skyblock!"
+					id: "3842099BEB262423"
+					team_reward: true
+					type: "command"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "42B9F666D9F10BF4"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Chest"
+				to_observe: "minecraft:chest"
+				type: "observation"
+			}]
+			title: "The Classic"
+			x: 0.5000000000000002d
+			y: 2.600000000000001d
+		}
+		{
+			dependencies: ["79F2430624FDF498"]
+			description: [
+				"Paradise.  Water, lava, dripstone, crops, ores, and even a sheep.  You can jump directly into Create, however, be extra careful with your metals, andesite, and diorite.  Come up with a plan to make them renewable before you start crafting them away."
+				""
+				"Of course there's more mods in here than just Create.  After you chop down your tree and replant a sapling, you can twerk (spam the shift key) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
+			]
+			hide_dependent_lines: true
+			icon: "farmersdelight:potato_crate"
+			id: "3683C72D2F5A9840"
+			incompatible: [
+				"7D14566E49E00B34"
+				"724C09CFF3F604F4"
+			]
+			rewards: [
+				{
+					count: 4
+					id: "55D957EDB765D3D4"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p is relaxing on \"Potato Island\"!"
+					id: "32FDD8321D410AA9"
+					team_reward: true
+					type: "command"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				icon: "minecraft:oak_sign"
+				id: "181EB13B66BBE7EC"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Sign"
+				to_observe: "minecraft:oak_sign"
+				type: "observation"
+			}]
+			title: "Potato Island"
+			x: -0.48839285714285263d
+			y: 2.5857142857142854d
+		}
+		{
+			dependencies: ["2B0B038376AB1BC3"]
+			description: [
+				"This pack uses REI to help look up items and recipes.  Most of you will be familiar with having a giant flood of items to search through on the right of your inventory.  REI is currently set to hide that mess until you start typing in the bottom right box.  Hover on the crafting table icon for the option to bring it back if you want.  When looking up recipes, you can click the + icon next to a recipe REI has it's own useful keys when your inventory is open."
+				""
+				"R/U - show the hovered item's recipes/uses"
+				"Left/Right Click - same as above if on a search result item."
+				"A - bookmark an item or whole recipe to the left"
+				"A (on a bookmark) - remove's it."
+				"Double Click search bar - highlight items in your inventory."
+				""
+				"Smart search by prefixing with special characters: @modname, #tooltip, $tag, r/regex/, \"with spaces\", this | or that."
+			]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "roughlyenoughitems:textures/gui/config/search.png"
+				}
+			}
+			id: "674A17872D5104F2"
+			rewards: [{
+				id: "66380120BC2011B2"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B220CD01E4C0DA3"
+				title: "Roughly Enough Items"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7D14566E49E00B34"
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Rejoice!  Carry On is in the pack!  You can pick up most storage blocks and living things (including mobs).  I added Obsidian as well in case you have an oopsie.  For those who say it's unrealistic, I'll remind you that Steve is 2 meters tall and built like a brick.  Just empty your hands, get real close, crouch for good posture, and right click.  If that somehow isn't enough block moving ability for you, I present the humble cardboard box."]
+			hide_dependency_lines: true
+			icon: "cardboardboxes:cardboardbox"
+			id: "43BAA357A883A79F"
+			rewards: [{
+				id: "0B363C6CAA4E788E"
+				item: "cardboardboxes:cardboardbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD13004AA48EC3D"
+				title: "Carry On"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3683C72D2F5A9840"
+				"724C09CFF3F604F4"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Some of you experienced modded skyblock players might be wondering where the mechanical extruder or cobble generator machine is.  Stop looking.  You'll be using old school cobble generators all game.  You can automate the mining process with mods though."
+				""
+				"When you decide to make one, let me remind you to waterlog it so you don't sacrifice your precious liquids and spend 5 minutes punching obsidian."
+				"{image:kubejs:textures/cobblegen.png width:103 height:38 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:cobblestone"
+			id: "4AA6CEFF37A5D2FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A4C353C3B948D44"
+					table_id: 8724013488949242395L
+					type: "choice"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has managed to not make obsidian!"
+					id: "54ED6BBFD39A787F"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "0D95D943DCC0DE21"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "01227501CBEC2436"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "11B247E7FC960EBD"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Cobble Gen"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3683C72D2F5A9840"]
+			description: [
+				"Insurance for peace of mind.  At the low cost of 1 gold coin, you can reclaim those squandered resources that may have met a tragic fate."
+				""
+				"For Emergency use only.  Simply click the heart button in the upper right corner of this book to get your coin to trade here."
+				""
+				"Sorry for the 2 step process.  This is a very dynamic quest line, and I can't just change the emergency items based on the island chosen."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/emergency_items.png"
+				}
+			}
+			id: "0C1D5ADFCAE879DC"
+			rewards: [
+				{
+					id: "4EDCF3D8BF261EE7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "24E57FDB9AD2379C"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "0830632B23924DD5"
+					item: "minecraft:pointed_dripstone"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1A65D14374C9600D"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79FDC3892BC21B78"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "4FE97F3489AC7BF7"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.25d
+			tasks: [{
+				consume_items: true
+				id: "26075C700D613689"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			title: "Emergency Claim"
+			x: 0.9999999999999988d
+			y: 2.600000000000001d
+		}
+		{
+			can_repeat: true
+			dependencies: ["724C09CFF3F604F4"]
+			description: [
+				"Insurance for peace of mind.  At the low cost of 1 gold coin, you can reclaim those squandered resources that may have met a tragic fate."
+				""
+				"For Emergency use only.  Simply click the heart button in the upper right corner of this book to get your coin to trade here."
+				""
+				"Sorry for the 2 step process.  This is a very dynamic quest line, and I can't just change the emergency items based on the island chosen."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/emergency_items.png"
+				}
+			}
+			id: "3AEC948B2AC83588"
+			rewards: [
+				{
+					id: "4C5D29BEFAA589B0"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "4A6472CEFF4E89C6"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "140668F36646C78F"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "0C749E188030E070"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5BF9D720910DAC8B"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 1.25d
+			tasks: [{
+				consume_items: true
+				id: "0804F95A437D2CBF"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			title: "Emergency Claim"
+			x: 1.9999999999999991d
+			y: 2.600000000000001d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7D14566E49E00B34"]
+			description: [
+				"Insurance for peace of mind.  At the low cost of 1 gold coin, you can reclaim those squandered resources that may have met a tragic fate."
+				""
+				"For Emergency use only.  Simply click the heart button in the upper right corner of this book to get your coin to trade here."
+				""
+				"Sorry for the 2 step process.  This is a very dynamic quest line, and I can't just change the emergency items based on the island chosen."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/emergency_items.png"
+				}
+			}
+			id: "7A2B2336A9A304DD"
+			rewards: [{
+				id: "03EFAAED3F8121A3"
+				item: "minecraft:moss_block"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.25d
+			tasks: [{
+				consume_items: true
+				id: "6874199B426CF1C4"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			title: "Emergency Claim"
+			x: 2.999999999999999d
+			y: 2.600000000000001d
+		}
+		{
+			dependencies: [
+				"7D14566E49E00B34"
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"It's time to address the food issue.  You may have noticed this button in your inventory and gotten a bit concerned.  Indeed, malnourishment is bad, but extra nutrition is very good.  Consider this motivation to actually make the fancy meals available from Farmer's Delight."
+				""
+				"You started at 50%.  If you die, each group loses 10% or resets to 30%, whichever is higher.  Each group in the top/bottom 20% will add/remove 1/2 heart of max health.  At a <20% average, you suffer slowness."
+				""
+				"Each group boosts these stats at 60% and 80%:"
+				"Protein: 3 Attack Damage"
+				"Grains: 15% Attack Speed"
+				"Vegetables: 2 Toughness"
+				"Fruit: 1 Luck"
+				"Sugar: 20% Movement Speed"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/hunger.png"
+				}
+			}
+			id: "207683059D64E79C"
+			rewards: [{
+				count: 4
+				id: "2AAF1DEDBCA37127"
+				item: "farmersdelight:cooked_mutton_chops"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E9A45415A5AD960"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops"
+					}
+				}
+				title: "Any #forge:crops"
+				type: "item"
+			}]
+			title: "Diet"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7D14566E49E00B34"
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The tutorial is over.  Time to start playing.  You're now in the Main Skyblock quest line.  As promised, this pack has no free resource generation, and no other land masses besides the Ender Dragon's island, which is rightfully your End Goal.  These quests act as landmarks for aquiring those resources."
+				""
+				"Discovering the answer is half the fun, so from now on these quests will NOT be tutorialized."
+				""
+				"Composting:"
+				"Twerking is work and won't grow everything you need.  Leaves make for an efficient source of compost."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:composter"
+			id: "49DCF7803C1AA999"
+			rewards: [
+				{
+					id: "0093F5A8FEB0BDEB"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "656343929FEA55C7"
+					item: "memeinabottle:meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "756103C0677299E3"
+					table_id: 8154244678801262316L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has learned proper organic waste disposal and completed the tutorial!"
+					id: "264276C218A4AFFB"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "701D58DE9CB5D963"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50DA201C39DCE4F2"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+				{
+					id: "1245B857501C92BA"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			title: "Main Quest: Composting"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7D14566E49E00B34"
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"While the Main quests aren't tutorialized, there's no shame in getting a little help.  To the left of every Main quest is a Clue quest like this one.  Simply opening and reading it will give you a very subtle Clue to help you.  If you don't want any help, don't even open the Clue quests."
+				""
+				"However, if that isn't enough help, then click the \"Give Up\" checkmark task to reveal the Hint Quest.  It's pre-revealed this time only, so go check it out to learn more."
+				""
+				"No Clue or Hint quests have rewards, and both will be disabled (with hint revealed) once the related Main quest is done."
+				""
+				"Composting Clue: There are patterns in the tree bark."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "57CB9C66EF23097B"
+			incompatible: ["49DCF7803C1AA999"]
+			optional: true
+			tasks: [{
+				id: "3491FEA6F06B2FAB"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue Task"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"57CB9C66EF23097B"
+				"49DCF7803C1AA999"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"This is a Hint quest.  Each of these will contain strong Hints to help solve the related Main quest.  These hints could be in text or item form."
+				""
+				"Normally this would be invisible unless the Clue quest to the right or the related Main quest to the right of that is complete.  However, I've revealed it early for the sake of explanation.  Only click the Clue hint checkbox to reveal Hint quests if you've given up on figuring out the Main quest."
+				""
+				"If you still need help, have feedback, or just want to share your progress you'll find a Discord link button in the corner of the main menu.  Youtube and stream links are welcome."
+			]
+			hide: false
+			icon: "silentgear:shears_template"
+			id: "52C4E50619863B2F"
+			incompatible: ["49DCF7803C1AA999"]
+			optional: true
+			tasks: [
+				{
+					id: "41A9CD1794E27765"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "181ED6F271C53D1C"
+					item: "silentgear:shears_template"
+					type: "item"
+				}
+				{
+					id: "300AE5DC880CBECC"
+					item: "silentgear:rod_template"
+					type: "item"
+				}
+			]
+			title: "Hint Task"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7D14566E49E00B34"
+				"49DCF7803C1AA999"
+			]
+			description: ["Wait.  Water and iron?  This is madness."]
+			hide_dependency_lines: true
+			icon: "minecraft:water_bucket"
+			id: "5411150A732213DA"
+			rewards: [
+				{
+					id: "640AAF8A478C5213"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "597C3D6ED2305DB9"
+					item: "memeinabottle:meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6697BC322E857061"
+					table_id: 8154244678801262316L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has put rain water in a bucket! Genius!"
+					id: "0FCD53A18B25DA09"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "57292CBE3CDDF93D"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"49DCF7803C1AA999"
+				"7D14566E49E00B34"
+			]
+			description: ["These things don't just naturally spawn from nothing, or do they?"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "405E7CFC084065A9"
+			incompatible: ["5411150A732213DA"]
+			optional: true
+			tasks: [{
+				id: "380FC370DA91C8CA"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Water Bucket"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"405E7CFC084065A9"
+				"5411150A732213DA"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Cauldrons collect rain at 10x vanilla speed by the way."]
+			hide_details_until_startable: true
+			icon: "minecraft:cauldron"
+			id: "7A73D2F872E4183B"
+			incompatible: ["5411150A732213DA"]
+			optional: true
+			tasks: [
+				{
+					id: "5E981114AD3DC5B2"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "64B12F061FC5B881"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Hint: Water Bucket"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+				"5411150A732213DA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"This isn't your granddad's Garden of Glass.  There have been some additions, but this is the only Botania recipe changed from default."
+				""
+				"Look, I'm trying to make a thinking puzzle, not force people to dig through github, so I'll explain this forgotten creepy cocoon.  Place it down on land or water and it will hatch in 2 minutes."
+				""
+				"&9Common&r: chicken, cow, pig, rabbit, sheep"
+				"&1Water&r &9Common&r: cod, salmon, tropical fish, pufferfish, squid, frog"
+				"&6Rare&r: horse, donkey, wolf, ocelot, cat, parrot, llama, fox, panda, goat"
+				"&1Water&r &6Rare&r: turtle, dolphin, glow squid, axolotl"
+				"&cFed&r &aEmeralds&r/&5Chorus&r: chance of villager/shulker"
+				"&cFed&r &3Gaia Spirit&r: better chance of a rare animal"
+			]
+			hide_dependency_lines: true
+			id: "7ADC17D2AE4755D3"
+			rewards: [{
+				id: "70CD0CE8D1F77AD2"
+				item: "botania:cocoon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AD93AF0FF36B1B1"
+				item: "botania:cocoon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5411150A732213DA"
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Did you notice the boosted iron drop rates?  Zombified Piglin, Enderman, Blaze, and especially Witch drops have also been overhauled.  Check the uses on spawn eggs with REI to learn more."
+				""
+				"Speaking of which, mobs can drop their spawn eggs.  Some can even be crafted or summoned.  Humanoid mobs have much higher chances to drop their gear.  Zombies, converted Drowned, and Wither Skeletons hold more varied weaponry."
+				""
+				"Bonus Hint: Witches didn't always drop mushrooms.  There might be a convenient reason to go with this addition."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
+				}
+			}
+			id: "42FC49136F111773"
+			rewards: [
+				{
+					id: "62EC83A26A7E5A00"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6333014EDECCE04C"
+					item: "createaddition:barbed_wire"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "080DE802408C907F"
+				title: "Mob Tweaks"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+				"7D14566E49E00B34"
+			]
+			dependency_requirement: "one_completed"
+			description: ["While this isn't an expert pack, those of you expecting to make your drawer wall and searchable storage network right at the start will be disappointed to learn that there has been some slight recipe gating in order to balance mods with each other.  Not all hope is lost however.  The crafting station can use ingredients from an adjacent inventory and doesn't dump items when you exit it.  The crafting table on a stick can be worn on a bauble slot and opened with the C key."]
+			hide_dependency_lines: true
+			id: "422C459DE52FA4EC"
+			rewards: [{
+				id: "467B47D1A3BCB38C"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78037B172FBDFA4D"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5411150A732213DA"]
+			description: ["I'm raising the bar with this one.  We're still using purely vanilla methods, but with some convenient tweaks."]
+			id: "6BB28505FA00CC50"
+			rewards: [
+				{
+					id: "456E13970A66C738"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "644AB7D808F52E22"
+					item: "memeinabottle:meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58486DF1F2E67B75"
+					table_id: 8154244678801262316L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has struck gold!"
+					id: "118C17383EAF2020"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "21B632E5FD228ED9"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5411150A732213DA"]
+			description: ["Poseidon and Zeus, working in perfect harmony."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "14D93943A994F483"
+			incompatible: ["6BB28505FA00CC50"]
+			optional: true
+			tasks: [{
+				id: "6BB98494E5FD64A6"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Gold Ingot"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"14D93943A994F483"
+				"6BB28505FA00CC50"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Check the tooltip on lightning rods and tridents."]
+			icon: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "387C9BC761A6BF34"
+			incompatible: ["6BB28505FA00CC50"]
+			optional: true
+			tasks: [
+				{
+					entity: "minecraft:drowned"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/drowned.png"
+						}
+					}
+					id: "09337C91AABD4885"
+					type: "kill"
+					value: 10L
+				}
+				{
+					id: "511114E9698281D4"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+				{
+					id: "62FFFC4154F6F311"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					checkItem: false
+					entity: "minecraft:pig"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/pig.png"
+						}
+					}
+					id: "73682B11ED8A3A7B"
+					nbt: { }
+					type: "questsadditions:interaction"
+					value: 2L
+				}
+				{
+					entity: "minecraft:zombified_piglin"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/zombified_piglin.png"
+						}
+					}
+					id: "68642A61E416BE36"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Hint: Gold Ingot"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"724C09CFF3F604F4"
+				"49DCF7803C1AA999"
+				"6BB28505FA00CC50"
+				"12624192F450DC39"
+			]
+			description: ["So much is locked behind this one random type of stone that everyone used to treat as garbage."]
+			hide_dependency_lines: true
+			id: "6FD36091A6A15488"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					count: 16
+					id: "3AE7F5FD6FFDB04B"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "2779F31259205F4D"
+					item: "memeinabottle:splash_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67AF15B50D3EA7C6"
+					table_id: 8154244678801262316L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p just got scammed for some andesite!"
+					id: "2BAAEA687ABF107B"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0F38DA0F58E2FED6"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"724C09CFF3F604F4"
+				"49DCF7803C1AA999"
+				"6BB28505FA00CC50"
+				"12624192F450DC39"
+			]
+			description: ["The polinated droppings of a fellen scarecrow lead to more fickle dealings."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "0A96A541C92D2CAC"
+			incompatible: ["6FD36091A6A15488"]
+			min_required_dependencies: 2
+			optional: true
+			tasks: [{
+				id: "05E33C13CBEF3A54"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Andesite"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0A96A541C92D2CAC"
+				"6FD36091A6A15488"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Quite the fetch quest, isn't it?"
+				""
+				"Classic players can skip directly to the Nether of course.  Fel pumpkins are required for those who don't have lava/obsidian."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/piglin.png"
+				}
+			}
+			id: "1B52B254C46F9C89"
+			incompatible: ["6FD36091A6A15488"]
+			optional: true
+			tasks: [
+				{
+					checkItem: false
+					entity: "minecraft:wandering_trader"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
+						}
+					}
+					id: "4619B99E6EA22786"
+					nbt: { }
+					title: "Trade with the Wandering Trader"
+					type: "questsadditions:interaction"
+					value: 1L
+				}
+				{
+					id: "6A7FCEA38A71695F"
+					item: "botania:fel_pumpkin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0EA8AC66C6DC880E"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+				{
+					id: "6DF3A8AB409BEF93"
+					item: "botania:blaze_block"
+					type: "item"
+				}
+				{
+					id: "1A71D1FCFF046385"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "44FC8AB204740255"
+					type: "dimension"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/piglin.png"
+						}
+					}
+					id: "4FDA2885ED6A27B7"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:piglin"
+					type: "observation"
+				}
+				{
+					count: 2L
+					id: "31FCBB29481B5D82"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Hint: Andesite"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"6FD36091A6A15488"
+				"7D14566E49E00B34"
+			]
+			description: [
+				"Some of you experienced modded skyblock players might be wondering where the mechanical extruder or cobble generator machine is.  Stop looking.  You'll be using old school cobble generators all game.  You can automate the mining process with mods though."
+				""
+				"When you decide to make one, let me remind you to waterlog it so you don't sacrifice your precious liquids and spend 5 minutes punching obsidian."
+				"{image:kubejs:textures/cobblegen.png width:103 height:38 align:1}"
+				""
+				"But how do you get lava, when every recipe says it takes lava to make lava?"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:lava_bucket"
+			id: "472FB8381C698F8E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C92AFEDD750BEDB"
+					table_id: 8724013488949242395L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "6ADB41A38E870D34"
+					item: "memeinabottle:splash_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4046D764148C3E18"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has managed to make their own lava AND not turn it into obsidian!"
+					id: "324F313AFBA346B4"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "31F983B1F8E80332"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "7227798B97ECDF31"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "05E2CE08985103E3"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Lava \\& Cobblestone"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6FD36091A6A15488"
+				"7D14566E49E00B34"
+			]
+			description: ["Healthy bricks and juiced up burny boys.  That's how."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "70AC457B47BBDE80"
+			incompatible: ["472FB8381C698F8E"]
+			optional: true
+			tasks: [{
+				id: "65D926D000FDDF5B"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Lava \\& Cobblestone"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"70AC457B47BBDE80"
+				"472FB8381C698F8E"
+			]
+			dependency_requirement: "one_completed"
+			description: ["You must \"uncook\" the nether brick with health potion, and make biofuel so the blaze burner can get hot enough to melt stone."]
+			icon: "createaddition:straw"
+			id: "5807557FEE4E7980"
+			incompatible: ["472FB8381C698F8E"]
+			optional: true
+			tasks: [
+				{
+					count: 4L
+					id: "34E478D256B7B4CA"
+					item: "minecraft:nether_brick"
+					type: "item"
+				}
+				{
+					id: "11425B8F96E9A79A"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "17987BD90FAEE610"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "725D269E1F3FE561"
+					item: "createaddition:straw"
+					type: "item"
+				}
+			]
+			title: "Hint: Lava \\& Cobblestone"
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+				"6BB28505FA00CC50"
+				"49DCF7803C1AA999"
+			]
+			description: ["Money makes the world go round, except in Minecraft.  Emeralds make the world go cube, I guess."]
+			hide_dependency_lines: true
+			id: "12624192F450DC39"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "0CDE1C7965C480DC"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "24A9617A7D276583"
+					item: "memeinabottle:splash_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C7D521CC9618787"
+					table_id: 8154244678801262316L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has made some friends... with money!"
+					id: "32A7EF9A9BBBE636"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "339B9F11F9C66716"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"12624192F450DC39"
+				"3683C72D2F5A9840"
+				"6FD36091A6A15488"
+			]
+			description: ["These would be unobtainable in a vanilla skyblock game, but there has to be a secret way to earn them here right?"]
+			hide_dependency_lines: true
+			id: "47D3EAB6AB1275A0"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "2B7262C366119104"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "13C77B9CF7103B3C"
+					item: "memeinabottle:splash_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00DA76AE6313DE68"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has won the war for wealth!"
+					id: "30A5B5789EF7A9C4"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "74C830281CB4F0AF"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+				"6BB28505FA00CC50"
+				"49DCF7803C1AA999"
+			]
+			description: ["Yesterday's enemies are today's friends."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "251AC701318EB7F5"
+			incompatible: ["12624192F450DC39"]
+			min_required_dependencies: 2
+			optional: true
+			tasks: [{
+				id: "5927EA49FA4AA169"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Emerald"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"251AC701318EB7F5"
+				"12624192F450DC39"
+			]
+			dependency_requirement: "one_completed"
+			description: ["A little piglin zombie gold.  An apple from an \"oak\" tree.  If asked nicely, a witch will provide the potion, or at least the ingredients.  Weakness potions aren't complicated.  You could probably make them in a puddle."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/villager.png"
+				}
+			}
+			id: "089F415DFA556A1C"
+			incompatible: ["12624192F450DC39"]
+			optional: true
+			tasks: [
+				{
+					id: "636219725B92ED0A"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "2FC8F3871013A1B9"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/zombie_villager.png"
+						}
+					}
+					id: "4AB323DC49BF56B9"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:zombie_villager"
+					type: "observation"
+				}
+			]
+			title: "Hint: Emerald"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"3798D14482493CA3"
+				"47D3EAB6AB1275A0"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Hopefully you have enough villagers with professions to make it worth the effort."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
+				}
+			}
+			id: "3AC0FCF0AA580E99"
+			incompatible: ["47D3EAB6AB1275A0"]
+			optional: true
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					icon: "kubejs:ritual_summon_pillager"
+					id: "2B55A029B3CD2FF6"
+					title: "Ritual Summon and Kill a Pillager Captain"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+					id: "73B2FFAA7734AB94"
+					type: "advancement"
+				}
+			]
+			title: "Hint: Diamond"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"12624192F450DC39"
+				"3683C72D2F5A9840"
+				"6FD36091A6A15488"
+			]
+			description: ["If it's a good game, the hero should always prosper, don't you think?"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "3798D14482493CA3"
+			incompatible: ["47D3EAB6AB1275A0"]
+			min_required_dependencies: 2
+			optional: true
+			tasks: [{
+				id: "412C5742FF29A025"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Diamond"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+				"5411150A732213DA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Before you begin Botania you should know it is a mod that relies on the magical power of sparkly flowers to make magic bright blue, pink, or green armor and accessories."
+				""
+				"You should also know that all of that is a ploy to discourage the \"mainstream\" Minecraft players from discovering this truly badass mod."
+				""
+				"Botania can get you some utility features and tools sooner than most other mods.  You can also \"repair\" Botania based tools/armor with mana."
+			]
+			hide_dependency_lines: true
+			icon: "botania:lexicon"
+			id: "36A87BBC0C764CC2"
+			rewards: [
+				{
+					id: "27E2915AB5EE2DF5"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0B2C34EF191EDA5D"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BF355E67DCECBBA"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			title: "Unlock Botania"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"3683C72D2F5A9840"
+				"6FD36091A6A15488"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Here is where the pack truly begins.  The main reason to play newer versions of Minecraft.  A mod only slightly less good than the massive hype surrounding it.  A mod so pivotal, Minecraft youtubers risk starvation if they don't put this mod in their video titles.  A mod that needs no introduction..."
+				""
+				"Wait, so why did I make this introduction quest?  Whatever!  Go check out Create in the Logistics chapter."
+			]
+			hide_dependency_lines: true
+			id: "4B2728EACC1051F1"
+			rewards: [{
+				count: 4
+				id: "2CA0F8AE1C6259BC"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FE58F9D943FABC5"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Unlock Create"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3683C72D2F5A9840"
+				"6FD36091A6A15488"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Occultism falls into the style of magic mods where crafting is cheap, but the methods are obscure.  In this case it's a matter of using a \"lens of truth\" kind of effect and rituals.  Think of rituals as multiblock crafting tables, except sometimes the products are satanic aberrations and the ingredients involve live sacrifice.  With this in mind and a couple tweaks, it makes for an excellent skyblock mod."
+				""
+				"You've already had to use datura fruit and spirit fire.  It's time to use it properly.  Burn some blocks.  Eat some psychedelic fruit.  Chop some trees.  Any vanilla sapling can be converted."
+			]
+			hide_dependency_lines: true
+			icon: "occultism:otherstone"
+			id: "3EEE150C00B012F2"
+			rewards: [{
+				id: "5BD6ED95E5DC8036"
+				item: {
+					Count: 1b
+					id: "occultism:dictionary_of_spirits"
+					tag: {
+						"modonomicon:book_id": "occultism:dictionary_of_spirits"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 8L
+					id: "4CBB9D4164EA40EE"
+					item: "occultism:otherworld_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "31EF0D1FE2F2E583"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+			]
+			title: "Unlock Occultism"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B2728EACC1051F1"]
+			description: [
+				"Just a friendly reminder that dirt duplication is a vanilla feature.  With moss and stone, or just dirt and gravel, you can make the various dirt types.  All of which can be converted back to plain old dirt."
+				""
+				"You don't have to, but wouldn't dirty duping be a fun little automation project?"
+			]
+			hide: false
+			icon: "minecraft:grass_block"
+			id: "101617A4B9974927"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D4D69A02EB8B068"
+				table_id: 8154244678801262316L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 128L
+					id: "4F6B8CCB0DC1E036"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "779C3E1DFAD56693"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:grass_seeds"
+								}
+								{
+									Count: 1b
+									id: "minecraft:grass_block"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"43BAA357A883A79F"
+				"422C459DE52FA4EC"
+			]
+			description: [
+				"I know I promised \"no expert recipes\".  While that is true, I did sadly gate a few recipes that could have bypassed Create's methods.  Don't worry though.  There're plenty of convenient storage options in the pack."
+				""
+				"Hexagonal quests unlock quest lines.  This one unlocks the Logistics chapter, where you'll find quests for Sophisticated Storage and Backpacks."
+			]
+			hide: false
+			icon: "minecraft:chest"
+			id: "032A48BF62390018"
+			rewards: [
+				{
+					id: "69561EA107F55274"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "1341A8B9711E89D7"
+					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "44030B7ED40F77F3"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:chest"
+							}
+							{
+								Count: 1b
+								id: "quark:oak_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:spruce_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:birch_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:jungle_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:acacia_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:dark_oak_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:crimson_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:warped_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:mangrove_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:ancient_chest"
+							}
+							{
+								Count: 1b
+								id: "quark:bamboo_chest"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Unlock Logistics"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F83313EE2343BF6"
+				"3683C72D2F5A9840"
+				"47D3EAB6AB1275A0"
+			]
+			description: [
+				"Congratulations, you've overcome the scarcity stage of this skyblock.  At this point, you have nearly unrestricted access to Botania, Create, and Occultism.  In some other skyblock packs you'd have gotten here in under an hour.  I hope facing this barren environment and truly making something from nothing has been a rewarding experience."
+				""
+				"Welcome to the automation era of your journey.  If you haven't already, now's the time to finally automate your basic resources and metal production with those 3 mods.  Some metals will be a bit more elusive than others though."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "occultism:miner_foliot_unspecialized"
+				tag: {
+					Damage: 0
+					maxMiningTime: 400
+					rollsPerOperation: 1
+					spiritName: "Jagkellcred"
+				}
+			}
+			id: "1D75A07A68B1F883"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "5BB6944F5B6343D3"
+					item: "occultism:iesnium_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D2CC3CEB5CF19D4"
+					item: "memeinabottle:splash_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70F1A6EF126C9290"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p's wish for more resources has been granted!"
+					id: "38920EF80F80BB6E"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "66DCE928DEA06FDC"
+					item: {
+						Count: 1b
+						id: "occultism:miner_foliot_unspecialized"
+						tag: {
+							Damage: 0
+							maxMiningTime: 400
+							rollsPerOperation: 1
+							spiritName: "Jagkellcred"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AE8A9D5836F720D"
+					item: "occultism:dimensional_mineshaft"
+					type: "item"
+				}
+			]
+			title: "Infinite Resources"
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3F83313EE2343BF6"
+				"3683C72D2F5A9840"
+				"47D3EAB6AB1275A0"
+			]
+			description: ["Some things that are born of &bmagic&r must also be percieved and collected with &5magic&r."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "7E59E08494945DBD"
+			incompatible: ["1D75A07A68B1F883"]
+			min_required_dependencies: 2
+			optional: true
+			tasks: [{
+				id: "6EC97DE239BF3661"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Infinite Resources"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7E59E08494945DBD"
+				"1D75A07A68B1F883"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The trick with iesnium is that you'd never know you had it until you know how to see it, and even silk touch won't mine it properly."]
+			icon: "botania:orechid_ignem"
+			id: "4DE7FE52D099EC69"
+			incompatible: ["1D75A07A68B1F883"]
+			optional: true
+			tasks: [
+				{
+					id: "3111C1E919656623"
+					item: "create:limestone"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "22A1E18966895CA2"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1FA30FCC45B51FAE"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					id: "6BFFC2C90ECEB66C"
+					item: "occultism:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "1A7251C71C9DB039"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+				{
+					id: "35F3C5ED39BA9762"
+					item: "occultism:iesnium_ore_natural"
+					type: "item"
+				}
+				{
+					id: "34DA4A9214A78853"
+					item: {
+						Count: 1b
+						id: "occultism:otherworld_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "310EBD4381973101"
+					item: {
+						Count: 1b
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+							spiritName: "Marmylborn"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hint: Infinite Resources"
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1D75A07A68B1F883"]
+			description: ["I encourage you to explore your options for generating resources, as some may be more ideal than relying on orchids and miners.  With that said, orechids and miners are required to beat the game.  As you've surely noticed, they have have had heavy modifications to their outputs in order to balance progression.  While the orechids are nerfed, you'll be happy to know that the miners have been considerably buffed in both odds and durability."]
+			hide_dependency_lines: true
+			icon: "minecraft:redstone_ore"
+			id: "4FB46BB720C6812A"
+			rewards: [{
+				count: 2
+				id: "4BC4C0FFED0B0EC9"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BE1F3102511B904"
+					item: "minecraft:redstone_ore"
+					type: "item"
+				}
+				{
+					id: "1CB3C0F05E712436"
+					item: "minecraft:lapis_ore"
+					type: "item"
+				}
+				{
+					id: "29E46BD685C07D9E"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			title: "Resource Tweaks"
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1D75A07A68B1F883"]
+			description: ["It's an easy mission this time.  I'm sure you've been looking forward to a proper storage system.  Once you the first few pieces of certus you can start the process of growing more.  You can build your budding certus up to the flawed level.  Flawless isn't available, at least not yet."]
+			hide_dependency_lines: true
+			id: "6CF56C744EF8AAEF"
+			rewards: [
+				{
+					id: "5BC920BF0EA85319"
+					item: "ae2:flawed_budding_quartz"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5527FE724D58D4E8"
+					item: "memeinabottle:splash_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39F84DBFC472554D"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has entered the information age!"
+					id: "3ED3AC6294DEF9CE"
+					team_reward: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A191C8F2531D3AC"
+				item: "ae2:damaged_budding_quartz"
+				type: "item"
+			}]
+			title: "Certus \\& Unlock AE2"
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6CF56C744EF8AAEF"
+				"1D75A07A68B1F883"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Mangle and remake the final stone."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "29566D50E1966992"
+			incompatible: ["6CF56C744EF8AAEF"]
+			optional: true
+			tasks: [{
+				id: "442D3D2C0246D962"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Certus \\& Unlock AE2"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"29566D50E1966992"
+				"6CF56C744EF8AAEF"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Make it, crush it, drain it, press it, craft it, charge it, dunk it.  Technologic."]
+			icon: "occultism:crushed_end_stone"
+			id: "2107B39FCC85FC04"
+			incompatible: ["6CF56C744EF8AAEF"]
+			optional: true
+			tasks: [
+				{
+					id: "2C9E8BEB6FE7E228"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					id: "7DCD5D7F0401CA97"
+					item: "occultism:crushed_end_stone"
+					type: "item"
+				}
+				{
+					id: "2362631D3C4F6D42"
+					item: "create:item_drain"
+					type: "item"
+				}
+				{
+					id: "3AEBA12C276FB0A8"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "0ED4391E76AA7EA7"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "2036FA4C67183AA5"
+					item: "ae2:quartz_block"
+					type: "item"
+				}
+				{
+					id: "7AF353B7752EFCA7"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "Hint: Certus \\& Unlock AE2"
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6CF56C744EF8AAEF"]
+			description: [
+				"I'm skipping ahead a bit... okay, a LOT.  It's the final test after all."
+				""
+				"First let me give you a heads up about End Portal Frames since they're a bit wonky.  They're directional, you have to place them from the center as shown below.  You can use the Create Wrench to pick them up and break the actual portal pieces if you mess up or want to move it.  You'll get your Eyes of Ender back too."
+				"{image:kubejs:textures/portal_placement.png width:213 height:150 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:dragon_head"
+			id: "054A207F874487C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E87D4FA153BFED5"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C588A0530DA3949"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48A58D729E98085A"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					count: 9
+					id: "01A685EE2595E57A"
+					item: "memeinabottle:lingering_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "2FDEBC8A3163C48D"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p has slain the mighty dragon!"
+					id: "500340BEDFE79ED2"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "15D97180CF6A810F"
+					item: "minecraft:end_portal_frame"
+					type: "item"
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "4156BE14718E0D4E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3473C3B130A8047E"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			title: "Kill The Ender Dragon"
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6CF56C744EF8AAEF"]
+			dependency_requirement: "one_completed"
+			description: ["The last boss is always be preceded by many others and followed by the End Credits."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "4DFBA7B91347D0B6"
+			incompatible: ["054A207F874487C2"]
+			optional: true
+			tasks: [{
+				id: "6D4129F0D2C43359"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Kill The Ender Dragon"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"054A207F874487C2"
+				"4DFBA7B91347D0B6"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Tons of killing.  These are not accurate numbers, of course.  Make extra ingredients and be ready to kill the same enemies and bosses repeatedly, and then even more killing to feed the Sculk Catalyst."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+				}
+			}
+			id: "38D85E2C2A87DC7A"
+			incompatible: ["054A207F874487C2"]
+			optional: true
+			tasks: [
+				{
+					entity: "botania:doppleganger"
+					icon: "botania:life_essence"
+					id: "44B7237B17B4B0F1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "578777A36776C5D2"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					entity: "minecraft:elder_guardian"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/elder_guardian.png"
+						}
+					}
+					id: "2796ECB9D842326F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:evoker"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/evoker.png"
+						}
+					}
+					id: "71F0EC6BADB1797D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:shulker"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/shulker.png"
+						}
+					}
+					id: "37D65FC0405112DC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:wither"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "minecraft:textures/painting/wither.png"
+						}
+					}
+					id: "43695BDD6ADEEA9B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:warden"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ftbchunks:textures/faces/minecraft/warden.png"
+						}
+					}
+					id: "747F71B1C58778AB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2D6F3C171BC183B5"
+					item: "minecraft:recovery_compass"
+					type: "item"
+				}
+				{
+					id: "643ED086986B279E"
+					item: {
+						Count: 1b
+						id: "occultism:miner_marid_master"
+						tag: {
+							Damage: 0
+							maxMiningTime: 100
+							rollsPerOperation: 1
+							spiritName: "Hafsord"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C92C2F906CFD80E"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "7D7E9310665F5AB5"
+					item: "witherproofed:sculk_metal"
+					type: "item"
+				}
+			]
+			title: "Hint: Kill The Ender Dragon"
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["054A207F874487C2"]
+			description: ["Now that you've conquered every obstacle I've thrown at you, you're welcome to take full advantage of the most useful parts of Applied Energistics that were unavailable before."]
+			hide_dependency_lines: true
+			icon: "ae2:sky_dust"
+			id: "2E559BF166A16E48"
+			rewards: [{
+				count: 4
+				id: "7B3173CC1A1A60AD"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5F7CA2364F57C3C8"
+					item: "ae2:sky_dust"
+					type: "item"
+				}
+				{
+					id: "4B73A1CC873C9CAB"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "Unlock AE2 Automation"
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2E559BF166A16E48"]
+			description: ["Besides being an ingredient for automation in this pack, skystone has another use.  Indestructible enchantment books.  It's exactly what it sounds like.  The recipe is among the Occultism rituals in REI."]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "indestructible:indestructible_enchant"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "46858712BE5CCA19"
+			rewards: [
+				{
+					id: "306166B62B660997"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "indestructible:indestructible_enchant"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19B974D086605718"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "indestructible:indestructible_enchant"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2614B9C2A18262CB"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "indestructible:indestructible_enchant"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04623BB3C128AD69"
+					item: "ae2:flawless_budding_quartz"
+					type: "item"
+				}
+			]
+			title: "Indestructible Enchantment"
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["054A207F874487C2"]
+			description: ["You are now free from the tyranical oppression of conveyor belts."]
+			hide_dependency_lines: true
+			icon: "minecraft:sculk_sensor"
+			id: "14385F58AC20357D"
+			rewards: [{
+				count: 4
+				id: "3E72925521FCFDE7"
+				item: "minecraft:sculk_sensor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78DBC8DEBFAAD901"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					id: "71353A6F5676DB75"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:storage_link"
+								}
+								{
+									Count: 1b
+									id: "occultism:stable_wormhole"
+									tag: { }
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wireless Transport"
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["032A48BF62390018"]
+			description: [
+				"I don't like just pushing people off to wikis, but as you can see, I wasn't left with much choice, since I'm also unfamiliar with the more advanced methods of Silent Gear."
+				""
+				"The basics, however, are simple.  Look through some material stats in REI, make templates, then craft your tools or whatever gear.  Repair them on an anvil or with repair kits filled with a material of the same tier (or higher) as the tool."
+				""
+				"Gear can get more stats and traits by adding certain parts like a coating, grip, tip, etc.  The tip also affects mining level."
+				""
+				"As for the machines... I'll do my best."
+				"* The 3 compounding machines: alloy materials and their stats."
+				"* Salvager: de-crafts items.  Some ingredients may be lost."
+				"* Material grader and starlight charger: consume special dust to boost material stats.  Better dust = better odds.  The charger uses a multiblock structure."
+				"* Metal press turns 1 ingot to 2 plates."
+			]
+			icon: "silentgear:pickaxe_blueprint"
+			id: "0180AA9A8D31D078"
+			rewards: [
+				{
+					id: "1F0E4FF7ACE0EA20"
+					item: {
+						Count: 1b
+						id: "silentgear:blueprint_book"
+						tag: {
+							Inventory: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63DF6FAA81BBB518"
+					item: "silentgear:guide_book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61AD578D19BD89C5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "silentgear:blueprints"
+					}
+				}
+				title: "Any #silentgear:blueprints"
+				type: "item"
+			}]
+			title: "Silent Gear: Equip Yourself"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"472FB8381C698F8E"
+				"724C09CFF3F604F4"
+				"47D3EAB6AB1275A0"
+			]
+			description: ["For a pack with Create in the name, it might feel like your Create creativity has been stifled.  Let's fix that."]
+			hide_dependency_lines: true
+			icon: "create:brass_ingot"
+			id: "3F83313EE2343BF6"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "2FE2F43C06B31A27"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "21CE2BB791813C53"
+					item: "memeinabottle:splash_meme_in_a_bottle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11FFEED6455666E4"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/say @p was trying to bake a cake, but ended up with brass instead!"
+					id: "0C527E20D97AD6F2"
+					team_reward: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7972C7F1706442D1"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass"
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"472FB8381C698F8E"
+				"724C09CFF3F604F4"
+				"3683C72D2F5A9840"
+				"47D3EAB6AB1275A0"
+			]
+			description: ["A rock collection is worth more when &1soaked&r and sprinkled with &bmagic&r."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/search.png"
+				}
+			}
+			id: "401F51E8FCDD11BF"
+			incompatible: ["3F83313EE2343BF6"]
+			min_required_dependencies: 2
+			optional: true
+			tasks: [{
+				id: "7C1CF0F150A61C9B"
+				title: "Give Up?"
+				type: "checkmark"
+			}]
+			title: "Clue: Brass"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"401F51E8FCDD11BF"
+				"3F83313EE2343BF6"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Deepslate has 2 realistic sources.  The method is up to you."
+				""
+				"For Classic players: You may still need to haunt and heal some bricks for netherrack."
+			]
+			icon: "botania:orechid"
+			id: "29238B4ACC2FF602"
+			incompatible: ["3F83313EE2343BF6"]
+			optional: true
+			tasks: [
+				{
+					id: "6A8BBE9B4709427B"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					id: "3D50DB4349F4251C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:tuff"
+								}
+								{
+									Count: 1b
+									id: "minecraft:dead_tube_coral_block"
+								}
+								{
+									Count: 1b
+									id: "minecraft:dead_brain_coral_block"
+								}
+								{
+									Count: 1b
+									id: "minecraft:dead_bubble_coral_block"
+								}
+								{
+									Count: 1b
+									id: "minecraft:dead_fire_coral_block"
+								}
+								{
+									Count: 1b
+									id: "minecraft:dead_horn_coral_block"
+								}
+							]
+						}
+					}
+					title: "Tuff or Dead Coral"
+					type: "item"
+				}
+				{
+					id: "077CCB39CE81BDFA"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+				{
+					id: "1346B9EDEB5C80FF"
+					item: "create:deepslate_zinc_ore"
+					type: "item"
+				}
+				{
+					id: "0D2A79798211FB30"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Hint: Brass"
+			x: -1.0d
+			y: 11.0d
+		}
+	]
+	title: "Skyblock"
+}

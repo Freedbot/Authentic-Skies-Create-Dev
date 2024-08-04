@@ -1,0 +1,13 @@
+filename = 'trade-cycling-forge-1.19.2-1.0.10.jar'
+name = 'Trade Cycling'
+side = 'both'
+
+[download]
+hash = 'af1d132675be4391a05782ae6f42ca236d50cdf0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5001305
+project-id = 570431

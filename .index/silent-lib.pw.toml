@@ -1,0 +1,13 @@
+filename = 'silent-lib-1.19.2-7.0.3.jar'
+name = 'Silent Lib (silentlib)'
+side = 'both'
+
+[download]
+hash = 'f69b64439d67180197930247d53a2bf088ccd472'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3968715
+project-id = 242998

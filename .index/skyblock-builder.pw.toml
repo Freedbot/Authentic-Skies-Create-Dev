@@ -1,0 +1,13 @@
+filename = 'SkyblockBuilder-1.19.2-4.2.22.jar'
+name = 'Skyblock Builder'
+side = 'both'
+
+[download]
+hash = '38f3337e4780f20abc9612726a5175bf845e9fd5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5288168
+project-id = 446691

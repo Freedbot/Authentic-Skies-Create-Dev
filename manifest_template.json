@@ -1,0 +1,24 @@
+{
+  "name": "Authentic Skies Create",
+  "author": "freedbot",
+  "version": "0",
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "minecraft": {
+    "modLoaders": [{ "id": "forge-43.4.2", "primary": true }],
+    "version": "1.19.2"
+  },
+  "overrides": "overrides",
+  "files": [
+    {
+      "fileID": 3874305,
+      "projectID": 623468,
+      "required": true
+    },
+    {
+      "fileID": 4814107,
+      "projectID": 920589,
+      "required": true
+    }
+  ]
+}

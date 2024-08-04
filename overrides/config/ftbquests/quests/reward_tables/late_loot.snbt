@@ -1,0 +1,202 @@
+{
+	hide_tooltip: true
+	id: "7A7C9BD78A02E7A3"
+	loot_crate: {
+		color: 3655423
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "late_loot"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "minecraft:spawner" }
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedbackpacks:netherite_backpack"
+				tag: {
+					RepairCost: 0
+					borderColor: 16383998
+					clothColor: 11546150
+					contentsUuid: [I;
+						1281576891
+						1942833887
+						-1615361526
+						804298253
+					]
+					display: {
+						Name: "{\"text\":\"Santa's Sack\"}"
+					}
+					inventorySlots: 120
+					renderInfo: {
+						upgradeItems: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:feeding_upgrade"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+						]
+					}
+					upgradeSlots: 7
+				}
+			}
+		}
+		{ count: 2, item: "minecraft:ender_chest" }
+		{ count: 4, item: "farmersdelight:stuffed_pumpkin_block" }
+		{ item: "minecraft:totem_of_undying" }
+		{ count: 8, item: "create:brass_funnel" }
+		{ count: 4, item: "minecraft:ghast_tear" }
+		{ count: 4, item: "minecraft:name_tag" }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_4" }
+		{ count: 10, item: "botania:blacker_lotus" }
+		{ count: 2, item: "witherproofed:sculk_metal" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "indestructible:indestructible_enchant"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:nether_star" }
+		{ count: 4, item: "minecraft:diamond_block" }
+		{ count: 8, item: "create:electron_tube" }
+		{ item: "ae2:cell_component_64k" }
+		{ count: 10, item: "ae2:speed_card" }
+		{ count: 2, item: "ae2:interface" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+		{
+			item: {
+				Count: 1b
+				id: "create:red_toolbox"
+				tag: {
+					Inventory: {
+						Compartments: [
+							{
+								Count: 1b
+								id: "create:cogwheel"
+							}
+							{
+								Count: 1b
+								id: "create:shaft"
+							}
+							{
+								Count: 1b
+								id: "create:belt_connector"
+							}
+							{
+								Count: 1b
+								id: "create:encased_chain_drive"
+							}
+							{
+								Count: 1b
+								id: "create:depot"
+							}
+							{
+								Count: 1b
+								id: "create:andesite_casing"
+							}
+							{
+								Count: 1b
+								id: "create:vertical_gearbox"
+							}
+							{
+								Count: 1b
+								id: "create:large_cogwheel"
+							}
+						]
+						Items: [
+							{
+								Count: 64b
+								Slot: 0
+								id: "create:cogwheel"
+							}
+							{
+								Count: 64b
+								Slot: 4
+								id: "create:shaft"
+							}
+							{
+								Count: 64b
+								Slot: 8
+								id: "create:belt_connector"
+							}
+							{
+								Count: 64b
+								Slot: 12
+								id: "create:encased_chain_drive"
+							}
+							{
+								Count: 64b
+								Slot: 16
+								id: "create:depot"
+							}
+							{
+								Count: 64b
+								Slot: 20
+								id: "create:andesite_casing"
+							}
+							{
+								Count: 64b
+								Slot: 24
+								id: "create:vertical_gearbox"
+							}
+							{
+								Count: 64b
+								Slot: 28
+								id: "create:large_cogwheel"
+							}
+						]
+						Size: 32
+					}
+					UniqueId: [I;
+						1705790924
+						711347560
+						-1215936633
+						-793310002
+					]
+					display: {
+						Name: "{\"text\":\"Rusty Toolbox\"}"
+					}
+				}
+			}
+		}
+	]
+	title: "Late Loot"
+}

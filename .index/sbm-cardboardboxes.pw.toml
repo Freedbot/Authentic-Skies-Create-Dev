@@ -1,0 +1,13 @@
+filename = 'cardboardboxes-1.19-0.0.6.jar'
+name = '[SBM] Cardboard Boxes'
+side = 'both'
+
+[download]
+hash = '0166c82808180dfe484e851e6797cd9ddb5d413f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3871668
+project-id = 248343

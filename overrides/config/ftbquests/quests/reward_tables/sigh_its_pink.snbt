@@ -1,0 +1,11 @@
+{
+	id: "118C7175DE34D3A9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "botania:spark_upgrade_dominant" }
+		{ item: "botania:spark_upgrade_recessive" }
+		{ item: "botania:blacker_lotus" }
+	]
+	title: "Sigh. It's Pink"
+}

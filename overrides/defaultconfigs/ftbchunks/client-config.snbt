@@ -1,0 +1,31 @@
+# Default config file that will be copied to local/ftbchunks/client-config.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{ 
+	# Chunk grid overlay in large map
+	# Default: false
+	chunk_grid: true
+	
+	# Only show entities that are on the surface
+	# Default: true
+	only_surface_entities: false
+    
+	minimap: {
+		
+		# Scale of minimap
+		# Default: 1.0
+		# Range: 0.25 ~ 4.0
+		scale: 1.2d
+		
+		# Minimap visibility
+		# Default: 255
+		# Range: 0 ~ 255
+		visibility: 190
+		
+		# Zoom distance of the minimap
+		# Default: 1.0
+		# Range: 1.0 ~ 4.0
+		zoom: 2.0d
+
+	}
+}

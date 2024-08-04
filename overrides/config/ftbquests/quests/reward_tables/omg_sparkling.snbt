@@ -1,0 +1,26 @@
+{
+	id: "118F7723EB103AD4"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:regen"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:soul_cross"
+				}
+			}
+		}
+	]
+	title: "OMG, Sparkling"
+}

@@ -1,0 +1,17 @@
+{
+	id: "7911EC0BE0892A1B"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "simplemagnets:basicmagnet"
+				tag: { }
+			}
+		}
+		{ item: "sophisticatedbackpacks:magnet_upgrade" }
+		{ item: "sophisticatedstorage:magnet_upgrade" }
+	]
+	title: "Cobble Gen"
+}

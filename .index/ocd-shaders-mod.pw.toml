@@ -1,0 +1,13 @@
+filename = 'OCD1.19.2-0.1_alpha.jar'
+name = 'OCD Shaders'
+side = 'both'
+
+[download]
+hash = 'fd019ce3be17ba3188c284c05ecfe5edca49125b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4299393
+project-id = 790451

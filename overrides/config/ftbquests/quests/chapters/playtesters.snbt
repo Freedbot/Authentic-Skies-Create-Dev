@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 400
+	default_quest_shape: ""
+	filename: "playtesters"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "botania:item/cosmetic_googly_eyes"
+		}
+	}
+	id: "3B3941BC4A8CABDA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Attention Playtesters"
+				""
+				"These quests are just here during the beta period of the pack as a checklist to help you help me fix up this pack.  Obviously, you don't have to complete these, but if you are reading this, then I hope you will at least continue to read through these early on and keep them in mind to provide me as much feedback as you are willing."
+				""
+				"Be honest, be cruel if you feel like it.  If you have a drastic change in mind that you know won't be accepted, suggest it anyway, it'll give me insight into people's preferences to help me make adjustments."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/gui/info.png"
+				}
+			}
+			id: "5B46ABE752EFBFED"
+			size: 1.25d
+			tasks: [{
+				id: "0FEF9CC2F92A6DD3"
+				title: "Intro"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"You're welcome to @ me or DM me in the Minecraft Pack Dev discord https://discord.gg/28W6cQH, or my own discord which is linked on the main menu."
+				""
+				"My DM's are open and you don't have to friend request for me to see them, in fact I prefer you don't since I mostly just use that for IRL friends.  Thank you for understanding."
+				""
+				"After the first few patches I'll put up a Github and Curseforge page."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/chat.png"
+				}
+			}
+			id: "3A02367A200D0706"
+			tasks: [{
+				id: "75F015FBD1BFBCC2"
+				title: "Contact Info"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"I'd be thrilled if some kind folks would be willing to provide their own content.  Here are some examples:"
+				""
+				"1. Panoramas:  The existing panorama is practical for seeing the island options, but I'd rather have a randomized assortment.  If you've built something cool that showcases the pack gameplay and has artistic flare, please do install the Panorama mod and share it.  Use a fairly high resolution."
+				""
+				"2. Main Menu Splash Text: I'm hoping for some quality memes and snappy one-liners."
+				""
+				"3. Tutorials/Tips: If you can concisely explain some progression hints or mod tutorials that I didn't cover well enough, I'd like to hear about it.  Pictures in quests are a great way to get a point across quickly."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/painting/sunset.png"
+				}
+			}
+			id: "67A0D4C8AC8667FA"
+			tasks: [{
+				id: "07ECBBB4AD19D5BB"
+				title: "Content Contributions"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The ideology of this skyblock is to prioritize the tricks used in vanilla skyblock, but without the insane grind and luck requirements.  The secondary focus is on Create's methods of resource generation and automation.  The early game has no free or blatantly infinite resources.  Travel should not be required and the only other land is the End Island.  As the player progresses, more powerful content and  comfort features become available.  I'm also trying to keep the pack very fast, lean, and light."
+				""
+				"Mods: If you can keep to that, then there's still room for a couple more mods.  Keep in mind that they must add either convenience or fun factor that would work well in a skyblock, and can't overshadow functionality of Create, Botania, Occultism, or AE2."
+				""
+				"Progresion: I'm trying to avoid tedium or expert recipes.  With that said, there are several custom recipes and processes, and some aren't very interesting or creative.  Further, if you have any revolutionary ideas to change up how content is gated and rare items are aquired, I'm all ears.  The content is currently heavily biased for the early game, which should be expected for this style, but I feel like the end game and especially mid game could use fleshing out."
+			]
+			icon: "create:red_toolbox"
+			id: "7A19002986B84EB3"
+			tasks: [{
+				id: "28EBBB4DF8D5BD04"
+				title: "Content Feedback"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"I'm already certain there's some broken recipe, game breaking bug, or bad config.  Perhaps some useless or overlapping optimization mods."
+				""
+				"My quests are also certainly full of spelling, grammer, and plain old fact mistakes."
+				""
+				"Here's your chance to roast me on all of them.  All my custom recipes are KubeJS and mostly commented, so you should be able to tell what's going on.  All of the quests are basically in plain text format, so they're really easy to correct and share the files.  All loot changes are datapack based and can be found in the kubejs/data folder."
+				""
+				"Currently known bugs:"
+				"On only the first load of a world, many recipes will be bugged, usually with no ingredients.  Making them visible but not craftible in a crafting table.  /reload or exiting and reloading the same world file fixes it."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/bug"
+				}
+			}
+			id: "1B4B3C894ECCB0C5"
+			tasks: [{
+				id: "78E4CB980C2454C2"
+				title: "Bugs, Mistakes, \\& Typos"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"I'm playing with the idea of MAYBE upgrading the pack to 1.20.1., but it's a large undertaking.  Any help would be appreciated.  What kind of help?"
+				""
+				"1.  Check if all mods are available on 1.20.1 specifically.  If not, is there an alternative.  I think the best way to get through that suffering is to divide up the mod list into chunks.  Here's where I find out if it's even possible to switch."
+				""
+				"2.  What mods have content changes or new compatibility issues that would mess with my current setup?"
+				""
+				"3.  What other vanilla content is added that I need to make available somehow?"
+				""
+				"I don't expect anyone to help much with this one because it is such a royal pain.  Anyway, I will be sticking with Forge and Curseforge for this pack reguardless, not as a matter of politics, but just familiarity and mod availability."
+			]
+			icon: "sophisticatedstorage:basic_tier_upgrade"
+			id: "364CC0444020EC8C"
+			tasks: [{
+				id: "0144F0C6097A5FA5"
+				title: "Update to 1.20.1?"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The 3 bottom \"quests\" are things I hope people will be charitable enough to contribute, but I would like everyone to submit the bug reports as you find them and submit this form after you've finished playtesting."
+				""
+				"1. What is your prefered gameplay style?"
+				"Examples: Building, Art, RPG, Exploration, Automation, etc."
+				""
+				"2. Do you prefer simple/short packs or complex/expert packs?"
+				""
+				"3. What is your general opinion of this pack?"
+				""
+				"4. Which island(s) did play on?"
+				""
+				"5. If at all, where did you get stuck or confused?"
+				""
+				"6. Were any parts too easy?"
+				""
+				"7. Where was the biggest grind or resource bottleneck and how would you change it?"
+				""
+				"8. Were any sections of progression too fast?  How might you extend it while keeping gameplay fresh?"
+				""
+				"9. Not including anything you've mentioned already, what are your favorite features of the pack?"
+				""
+				"10. Least favorite features?"
+				""
+				"11. Has anyone really been far even as decided to use even go want to do look more like?"
+			]
+			icon: "create:clipboard"
+			id: "392B7048569F5B00"
+			tasks: [{
+				id: "2BBDB632BA5AD8DF"
+				title: "Feedback Form"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Playtesters"
+}

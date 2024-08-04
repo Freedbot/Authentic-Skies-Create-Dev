@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dripstone_block"
+        },
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot"
+        }
+      ]
+    }
+  ]
+}

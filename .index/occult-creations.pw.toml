@@ -1,0 +1,13 @@
+filename = 'occultcreate-1.19.2-1.0.1.jar'
+name = 'Occult Creations'
+side = 'both'
+
+[download]
+hash = '4872a7a84d5a23ae1a27e828267a45d7e5a0d171'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5159663
+project-id = 982483

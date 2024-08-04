@@ -1,0 +1,13 @@
+filename = 'unnecessarytridenttweak_1.19.2-0.1.0.jar'
+name = 'Unnecessary Trident Tweak'
+side = 'both'
+
+[download]
+hash = '8e5cd11e0713ef1c169f00597180992989ebd840'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5544281
+project-id = 1066485

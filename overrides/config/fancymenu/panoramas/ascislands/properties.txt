@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = ascilands
+  speed = 1.5
+  fov = 85.0
+  angle = 20.0
+  start_rotation = 280
+}

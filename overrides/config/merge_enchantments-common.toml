@@ -1,0 +1,4 @@
+
+[general]
+	blacklist_enchantments = ["protection", "blast_protection", "fire_protection", "projectile_protection"]
+

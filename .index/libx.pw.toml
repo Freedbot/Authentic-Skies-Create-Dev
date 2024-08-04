@@ -1,0 +1,13 @@
+filename = 'LibX-1.19.2-4.2.8.jar'
+name = 'LibX'
+side = 'both'
+
+[download]
+hash = '801a437603db11c6acf70253356dd5057c814d45'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4052778
+project-id = 412525

@@ -1,0 +1,153 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = de.melanx.skyguis.client.screen.info.AllTeamsScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1718223535146
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:72ea787b-02d4-4e38-a912-386387a9e92a-1718223459172] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 8c481da2-3203-4def-a4c3-e4d1e517d9a3-1715758796339
+  [executable_action_instance:2d06980c-4154-4a1e-b872-95bf657b0886-1715759310951][action_type:sendmessage] = /skyblock home
+  [executable_block:8c481da2-3203-4def-a4c3-e4d1e517d9a3-1715758796339][type:generic] = [executables:2d06980c-4154-4a1e-b872-95bf657b0886-1715759310951;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Home Island
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 332d87a6-9f8b-4748-bf5f-c9b951c920ac-1715758796339
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 469592
+  x = -50
+  y = 25
+  width = 75
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e27f3bc4-1d56-4b83-8297-ab82fd956f27-1715758796339
+  [loading_requirement_container_meta:e27f3bc4-1d56-4b83-8297-ab82fd956f27-1715758796339] = [groups:][instances:1619161d-1d4c-4ff6-95c4-a6ce6632db29-1717233886844;]
+  [loading_requirement:fancymenu_visibility_requirement_is_button_active][requirement_mode:if_not][req_id:1619161d-1d4c-4ff6-95c4-a6ce6632db29-1717233886844] = 410584
+}
+
+element {
+  button_element_executable_block_identifier = 821ce4a7-8fa2-4de7-b6d3-f54275598f54-1715758937161
+  [executable_action_instance:eba0a2f0-4213-4932-a045-491060d36ae4-1715759368668][action_type:sendmessage] = /skyblock spawn
+  [executable_block:821ce4a7-8fa2-4de7-b6d3-f54275598f54-1715758937161][type:generic] = [executables:eba0a2f0-4213-4932-a045-491060d36ae4-1715759368668;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = World Spawn
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4a120a72-ff9b-4cd0-937d-afe99d13c3a5-1715758937161
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 332d87a6-9f8b-4748-bf5f-c9b951c920ac-1715758796339
+  x = 85
+  y = 0
+  width = 75
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = aba6965b-103b-4424-b042-ca1f866d5a1c-1715758937161
+  [loading_requirement_container_meta:aba6965b-103b-4424-b042-ca1f866d5a1c-1715758937161] = [groups:][instances:a399bf74-0849-4b87-9722-53cc8a11e304-1717233913469;]
+  [loading_requirement:fancymenu_visibility_requirement_is_button_active][requirement_mode:if_not][req_id:a399bf74-0849-4b87-9722-53cc8a11e304-1717233913469] = 410584
+}
+
+element {
+  button_element_executable_block_identifier = 821ce4a7-8fa2-4de7-b6d3-f54275598f54-1715758937161
+  [executable_action_instance:eba0a2f0-4213-4932-a045-491060d36ae4-1715759368668][action_type:sendmessage] = /skyblock spawn
+  [executable_block:821ce4a7-8fa2-4de7-b6d3-f54275598f54-1715758937161][type:generic] = [executables:eba0a2f0-4213-4932-a045-491060d36ae4-1715759368668;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Teleport to World Spawn
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 89bc7c5f-7f53-4418-9a8c-8ce5b0c23598-1717233543218
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = 410584
+  x = 0
+  y = 33
+  width = 160
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = aba6965b-103b-4424-b042-ca1f866d5a1c-1715758937161
+  [loading_requirement_container_meta:aba6965b-103b-4424-b042-ca1f866d5a1c-1715758937161] = [groups:][instances:9c8de9c4-16ec-4d45-b713-6b5d874d14e4-1717233834709;]
+  [loading_requirement:fancymenu_visibility_requirement_is_button_active][requirement_mode:if][req_id:9c8de9c4-16ec-4d45-b713-6b5d874d14e4-1717233834709] = 410584
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 1e3b78a0-d175-45f5-82bc-d6b8f23715c5-1718223313812
+  [executable_block:1e3b78a0-d175-45f5-82bc-d6b8f23715c5-1718223313812][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 410584
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 294
+  y = 297
+  width = 160
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a5adf9a4-5c63-48e0-9b3f-9951cbdd6553-1718223313812
+  [loading_requirement_container_meta:a5adf9a4-5c63-48e0-9b3f-9951cbdd6553-1718223313812] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

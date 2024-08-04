@@ -1,0 +1,13 @@
+filename = 'Witherproofed-2.7.4-1.19.2.jar'
+name = 'Witherproofed'
+side = 'both'
+
+[download]
+hash = 'abd940ce5f790c31ea602480062dfe5ed7640c2a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4005651
+project-id = 463624

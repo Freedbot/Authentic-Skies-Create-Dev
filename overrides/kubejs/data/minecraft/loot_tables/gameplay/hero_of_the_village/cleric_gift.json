@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+	    {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    }
+  ]
+}

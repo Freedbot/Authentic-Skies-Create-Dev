@@ -1,0 +1,13 @@
+filename = 'light-overlay-7.0.1-forge.jar'
+name = 'Light Overlay (Rift/Forge/Fabric)'
+side = 'both'
+
+[download]
+hash = '62e281d2fb32a30708249765b81584aafd132d00'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3872055
+project-id = 325492

@@ -1,0 +1,249 @@
+{
+  "replace": true,
+  "groups": [
+    "proteins",
+    "grains",
+    "vegetables",
+    "fruits",
+    "sugars"
+  ],
+  "effects": [
+    {
+      "status_effects": [
+        {
+          "name": "minecraft:weakness",
+          "power": 1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "grains", "vegetables", "fruits", "sugars"],
+          "match": "average",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": -1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "grains", "vegetables", "fruits", "sugars"],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "grains", "vegetables", "fruits", "sugars"],
+          "match": "every",
+          "above": 0.6,
+          "below": 1.0
+        }
+      ]
+    },
+	{
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "grains", "vegetables", "fruits", "sugars"],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]		
+	},
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 3.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "all",
+          "above": 0.6,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 3.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins"],
+          "match": "all",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_speed",
+          "operation": "multiply_total",
+          "amount": 0.15
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "all",
+          "above": 0.6,
+          "below": 0.8
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_speed",
+          "operation": "multiply_total",
+          "amount": 0.3
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["grains"],
+          "match": "all",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 2.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vegetables"],
+          "match": "all",
+          "above": 0.6,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 2.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["vegetables"],
+          "match": "all",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.luck",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.6,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.luck",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["fruits"],
+          "match": "all",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_total",
+          "amount": 0.2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars"],
+          "match": "all",
+          "above": 0.6,
+          "below": 0.8
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_total",
+          "amount": 0.4
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars"],
+          "match": "all",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    }
+  ]
+}

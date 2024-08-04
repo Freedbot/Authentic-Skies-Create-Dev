@@ -1,0 +1,10 @@
+{
+	id: "0CC9AF9A62D16926"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "create:cuckoo_clock" }
+		{ item: "create:clockwork_bearing" }
+	]
+	title: "Clock"
+}

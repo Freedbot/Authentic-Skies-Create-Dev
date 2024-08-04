@@ -1,0 +1,13 @@
+filename = 'RoughlyEnoughTrades-1.19-1.0.jar'
+name = 'Roughly Enough Trades'
+side = 'both'
+
+[download]
+hash = '2fc561bc41f0f1e45047a056d3d9ad432681c8d6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4256140
+project-id = 664356

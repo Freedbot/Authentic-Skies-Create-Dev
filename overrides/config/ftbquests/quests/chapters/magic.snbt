@@ -1,0 +1,1370 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 400
+	default_quest_shape: ""
+	filename: "magic"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "botania:block/detector_light_relay"
+		}
+	}
+	id: "71CDFD6B4D31F360"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["36A87BBC0C764CC2"]
+			description: [
+				"Botania has an amazing guide book so you won't find much explanation here.  We'll start by setting up a basic flower garden."
+				""
+				"There are 16 different flowers.  Use floral fertilizer to get them all.  Plant petals, bonemeal them, and use shears to harvest them for more petals.  While you're farming petals you should be converting livingwood/stone."
+			]
+			icon: "botania:pure_daisy"
+			id: "263DFC25BF000A71"
+			rewards: [
+				{
+					id: "2ACDA2498DA9166D"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6F0D512E84E7C537"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "3DA626941A318FD1"
+					item: "botania:white_petal"
+					type: "item"
+				}
+				{
+					id: "50D46E237908E1A2"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "56D3865A27D6BA8F"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "69D7152F4D428708"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C746138DB52AAF9"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			title: "Botania: Plant Stuff"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["263DFC25BF000A71"]
+			description: [
+				"It's like electricity, except liquid and magic-y.  Generating flowers make it.  Functional flowers, botania gear, and the runic altar use it.  The wand of the forest is the wrench of Botania."
+				""
+				"I suggest Endoflames as your first flowers since Hydroangeas die after an hour.  Endoflames can also easily be automated early game.  Try it."
+				""
+				"I'll leave you to read up on the other flowers on your own.  You'll be surprized what they can do."
+			]
+			icon: "botania:mana_pool"
+			id: "0E0527431762A7C6"
+			rewards: [
+				{
+					id: "06FA74D505550672"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+				{
+					id: "10EEE2105CEBF274"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3548BB2CC47CD4A6"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "0FF9D7C7C7E4B2C6"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "5D86CCC0E2A93F86"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "5CF8902A40C56418"
+					item: {
+						Count: 1b
+						id: "botania:twig_wand"
+						tag: {
+							color1: 11
+							color2: 11
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F1CE90CC95DF5B8"
+					item: "botania:mana_powder"
+					type: "item"
+				}
+			]
+			title: "Flower Juice"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E0527431762A7C6"]
+			description: ["If you've been checking recipes, then you already know how badly you need this.  Just put it under your mana pool to change what mana recipes are available.  Here, have a piston.  It'll save you from having to break and replace the catalyst when you want to switch to normal mana crafting."]
+			id: "76A62044B329F82F"
+			rewards: [
+				{
+					count: 2
+					id: "38543E9389FC1B1D"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "0DBC458B89AF9748"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+				{
+					id: "54CEF7C0B969013F"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72C989118772B590"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76A62044B329F82F"]
+			description: ["Botanist?  Alchemist? Enchanter? Bartender? It's all the same thing."]
+			icon: "botania:vial"
+			id: "31D4E9D9F6D43EE6"
+			rewards: [
+				{
+					count: 4
+					id: "6DD3DFD3FFE490DE"
+					item: "botania:flask"
+					type: "item"
+				}
+				{
+					id: "48524B6130F02006"
+					item: "botania:mana_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6E40674B9555B9D1"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F251C54A041BA0C"
+					item: "botania:brewery"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "154E172A104AA55A"
+					item: "botania:vial"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "52B38EA0A2ED5C92"
+					item: "botania:mana_pylon"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E0527431762A7C6"]
+			description: ["Flipping throught the lexica you'll find an endless variety of gear and trinkets.  Those included here are only the most mundane and practical."]
+			icon: "botania:travel_belt"
+			id: "255AB1BD1A21849F"
+			rewards: [
+				{
+					id: "1AE35C474D147899"
+					item: "botania:bauble_box"
+					type: "item"
+				}
+				{
+					id: "344F0B753F936715"
+					item: "botania:goddess_charm"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F170968E3230142"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BDF8B7C15C3DEA1"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A5F9B425D00984D"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47111DD3503AFE79"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35939731841B8D13"
+					item: "botania:mana_ring"
+					type: "item"
+				}
+				{
+					id: "4A52FDAB2EEEC5F7"
+					item: "botania:travel_belt"
+					type: "item"
+				}
+				{
+					id: "1D2952A443245313"
+					item: "botania:monocle"
+					type: "item"
+				}
+			]
+			title: "Shiny Things"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["255AB1BD1A21849F"]
+			description: [
+				"The third tier material for Botania.  The only real restriction on it's creation is it's prohibitive cost.  It requires an already mana infused iron ingot, ender pearl, and diamond to be infused again with half a pool of mana PER ingot!"
+				""
+				"And, no, you didn't miss the second tier."
+			]
+			icon: "botania:terrasteel_ingot"
+			id: "67A5779AD23A7565"
+			rewards: [
+				{
+					count: 3
+					id: "42FE824467B0319C"
+					item: "minecraft:diamond_ore"
+					type: "item"
+				}
+				{
+					id: "0EF8CA9B014A08B0"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "5D284C0B9C34348A"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "243D448CA57EC382"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "78D60666B74C49E5"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					id: "03BA9F50C4DF8321"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "4EF11B158B26F015"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A5779AD23A7565"]
+			description: [
+				"The second tier of materials in Botania is not crafted but rather \"traded\" with the \"elves\" in the \"Alfheim\" dimension.  Why the quotes?  you don't get to see any of these things.  You just throw stuff at a portal. =P"
+				""
+				"Make your Lexica Botania the first thing you throw in to learn more about it."
+			]
+			icon: "botania:elementium_ingot"
+			id: "1D5B354DAB2CD167"
+			rewards: [
+				{
+					count: 3
+					id: "1FD559DCA6FA7F22"
+					item: "botania:mana_cookie"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57EC9B2A725DD06B"
+					table_id: 1264510346437383081L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "13B1BA87ABEE516C"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "52DCFFF42FEB3876"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "51D00087539A9B2D"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49341B7A5CF73AB2"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0374266A0F9E1A19"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "52CE634C9BE753F5"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			title: "Sigh.  It's Pink."
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D5B354DAB2CD167"]
+			description: [
+				"You'll notice even more cool gear and toys show up in your lexica.  Again, those included here are just the most practical ones."
+				""
+				"I'll leave the tool options up to your discretion.  You might want some high tier tools repairable with mana, but at the same time, you shouldn't be doing much manual block breaking at this point."
+			]
+			icon: "botania:aura_ring_greater"
+			id: "3591325FC17C0332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E2CCBDADB145478"
+					table_id: 4571969791503712106L
+					type: "choice"
+				}
+				{
+					id: "47EB7265E99436D0"
+					item: "botania:elven_spreader"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1F8D99590DCB49FB"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "598BB9B64AC5072B"
+					item: "botania:mana_ring_greater"
+					type: "item"
+				}
+				{
+					id: "7466FCFB821EA20E"
+					item: "botania:aura_ring_greater"
+					type: "item"
+				}
+				{
+					id: "50644087A0D65A7C"
+					item: {
+						Count: 1b
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "004F2C645173EF0F"
+					item: {
+						Count: 1b
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10D721B8EE4891F6"
+					item: {
+						Count: 1b
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02AFD8C20ABAF308"
+					item: {
+						Count: 1b
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FEFBA1A0C36B613"
+					item: {
+						Count: 1b
+						id: "botania:terra_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shinier Things"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68C924C2EF76667B"]
+			description: ["With all this garishly hued equipment you will truly be the most dressed up and talked about girl at the prom.  Jokes aside this gear is powerful, and you're gonna need it for the final battle."]
+			icon: {
+				Count: 1b
+				id: "botania:flight_tiara"
+				tag: {
+					variant: 0
+				}
+			}
+			id: "4FB082E7BFEACF34"
+			rewards: [
+				{
+					count: 4
+					id: "55B6D788B03CBC17"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FBB9F30FFC49714"
+					table_id: 1265361016465668820L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "66F2C07CB342792E"
+					item: {
+						Count: 1b
+						id: "botania:flight_tiara"
+						tag: {
+							variant: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65399A8BB731511C"
+					item: "botania:super_travel_belt"
+					type: "item"
+				}
+				{
+					id: "19B9324FA50A7CB1"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0638972B2CE22E15"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0469A09935DA0D9D"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A9879FFB050D882"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FF2B9DB8E0B9828"
+					item: "botania:missile_rod"
+					type: "item"
+				}
+			]
+			title: "OMG, Sparkling"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3591325FC17C0332"]
+			description: ["For a guardian of gaia this guy really likes death and destruction.  Gear up well, but understand that using OP weapons from other mods doesn't mean much here because the boss has a damage recieved per hit cap."]
+			icon: "botania:life_essence"
+			id: "68C924C2EF76667B"
+			rewards: [{
+				id: "67AB43DD84749EE7"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "4CF744FA4DAE3E39"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "6327BAC67ECEF31F"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3512043922195214"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "350DC139C1AB356F"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "55F837BE04AA69DC"
+					item: "botania:life_essence"
+					type: "item"
+				}
+			]
+			title: "Death Metal"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68C924C2EF76667B"]
+			description: [
+				"The new fight is about the same as the first, just 5 times the difficulty and rewards.  There are no new crafting resources this time.  Just more gaia spirits per fight as well as brand new dice that drop special prizes.  You ONLY get one of each of the six TOTAL.  Other people can't use them and future dice will give nothing."
+				""
+				"Rumor has it that using special methods will get you another unique drop from Gaia.  I wonder what that could be?"
+			]
+			icon: "botania:dice"
+			id: "1696E759B9F47FD4"
+			rewards: [
+				{
+					id: "55426954EAA02526"
+					item: "botania:manasteel_block"
+					type: "item"
+				}
+				{
+					id: "3B26BBE1398EE0AF"
+					item: "botania:elementium_block"
+					type: "item"
+				}
+				{
+					id: "0E70C825F63CA900"
+					item: "botania:mana_diamond_block"
+					type: "item"
+				}
+				{
+					id: "435448A772CDBBDD"
+					item: "botania:dragonstone_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B5443FFFE8FED5F"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "0412DB336F3D43D2"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+				{
+					id: "79EE23C3849C6EDB"
+					item: "botania:dice"
+					type: "item"
+				}
+			]
+			title: "Return of Death Metal"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68C924C2EF76667B"]
+			description: ["Shhh!  Can you keep a secret?"]
+			icon: "botania:gaia_head"
+			id: "5BE9FE83905E3D07"
+			invisible: true
+			secret: true
+			shape: "diamond"
+			tasks: [{
+				id: "59369411FE571C5F"
+				item: "botania:gaia_head"
+				type: "item"
+			}]
+			title: "Guilty of Malicious Deicide"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5BE9FE83905E3D07"]
+			description: ["First you must collect all 6 of the soulbound botania relics as proof of killing Gaia II 6 times.  Then you must submit Gaia's head mounted on terrasteel.  Only then will you truly be guilty enough to earn the everlasting guilty pool."]
+			icon: "botania:creative_pool"
+			id: "029947D6894A4065"
+			rewards: [{
+				id: "52E1DA39E6224DF2"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "063286782418E1BF"
+					item: "botania:infinite_fruit"
+					type: "item"
+				}
+				{
+					id: "181D85580BE06515"
+					item: "botania:king_key"
+					type: "item"
+				}
+				{
+					id: "41A23753F887E69D"
+					item: "botania:flugel_eye"
+					type: "item"
+				}
+				{
+					id: "2F8EA2A6DA0E2CE0"
+					item: "botania:thor_ring"
+					type: "item"
+				}
+				{
+					id: "396410550E1296CD"
+					item: {
+						Count: 1b
+						id: "botania:odin_ring"
+						tag: {
+							baubleUUID: [I;
+								-1987228236
+								1706771442
+								-1787880462
+								-56387090
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E18A34CB27F179F"
+					item: "botania:loki_ring"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "730B2704CD8A9556"
+					item: "botania:terrasteel_block"
+					type: "item"
+				}
+				{
+					id: "444266322507446F"
+					item: "botania:gaia_head"
+					type: "item"
+				}
+			]
+			title: "The Sacrifice"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EEE150C00B012F2"]
+			description: [
+				"Occultism (currently) has a good guide book.  Every ritual recipe is represented with a Ritual \"Dummy\" item in REI, so looking them up is simple as well.  Much like with Botania, I won't be repeating what their book tells you.  Instead, I'll just reference my changes and some tips."
+				""
+				"First Tip: Use visualize feature when building pentacles.  It's the little eye button on the pentacle's picture in the book."
+			]
+			icon: {
+				Count: 1b
+				id: "occultism:chalk_white"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E7B32A21D463FBB"
+			rewards: [
+				{
+					id: "0BE543CA401E3C8A"
+					item: "occultism:brush"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "534B412B844771D9"
+					item: "farmersdelight:tree_bark"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0FF5B88BEA36142C"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "22BD26EFF55BA7B1"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79A430E51A0BBDFA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "Any #minecraft:candles"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3C9ECFE28B446E14"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "279AE6C8A46C471B"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "Occultism: Advanced Hopscotch"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1E7B32A21D463FBB"
+				"5FB5AE7BC631ED25"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"All you need to do is follow the book step by step.  There have been a couple recipe changes for skyblock practicality, like some early raw ore ingredients replaced with Create crushed ore, but otherwise it's all the same and the changes are reflected in the book."
+				""
+				"If you haven't made some progress in Create and Botania though, I'll stop you now.  You need a source of crushed ore to progress beyond the most basic foliot ritual."
+			]
+			icon: {
+				Count: 1b
+				id: "occultism:chalk_gold"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0232B1F5C1D08689"
+			rewards: [
+				{
+					count: 6
+					id: "17FD7C195217F60E"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "337863F2AF6ECB00"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "39F7D3530900A3CE"
+					item: "occultism:gold_dust"
+					type: "item"
+				}
+				{
+					id: "318A87D8DE8E5D93"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Chalking Up"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E7B32A21D463FBB"]
+			description: [
+				"Some of the first rituals you can and should do, are the otherworld sapling and otherstone traders."
+				""
+				"The wood is exclusively used for chalk, but it's worth not having to see the world in purple just to mine a specific wood type."
+				""
+				"You will using a lot of Otherstone.  This trader is the cheapest way to get a bunch of it.  I suggest tossing the guy a stack of cobble and pushing him onto a hopper."
+			]
+			icon: "occultism:otherstone"
+			id: "5FB5AE7BC631ED25"
+			rewards: [{
+				count: 3
+				id: "466694903DEF97BC"
+				item: "occultism:chalk_white_impure"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "458F57055B449627"
+					item: "occultism:otherworld_sapling"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "750300C8427BADAC"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					id: "7AC8615C1743750E"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0232B1F5C1D08689"]
+			description: [
+				"After getting your gold chalk I advise using Hedyrin's Lure to get what you need to go straight to the next tier of circles so that you can open up your options."
+				"{image:kubejs:textures/tiered_rituals.png width:168 height:89 align:1}"
+				"You'll be building a good number of pentacles.  You've got 2 options: adjust and remake your pentacles constantly, or make a bunch of them.  You won't be repeatedly using every circle, but I suggest keeping a few and saving space by building vertically.  This also prevents your pentacles from messing with eachother's ingredients."
+			]
+			icon: {
+				Count: 1b
+				id: "occultism:chalk_purple"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18C6AE993572240E"
+			rewards: [{
+				count: 2
+				id: "31845B3A90DCA24C"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "392F4A9444D482FE"
+					item: "occultism:crushed_end_stone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1EBCB9CDFDE833DC"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "63E353AAD2C3DE8D"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Still Not Water Proof"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12B7DA74036C4FC9"]
+			description: ["and this is why I pushed for progressing to better circles.  The up front diamond cost is tragic to say the least, but this is well worth it.  Preserve your summon's life span.  Carry around and safely store villagers, mobs, spare cows, whatever."]
+			icon: {
+				Count: 1b
+				id: "occultism:soul_gem"
+				tag: { }
+			}
+			id: "2A38DC376A73F53B"
+			rewards: [
+				{
+					id: "55A3260D2BC34A91"
+					item: {
+						Count: 1b
+						id: "occultism:soul_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1B3326C2F8AE2E92"
+					item: {
+						Count: 1b
+						id: "occultism:soul_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3D35370137BF7AEF"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+				{
+					id: "2564A3AC7E555371"
+					item: {
+						Count: 1b
+						id: "occultism:soul_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Poke Balls"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A38DC376A73F53B"]
+			description: [
+				"The first familiar candidate to add to your sould gem pokemon team.  Whenever you need your tools fixed up, just pull him out and then dump a bunch of stone on the ground and pick it back up again.  He'll consume all the stone you pick up to repair your equipment.  Then simply jam him back in the soul gem when you're done."
+				""
+				"When deciding on other familiars, look to see if they can be upgraded, if so, plop the blacksmith next to them and click iron onto him."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "occultism:textures/gui/book/familiar_blacksmith.png"
+				}
+			}
+			id: "59E5683F8C258AF6"
+			rewards: [
+				{
+					count: 256
+					id: "67FFAC359DCD3376"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "0E452C8D932D526B"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "387C64912772F5ED"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4E118D4E270EA8ED"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "454AF99D6B591B0A"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E014D6C413B4D5E"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FCCA839B1DE70EF"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B638A2E6E964CDD"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "16A95EFACEBCBEB9"
+					item: {
+						Count: 1b
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Luigi"
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Call Me Mr. Fixit"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"18C6AE993572240E"
+				"5FB5AE7BC631ED25"
+			]
+			description: ["Hopefully you've realized that the divination rod is useless in skyblock.  The goggles and infused pick however are necessary in order to progress in this mod pack."]
+			icon: {
+				Count: 1b
+				id: "occultism:otherworld_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B5817089BB31D04"
+			rewards: [
+				{
+					count: 4
+					id: "3513E6EF45E4AC37"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54737C19F31B6707"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "64DD1E318EDAF8AD"
+					item: {
+						Count: 1b
+						id: "occultism:otherworld_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21E1F45A29ACB39E"
+					item: {
+						Count: 1b
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+							spiritName: "SomeDude"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Achoo"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"12B7DA74036C4FC9"
+				"0BC9569F6D5A796D"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Certainly a searchable bulk storage option is not what you'd expect from this kind of magic mod, but here we are.  It's quite good.  Too good in fact, so the wormhole has had a recipe tweak as the ender chest to gate wireless item transfer.  The basic storage and remote are quite cheap, but tiering up capacity gets expensive quickly, and lacks Applied Energistics advanced features and logistics."]
+			icon: {
+				Count: 1b
+				id: "occultism:dimensional_matrix"
+				tag: {
+					spiritName: "Lukkyld"
+				}
+			}
+			id: "15112F1849842738"
+			rewards: [{
+				count: 2
+				id: "0882CF48CCAC2DB5"
+				item: "occultism:storage_stabilizer_tier1"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2AFE301D94875BE8"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+				{
+					id: "0460B969D36B5F36"
+					item: {
+						Count: 1b
+						id: "occultism:storage_remote"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Wait, This is a Storage Mod?"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59E5683F8C258AF6"]
+			description: ["Deciding on what familiar(s) you want to have is a personal decision, but arguably, one of the more important factors is having to deal with a pet AI following you around.  This wearable soul gem curio can help.  Many familiars grant an effect while captured and worn."]
+			id: "0BC9569F6D5A796D"
+			rewards: [{
+				count: 6
+				id: "7F4F477772B96EF0"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25A78F329F030E75"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+					id: "occultism:familiar_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Put a Ring On It"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"18C6AE993572240E"
+				"6B5817089BB31D04"
+			]
+			dependency_requirement: "one_completed"
+			description: ["This is the final missing puzzle piece.  As with skeleton skulls before, you can do the Wild Hunt ritual to get some easy wither skulls."]
+			icon: {
+				Count: 1b
+				id: "occultism:chalk_red"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24B1E0F25C1B8CE3"
+			rewards: [
+				{
+					id: "02F0FA78E9A197E2"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+				{
+					id: "7C68E629F8E83873"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "30FD7CFEBE63FDC1"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+				{
+					id: "18DB24BB5F9E8A6A"
+					item: "occultism:book_of_binding_afrit"
+					type: "item"
+				}
+				{
+					id: "7AEA0DF97F41C8AD"
+					item: "occultism:book_of_binding_marid"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "488C069DF3D1A2C1"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "6684A2ABA3F2649C"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+				{
+					id: "7B8D11C77A21BA9D"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fresh, Organic, Home Grown Demons"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C6AE993572240E"]
+			description: ["I've added 6 new rituals, 5 of which are for summoning things that would normally be annoying or even impossible to get.  You'll find them with the other ritual pentacle items in REI."]
+			icon: "occultism:ritual_dummy/custom_ritual"
+			id: "12B7DA74036C4FC9"
+			rewards: [{
+				count: 5
+				id: "7A0ED2E229EF8846"
+				item: "botania:cocoon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63A6C17C4838DD7C"
+				title: "Bonus Rituals"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+	]
+	title: "Magic"
+}

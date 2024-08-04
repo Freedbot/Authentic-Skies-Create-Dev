@@ -1,0 +1,13 @@
+filename = 'supermartijn642corelib-1.1.17-forge-mc1.19.2.jar'
+name = "SuperMartijn642's Core Lib"
+side = 'both'
+
+[download]
+hash = 'd14c84a6773a55ebfa7479100ba5b961cd93230a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5102255
+project-id = 454372

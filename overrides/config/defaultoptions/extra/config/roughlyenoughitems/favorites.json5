@@ -1,0 +1,17 @@
+{
+	"favorites": [
+		"{id:\"ftblibrary:toggle.gamemode\",json:'{\"group\":\"ftblibrary:cheat\",\"icon\":[\"ftblibrary:icons/blue_button\",\"ftblibrary:textures/icons/toggle_gamemode.png\"],\"x\":100,\"click\":\"command:/ftblibrary gamemode\",\"hide_with_nei\":true,\"requires_op\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftblibrary:toggle.rain\",json:'{\"group\":\"ftblibrary:cheat\",\"icon\":[\"ftblibrary:icons/blue_button\",\"ftblibrary:textures/icons/toggle_rain.png\"],\"x\":110,\"click\":\"command:/ftblibrary rain\",\"config\":true,\"hide_with_nei\":true,\"requires_op\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftblibrary:toggle.day\",json:'{\"group\":\"ftblibrary:cheat\",\"icon\":[\"ftblibrary:icons/blue_button\",\"ftblibrary:textures/icons/toggle_day.png\"],\"x\":120,\"click\":\"command:/ftblibrary day\",\"required_server_mods\":[\"ftblibrary\"],\"hide_with_nei\":true,\"requires_op\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftblibrary:toggle.night\",json:'{\"group\":\"ftblibrary:cheat\",\"icon\":[\"ftblibrary:icons/blue_button\",\"ftblibrary:textures/icons/toggle_night.png\"],\"x\":130,\"click\":\"command:/ftblibrary night\",\"required_server_mods\":[\"ftblibrary\"],\"hide_with_nei\":true,\"requires_op\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
+		"{command:\"skyblock gui\",item:{Count:1b,id:\"kubejs:sky_gui\"},title:'{\"text\":\"\"}',type:\"rei_custom_command:custom-command\"}",
+		"{id:\"ftbessentials:trash_can\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/bin\",\"x\":150,\"click\":\"command:/trashcan\",\"required_server_mods\":[\"ftbessentials\"]}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}"
+	],
+	"hiddenFavorites": [
+		"{id:\"ftbchunks:claim_chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map; tint\\\\u003d#FF80FFFF\",\"x\":400,\"click\":\"ftbchunks:open_claim_gui\"}',type:\"ftblibrary:sidebar_button\"}"
+	],
+	"displays": []
+}

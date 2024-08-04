@@ -1,0 +1,11 @@
+{
+	id: "3F72E64D52653F6A"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "botania:mana_diamond" }
+		{ item: "botania:mana_pearl" }
+		{ item: "botania:manasteel_block" }
+	]
+	title: "Shinier Things"
+}

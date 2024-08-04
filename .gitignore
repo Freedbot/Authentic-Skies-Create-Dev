@@ -1,0 +1,17 @@
+/*
+!/*/
+.DevResources/
+.Zipped/
+.vscode/*
+!.vscode/build.py
+!.vscode/tasks.json
+overrides/kubejs/probe/
+overrides/kubejs/jsconfig.json
+server/mods/
+!.Client Only Mods.txt
+!.Dev Notes.md
+!.gitignore
+!Changelog.md
+!Instructions.md
+!manifest_template.json
+!modlist.html

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 625
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "weight": 375
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}

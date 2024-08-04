@@ -1,0 +1,2052 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 400
+	default_quest_shape: ""
+	filename: "logistics"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "sophisticatedstorage:diamond_chest"
+		tag: {
+			woodType: "spruce"
+		}
+	}
+	id: "6AC87847606BC84D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["032A48BF62390018"]
+			description: [
+				"Sophisticated Storage allows you to make larger, \"smarter\" versions of chests, barrels, and shulker boxes.  Recolor by crafting with a dye, or 2 dyes for a different trim color."
+				""
+				"Upgrade a chest in the crafting table, or by right clicking with a tier upgrade.  Upgrades range from basic to Netherite.  Each tier will increase capacity and/or add upgrade slots.  These slots can fit their own \"upgrades\"."
+				""
+				"You've already made the chests in the unlock quest.  Add these upgrades with the previous, and you'll have 2 iron chests.  It's not time to waste your own iron yet, so let's move on."
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "1C8BCFFE1729DDC3"
+			rewards: [
+				{
+					id: "05C605AAEC059C7E"
+					item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "29B7281FB03585E9"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "72CDE65C48FFA605"
+				type: "checkmark"
+			}]
+			title: "Storage: Bigger on the Inside"
+			x: 7.500000000000007d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C8BCFFE1729DDC3"]
+			description: [
+				"Leather is likely to be one of the few early materials you can get in reliable quantity.  Luckily, Sophisticated Backpacks are quite versatile.  Simply pop it onto your Curio back slot, and access it with B.  Alternatively, place it on the ground with Shift + Right Click and use it like a normal chest."
+				""
+				"They can be dyed or crafted into the next tier just like Sophisticated Storage blocks.  When dying, dyes to the left of the backpack in the crafting grid affect bag color, dyes to the right affect accent color."
+			]
+			id: "2F72046FBE47CF02"
+			rewards: [{
+				id: "45CD104668F9302A"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A97C7BE466ADDEB"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							177488234
+							-209303110
+							-1409692952
+							-1966946176
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "Take it With You"
+			x: 7.5d
+			y: 0.5178571428571246d
+		}
+		{
+			dependencies: ["2F72046FBE47CF02"]
+			description: [
+				"Upgrades are actually rediculous.  Read up on their descriptions."
+				""
+				"A quick note on stack upgrades.  You can only have 1 per storage.  If the storage is too full to remove the upgrade, you can still click that slot with a higher tier one on your cursor to swap them."
+				""
+				"Before you go too nuts investing into Sophisticated Storage, I'll let you know that Occultism and Applied Energistics will be available before long, and both have great searchable storage options."
+			]
+			icon: "sophisticatedbackpacks:upgrade_base"
+			id: "4734AA0794233966"
+			rewards: [{
+				id: "5123636D797349DA"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "448EDE7EDB67EAC8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:refill_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:tool_swapper_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:filter_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Upgrades People"
+			x: 6.5d
+			y: 0.5178571428571246d
+		}
+		{
+			dependencies: ["2F72046FBE47CF02"]
+			description: [
+				"The task shows oak, but any limited barrel fulfills the quest.  If you've used Storage/Functional Drawers in the past, then you'll probably also find yourself typing \"drawer\" into the search box out of habbit, like me."
+				""
+				"You'll also wonder where the compacting drawer went.  It's the \"compression\" upgrade now.  Not to be confused with the \"compacting\" upgrade, which is filtered and only converts one way."
+				""
+				"For those new to this kind of thing.  Limited Barrels only hold 1-4 different items depending on the barrel, but they hold far more stacks than a normal chest, and can be conveniently used without opening an inventory."
+				""
+				"Left-click takes out 1 item.  Shift + left click takes out 64.  Right click deposits what's in your hand to that slot.  Double right click deposits all matching items from your inventory."
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_barrel_4"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "66C79231AB5E2EF7"
+			rewards: [{
+				id: "4A69B233BF4D50B9"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EABAF5425B0428A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_1"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_2"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_3"
+								tag: {
+									woodType: "oak"
+								}
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:limited_barrel_4"
+								tag: {
+									woodType: "oak"
+								}
+							}
+						]
+					}
+				}
+				title: "Any \"Limited Barrel\""
+				type: "item"
+			}]
+			title: "\"Limited Barrel\" Drawer Thingies"
+			x: 8.5d
+			y: 0.5178571428571246d
+		}
+		{
+			dependencies: ["6CF56C744EF8AAEF"]
+			description: [
+				"What does Applied Energistics do for you?  1st: an ME system.  2nd: smart autocrafting and logistics.  Sadly, #2 is out of reach for a while."
+				""
+				"So, what is an ME system?  It's a computer, with hard drives, cables, and a couple screens.  Except the hard drives are actually chests and the screens let you access all the items just like you're cheating with REI.  Computers need power.  See the Create quest line for Craft \\& Additions' power options."
+				""
+				"To start, you'll need tons of iron, sand, certus and nether quartz, redstone, glowstone, and some gold and diamonds.  Dropping a charged certus, nether quartz, and redstone dust in water makes 2 fluix crystals."
+				""
+				"The charger does not exist.  Instead a powered Tesla Coil will add some sparkle to your certus."
+			]
+			icon: "ae2:fluix_crystal"
+			id: "771BA4BA41507CC2"
+			rewards: [
+				{
+					count: 8
+					id: "0F8B91FE8E36F42D"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "0CAB4D8A55BC7116"
+					item: "ae2:guide"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					count: 64L
+					id: "6CE593F75BFDCF2B"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4F05BBC1677E1ED9"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "030C059B8235F81C"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5884C34BD01E4253"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			title: "Applied Energistics: Crystals"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["771BA4BA41507CC2"]
+			description: [
+				"AE2 uses it's own self named power and most machines require it.  The energy accepter converts to that power.  2 FE = 1 AE.  The more cables and machines you have connected, the more power you need.  The cool thing about AE is that the machines can all transmit AE power and data just like cables."
+				""
+				"Growing crystals has probably felt like pulling teeth, let's speed up the process.  Powered Growth Accelerators placed against the sides of a budding certus may block bud growth on that side, but the remaining sides will sprout much faster and the effect stacks.  The layout and number of accelerators is up to you, but whatever your method is, automate it."
+			]
+			icon: "ae2:quartz_growth_accelerator"
+			id: "12D8F995FB2EBBE7"
+			rewards: [{
+				count: 2
+				id: "2E56EBEA1775213C"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "385AAB23A8CC3575"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40C70972ACF1E1EC"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "24AE1A5558D8A098"
+					item: "ae2:quartz_growth_accelerator"
+					type: "item"
+				}
+			]
+			title: "Homemade Rock Candy"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["12D8F995FB2EBBE7"]
+			description: [
+				"This mod's circuitry requres a bit more finesse than a normal crafting grid.  Normally you'd find one of these in the core of a fallen meteor along with your initial certus quartz in a geode-like shell of sky stone."
+				""
+				"No such luck here.  Even if meteors fell, where would they land?  The cube can be cobbled together somehow with some judicious Create crafting.  You'll just have to live without the sky stone until the End."
+			]
+			icon: "ae2:mysterious_cube"
+			id: "7FFC82893FB62775"
+			rewards: [
+				{
+					count: 64
+					id: "109AB6003CF158B4"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2569554EDCA1DC63"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38CF99361B1CF71B"
+					item: "ae2:mysterious_cube"
+					type: "item"
+				}
+				{
+					id: "140E4981BE472F5F"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "585CCB15325ADC1C"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "2C9F72B69914B2F9"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "5A1C079F7423C65A"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "I'm Not Saying It Was Aliens"
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FFC82893FB62775"]
+			description: [
+				"You'll need a lot of processors, so I'll have you automate these inscribers.  Remember, if you connect an ME cable to one, it can pass power to the others if they're touching.  Inscribers are a little annoying to automate because they're \"stupid\" machines.  Their inputs accept any incorrect items and they're side-specific, though they can be wrenched to any orientation.  The top/bottom inputs are only accessible from the top/bottom sides respectively.  The center input and output are accessible from any other side."
+				""
+				"Start with an input/output chest.  The presses each go in the top slots of 4 inscribers.  Set up filtered funnels into the SIDES of these inscribers so that gold>logic, pure certus>calculation, diamonds>engineering, and silicon>silicon press respectively.  For the final inscriber, dump all circuits into the top, printed silicon into the bottom, and FILTER redstone dust into a side.  Output the processors back to the chest.  Now you can make processors just by dumping ingredients in the chest."
+			]
+			icon: "ae2:engineering_processor"
+			id: "135D5DDD527CD929"
+			rewards: [{
+				count: 5
+				id: "47ED34B1463CBF87"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "228771D8EAA10C4A"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "3398D1D366713392"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "450B899A67D126B8"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1A64189B594F0BB2"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0771F473183380CF"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Stamp \\& Process"
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["135D5DDD527CD929"]
+			description: [
+				"The true beginning of Applied Energistics, and sadly where most people stop... the ME Drive.  A system that puts items on hard drives and let's you access them from a convenient monitor with search functions, eliminating the need for sorting chests."
+				""
+				"The dense energy cell is for: 1. Emergency backup so you can still access your items.  2. Power \"regulation\".  Most mod's machines have energy buffers to keep them running smoothly in case of RF spikes/drops.  Without this your ME system can suddenly \"bug out\" when you're crafting or moving items."
+				""
+				"A few tips: Terminals can only be placed on cables.  You can use the crafting table to separate empty cells into components and housings so you can reuse both to make bigger cells.  In order to shuffle your items off of cells you'll need an IO port."
+			]
+			icon: "ae2:drive"
+			id: "54777CF7EDCFDCDE"
+			rewards: [
+				{
+					id: "631506B6CE6581DE"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+				{
+					id: "744CFC2C02053062"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4BEBD660C7DB3511"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6423F5CD43069796"
+					item: {
+						Count: 1b
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5ECAE3C546F444F1"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "78DB9EB6E2737BF3"
+					item: {
+						Count: 1b
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Actually Good Storage"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54777CF7EDCFDCDE"]
+			description: [
+				"There are two different types of \"wireless\" to consider when talking about AE.  One is the quantum network bridge, an expensive multiblock which links 2 ME networks across any distance/dimensions.  I'll let you google that one.  I'm covering the wireless crafting terminal."
+				""
+				"You need a wireless access point attached to the ME network.  The more cards you add to boost it's range, the more power hungry it gets."
+				""
+				"The security terminal is almost useless since you should normally use FTB Utilities to handle protecting everything in your claimed chunks, but you need it hooked up to link your wireless terminal to your ME system."
+				""
+				"Legends tell of a quantum bridge card that goes in a wireless terminal to permanently make it work from anywhere."
+			]
+			icon: "ae2:wireless_crafting_terminal"
+			id: "6E879FFB122B15AF"
+			rewards: [
+				{
+					id: "5A55B9C8BC347A78"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "337DFBD9A16DEB38"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "74F42A425351FAEE"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "2F85B0BA0FB1B7FE"
+					item: "ae2:security_station"
+					type: "item"
+				}
+			]
+			title: "Wireless Access"
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6E879FFB122B15AF"]
+			description: [
+				"Of course AE2 includes several several things I haven't covered.  Most notable are: The ME chest and Portable cell.  The cell workbench which allows you to add filters to storage and terminal view cells.  Finally, the spatial IO port and pylons which allow you to store a physical location in a pocket dimension in a cell."
+				""
+				"Speaking of cells, besides Create's tanks, fluid cells are the only way to store large amounts of liquid conveniently in this pack."
+			]
+			icon: {
+				Count: 1b
+				id: "ae2:portable_item_cell_256k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
+			id: "2FC4E761215185FA"
+			rewards: [{
+				count: 8
+				id: "21B7F37B6F786A72"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79A70E5C3A37B12D"
+				title: "Other Devices"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54777CF7EDCFDCDE"]
+			description: [
+				"ME cables aren't infinite.  Interfaces, busses, drives, and terminals use 1 \"channel\" per device.  ME glass cables and full \"block\" devices can carry 8 channels.  Dense ME cables can carry 32 channels, but only if connected to an ME controller.  Smart cables display used channels through glowing lines and in your HUD."
+				""
+				"If you could make one, the ME controller acts as the \"heart\" of the network and is a drop-in replacement for the energy acceptor.  You can connect several together as a \"multiblock\" but you can't have two that aren't touching in the same network."
+				""
+				"You can separate and organize your cables by dying them different colors or using cable anchors.  Cable facades are crafted with four anchors around a block and are used to hide your wiring.  Terminals and cables can still connect through them."
+				""
+				"Storage busses make an inventory accessible to the network, including your entire Sophisitcated Storage limited barrel system if attached to a storage controller.  They also have a filter and priority function."
+			]
+			icon: "ae2:fluix_smart_cable"
+			id: "0FD14316E20825E3"
+			rewards: [
+				{
+					count: 8
+					id: "73708E8E28FD05DA"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F940B1BDCB190E7"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "56AFC2AC9C5F2A66"
+					item: {
+						Count: 1b
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7588E6A759735E5D"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+				{
+					id: "70C996218BAC2AF8"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			title: "High in Fiber"
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["523C8AED2F5A6CE8"]
+			description: [
+				"Import and export busses pull in or dump out items from the network.  Cards can be used to make them faster or expand their filter size.  Interfaces can be used as is or crafted flat.  The \"Stored Items\" slots can accept items into the network or make items available for piping out by setting an \"arrow\" slot to the item and count you want.  The crafting card lets an export bus or interface auto-request crafting of any items it needs as long as the system is able."
+				""
+				"The level emitter outputs redstone based on an item's quantity."
+				""
+				"All the busses, storage cells, and terminals have fluid and gas versions as well BTW."
+				""
+				"Tip: ME Requesters are in the pack.  Assuming you have autocrafting set up, these can auto-auto-craft a stockpile of items for you."
+			]
+			icon: "ae2:import_bus"
+			id: "32BC360DFCBF6D70"
+			rewards: [
+				{
+					id: "30FFD10753DC3052"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77AC03A49C387560"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					id: "59BAB0708DE43390"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "099CE90E72F68846"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "11150713D4AA38A6"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "7C05DAE32CECF9B8"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "2E3BCF5C3A345098"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+				{
+					id: "5AEB257F851103FE"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "Riding the Bus"
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["523C8AED2F5A6CE8"]
+			description: [
+				"The crafting cpu is a strictly rectangular multiblock made up of storage units, co-processing units units, and optionally a crafting monitor to display what it's working on.  While this cpu doesn't exactly \"do\" anything, it's required to do any crafting at all.  Think of it as the brain that tells the system how to make stuff.  Each multiblock cpu only takes up one channel.  Build these parts into two identical square or line shapes that don't touch each other and connect them to the network.  This lets you do two crafting requests at the same time with 16k storage and good crafting speed each."
+				""
+				"The storage unit, like the cells, can be separated in a crafting table for upgrading.  It limits how big a crafting job you can do.  \"Big\" means the amount of items used in the total job wether it's 1 item with 1,000 ingredients or 1,000 items with 1 ingredient each."
+				""
+				"The co-processing unit is hard to understand or explain briefly.  Put super crudely, if you do everything else \"right\", it helps pattern providers shuffle items around more \"efficiently\" to get a job done faster.  All you need to know is that as long as you're not crafting using multiple patterns with the same recipe, 3-9 co-processors per multiblock will cap the \"shuffling\" speed for most recipes."
+			]
+			icon: "ae2:crafting_accelerator"
+			id: "55579CBF25461D54"
+			rewards: [{
+				count: 2
+				id: "094338A74E78E2B9"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "09E30A701D1D0510"
+					item: "ae2:16k_crafting_storage"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "234FC96E53AB1DB7"
+					item: "ae2:crafting_accelerator"
+					type: "item"
+				}
+			]
+			title: "Thinking About Automatic Stuff"
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["55579CBF25461D54"]
+			description: [
+				"If the crafting cpu multiblocks are the brain, then the molecular assemblers and pattern providers are the hands and feet respectively."
+				""
+				"Providers in this case are used to deliver ingredients and accept products from the assemblers according to recipe patterns that you load into the providers directly or via the pattern terminal.  The assemblers themselves no longer need patterns in them when using this method."
+				""
+				"You can use regular or flat pattern providers around molecular assemblers in whatever shape you want to accomplish the autocrafting setup, but the most efficient for materials and crafting speed is to place normal providers and molecular assemblers in a checkerboard pattern 4x2x2 box shape.  This way you only need to connect to the structure with 1 fluix or smart cable and the providers will use all 8 channels it provides.  This also allows every provider access to 3-4 molecular assemblers at once.  Use smart cables or dense smart cables to help keep track of your channels."
+				""
+				"TIP: When you run out of room for patterns, you can stack another identical 4x2x2 structure on top of the first, and run a seperate cable (dense or fluix) with another 8 free channels.  All devices will go online IF and ONLY IF you specifically connect the first cable to the side of the first layer, then (skipping a block) connect the next cable to the 3rd block up."
+			]
+			id: "2357B0DF17419C0F"
+			rewards: [
+				{
+					count: 4
+					id: "2A5D72CEC95A2D76"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "50D816FCA34C94D5"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "2EB1B00CDC4619C7"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "Overly Fancy Automatic Crafting Tables"
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0FD14316E20825E3"]
+			description: ["While normally used with pattern providers as part of an ME system's autocrafting, the molecular assembler can be used as an auto-crafting table on it's own.  It requires a pattern (covered next) and consumes ME power.  It can take up to 5 acceleration cards.  At that point it surpasses the Create crafter in speed, with reduced size, lag, and power consumption."]
+			icon: "ae2:molecular_assembler"
+			id: "114A1AA0CC67663D"
+			rewards: [
+				{
+					count: 2
+					id: "20E68A75FF395DB7"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5A17CD92657B675F"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AC41A334AF9B9BD"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "Compact Auto-Crafting"
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["114A1AA0CC67663D"]
+			description: [
+				"To be used as dedicated \"dumb\" auto-crafters, molecular assemblers need an encoded pattern in their pattern slot.  That requires it's own terminal."
+				""
+				"Load the upper pattern slot with blank patterns and either click items into the crafting grid or use REI's \"move items\" feature.  This works whether you have the items or not.  The little ingot icon toggles allowing Oredict items in the pattern.  Write to patterns with the arrow button.  Only crafting recipe patterns can be used in assemblers."
+				""
+				"Patterns will display their product while holding shift.  You can rewrite a pattern in the bottom pattern slot or craft to erase it."
+				""
+				"With the pattern in place, a molecular assembler will only accept the correct items for the specific recipe, and only output the results.  No filters needed."
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "55DA915F95224613"
+			rewards: [
+				{
+					count: 4
+					id: "3B7B969F16FB7E48"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22E0D0ECE79FACCF"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "6FBF4B8FB8AB4D38"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3AB63CD4F813ED56"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "Pattern Programming"
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2357B0DF17419C0F"]
+			description: [
+				"Time to reward you for your patience.  The final step is to teach the system the recipes you want it to know.  When encoding patterns for machines you need to switch the crafting table icon over to processing.  You can manually click in what outputs the system should expect from the machine after dumping the ingredients if needed."
+				""
+				"The patterns then go in the appropriate provider's pattern slots.  The pattern provider terminal lists them all grouped by the name of the device touching the provider.  Each row is one provider.  You do NOT want the same interface to handle related recipes (IE: planks, sticks, and torches together).  It will bottleneck crafting.  A good rule of thumb is to fill in recipes from top to bottom, then left to right while keeping an eye on what you're grouping.  This mostly only matters for crafting table recipes."
+				""
+				"To actually auto-craft items once they're set, click any item that says \"craft\" (when out or the view mode is changed), otherwise use middle mouse click."
+				""
+				"You can check the progress of autocrafting via the upper-right hammer button.  If you put a processing recipe in wrong or a machine acts up the job will \"hang\" while waiting for the product.  You can cancel \"hung\" jobs on this screen."
+			]
+			id: "66457BE6D8DE97A4"
+			rewards: [
+				{
+					count: 16
+					id: "09249342290C4960"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70437DF51126D406"
+					table_id: 8826100719775049635L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "7330D661F8D94864"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			title: "Populate the Patterns"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["32BC360DFCBF6D70"]
+			description: [
+				"I'm sure you're feeling the limitations of channels by now, and you don't want to run tons of dense cable everywhere.  Here's a couple tricks."
+				""
+				"P2P tunnels:  Connect one to your ME controller or a dense cable.  Shift-right click to copy it's \"info\" to the card.  Right click another tunnel(s) to link them.  It's basically data compression.  Each P2P uses one channel, but can pass all 32."
+				""
+				"Subnetworks: How:  Bare with me again.  A subnetwork (\"B\") is any group of ME things and cable visible to your \"main\" network (\"A\"), but not connected to it.  A storage bus in network \"A\" placed against an interface in \"B\" can see everything in network \"B\", not just what's in the interface, but \"B\" can't see or interact with \"A\"."
+				""
+				"Usage: Let's say you've got 14 providers in your basement hooked up to all your processing machines, but you don't want to run expensive dense cable or P2P down there.  Hook up what you can -1 (network \"A\").  Interrupt the cable with a quartz fiber to pass power but not network data, and hook the 7 remaining up (\"B\").  Add a storage bus to \"A\" connecting to an interface in \"B\".  You MUST use some method to pump all the machine outputs to one of the interfaces in \"A\"."
+				""
+				"That's 6 extra channels for the cost of a storage bus and quartz fiber.  You can even use all 8 channels to connect to sub-networks.  You can do sub-subnetworks... but don't.  Abusing this trick too far will lag you to death."
+			]
+			icon: "ae2:quartz_fiber"
+			id: "3548941C2A8574CA"
+			rewards: [
+				{
+					id: "16F3576FAABC487D"
+					item: {
+						Count: 1b
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5525B8D70C663763"
+					item: "ae2:interface"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "7E5E84C82D5F3914"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "23BBFCE722B398AA"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "47B1B3CECE67479E"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"54777CF7EDCFDCDE"
+				"2E559BF166A16E48"
+			]
+			description: [
+				"This is the real power of AE2.  You can simply click an item in a terminal and the system will make it.  From basic crafting to smelting, to even spawning and killing withers for stars if you can manage to set it up.  It's worth the headache, just bear with me."
+				""
+				"Step 1: Say hi to the pattern provider.  It can be used as is, crafted flat, or named in an anvil.  The \"Return Inventory\" slots accept items into the network."
+				""
+				"Next are the pattern slots.  You can also access all pattern provider slots remotely with the interface terminal.  When crafting, the provider will dump ingredients from recipes on it's held patterns into all adjacent inventories.  You can also wrench the provider to only output one direction.  If it's a machine recipe, you need to make sure the output gets piped back into the system through any networked storage or interface."
+				""
+				"Note the buttons in the top-left.  The arrow button is needed for certain machine recipes with multiple inputs like basins to keep the ingredients from getting scrambled."
+			]
+			icon: "ae2:pattern_provider"
+			id: "523C8AED2F5A6CE8"
+			rewards: [{
+				count: 8
+				id: "645B62C940D64136"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "19960E0C4D0542FF"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "10FF7B9C02A10FE9"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			title: "Patterns of Automatic Stuff"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4B2728EACC1051F1"]
+			description: [
+				"The world keeps spinning and so must Create.  The water wheel needs water. the windmill needs sails or wool.  The crank needs you.  Many of you are familiar with previous versions of Create so I'll let you know that the water wheel no longer cares about direction or the amount of flowing liquid touching it."
+				""
+				"Read the tooltips and use the \"Ponder\" feature!  Everything is there."
+				""
+				"IMPORTANT:  For this pack, sail blocks and wool are twice as effective.  That means 4 minimum and for every +1 RPM instead of 8.  This change is based on my personal opinion of power balance as well as the annoyance of wool farming in skyblock."
+			]
+			icon: "create:wrench"
+			id: "5A726898B274793B"
+			rewards: [{
+				id: "6E29A4F00889E4B9"
+				item: "create:wrench"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "43E36E21B6A4BEE5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:hand_crank"
+							}
+							{
+								Count: 1b
+								id: "create:windmill_bearing"
+							}
+							{
+								Count: 1b
+								id: "create:water_wheel"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Create: Motion"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5A726898B274793B"
+				"021C7EA6FA7DB048"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The millstone, much like Millhouse, is a staple of the franchise, but of surprisingly few uses."
+				""
+				"Stone > gravel > flint"
+				"terracotta/granite > red sand"
+				"Wool > string"
+				"Gems > dusts"
+				"Organics > dyes, flour, sugar, or seeds"
+			]
+			id: "16970854AEC99D5F"
+			rewards: [
+				{
+					count: 8
+					id: "43C57B7A14D750A6"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "49E5AAC6267A30EA"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BCD991990C04ED4"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "The Grind"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"34CA14F6DDF284A5"
+				"67FA3F45445A2990"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Due to the heavy use of sheet metal, the press is the first work horse of create.  It can work directly on items dropped on the ground, but let's be civilized."]
+			id: "021C7EA6FA7DB048"
+			rewards: [
+				{
+					id: "1CEFCAECDFB2FA8C"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0648EE93F5E910BC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5549E15310CFD086"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Under Pressure"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["021C7EA6FA7DB048"]
+			description: [
+				"This seeminly simple aerodynamic device is the most versatile in all of Create.  You can crank up it's speed to push mobs, items, and XP great distances or use it to push (or suck) items up chutes.  Add a nozzle to convert it to an AoE effect.  It's real value though, is processing and converting resources."
+				""
+				"Processing speed is NOT affected by RPM, so run it slow and save on stress.  Instead, add more fans with their own water/fire aimed at the same block space to improve processing time."
+				"{image:kubejs:textures/fans.png width:150 height:70 align:1}"
+			]
+			id: "65953A0CE6AB6C61"
+			rewards: [
+				{
+					count: 4
+					id: "2146B9A21FD6F2DF"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "3389399D99C8E89F"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B2812175DB97201"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Easy Breezy"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"021C7EA6FA7DB048"
+				"67FA3F45445A2990"
+			]
+			description: [
+				"Drains take in liquids from from items or XP orbs passed over them.  Tanks multiblock just like vaults, and have been buffed to hold 32 buckets each.  Spouts perform an assortment of drippy crafting.  However, it's all useless if you don't have your pipes and pump working."
+				""
+				"Here's a couple tricks.  Wrench a pipe to give it a viewing window and prevent sideways connections.  Much like cogs, a pipe with a casing on it will lock it's connections so you can place other pipes next to it."
+				"{image:kubejs:textures/lock_pipes.png width:185 height:80 align:1}"
+			]
+			icon: "create:spout"
+			id: "47647047921418C4"
+			rewards: [
+				{
+					id: "429881C64D3A8A0A"
+					item: "create:smart_fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0053B5453FC96083"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D72A7017B5DBADE"
+					item: "create:item_drain"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "58E7FBA5A724C89D"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "4165411805716172"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "21566CF8FE7B6B2D"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "A Use For Copper"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["021C7EA6FA7DB048"]
+			description: [
+				"Besides it's own special recipes, the mixer can automate shapeless crafting.  Keep in mind that it needs a minimum 30 RPM to function at all."
+				""
+				"The basin allows the press and mixer to work with multiple ingredients and fluids.  If you find it crafting the wrong thing, slap what you want or a filter of things you want in the item slot on the side of the basin."
+			]
+			icon: "create:mechanical_mixer"
+			id: "37509919EB6134C3"
+			rewards: [{
+				id: "5077D4E7AD01D0C0"
+				item: "create:goggles"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4D021E46A1040487"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "098E769C6D1DA822"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Mercilessly Beaten"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34CA14F6DDF284A5"]
+			description: [
+				"I hope you've been watching the ponder tutorials on these as we go.  I'm only providing supplimental tips."
+				""
+				"You can extend/shrink a belt line by right-clicking with a belt/wrench.  This doesn't consume anything."
+				""
+				"Chain drives and gearboxes are your friend when you need to make tight turns or mess with rotation direction, but sometimes the correct answer is just to string a bunch of small gears together."
+				"{image:kubejs:textures/belting_around.png width:105 height:100 align:1}"
+			]
+			icon: "create:belt_connector"
+			id: "67FA3F45445A2990"
+			rewards: [
+				{
+					id: "75DBBC72A6A434DB"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "5DC7DBF8EC92865E"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6163B4C0D8898521"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "119E1CF8B3564217"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6ED00970802A3B60"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "Sushi Belt"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["021C7EA6FA7DB048"]
+			description: ["Crafts \\& Additions is the first and largest Create addon mod in this pack.  This adds some quality features such as convenience and compatibility recipes, barbed wire, and biofuel for your burners, but it's greatest addition is power generation.  It all starts with simple rolling mill to make some rods and wire."]
+			id: "2A8BADF5450EF9CB"
+			rewards: [
+				{
+					id: "2272EE402EC31767"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DA8F44FD406B0E0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "456660FBAB7F5027"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			title: "Beware Metal Shavings"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"37509919EB6134C3"
+				"47647047921418C4"
+			]
+			description: ["This foe turned friend will fulfill your cooking requirements, so long as you keep him fed.  You can use mechanical arms, deployers, or yourself.  He consumes any burnables a furnace can, but his favorite foods are made with cinder flour and turn him a bright hot blue.  Given the right tool, he might be pursuaded to take up a liquid diet that can be piped in directly."]
+			id: "199802CF608C8E03"
+			rewards: [{
+				count: 3
+				id: "1F88DC19ED76EDAD"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E81BEE42093970B"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Prison Labor"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["021C7EA6FA7DB048"]
+			description: [
+				"Gather 'round class.  Today we will be learning about \"Contraptions\".  A contraption is simply a multiblock structure that is stuck together and attached to a moving Create thingy.  In this case we'll be making the most simple contraption: a spinning farm.  Don't worry about the harvesters.  Those are in the next quest."
+				""
+				"PSA: people struggle with understanding chassis and often attach a line of them to the bearing and glue everything else to it.  No need.  This design uses a singular chassis on the bearing that has been clicked on both sides with a slime ball and wrenched to a range of 3.  That means it auto-glues all blocks in a line of 3 on both sides."
+				""
+				"Unless you plan on manually stopping it, every collecting contraption needs a buffer inventory and a pair of kissing interfaces.  The interface on the outside needs something to pull items out of it.  The windmill is only included as an example and technically means this is a picture of 2 separate contraptions."
+				"{image:kubejs:textures/farm_contraption.png width:200 height:160 align:1}"
+			]
+			icon: "create:mechanical_bearing"
+			id: "3EC67DC702D6A7B2"
+			rewards: [
+				{
+					id: "4820E2DF39420562"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4BB93E8E1D5E214B"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "098FA9E1113D5037"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "4347261161A88DB4"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "580820B450811A78"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "4794FFA277CFB49C"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			title: "Poetry In Motion"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3EC67DC702D6A7B2"
+				"021C7EA6FA7DB048"
+			]
+			description: [
+				"Harvesters gather crops without the need to replant.  Saws break down trees, but you will need to have filtered deployers to replant saplings.  Ploughs break odd nonsolid blocks like torches, rails, and redstone.  For everything else there's the trusty drill."
+				""
+				"One final part of note is the mechanical roller.  It's intended for placing down terrain in front of trains or minecart contraptions.  It could be handy for making sky roads."
+			]
+			icon: "create:mechanical_harvester"
+			id: "366785DC22BC8AC5"
+			rewards: [{
+				id: "2A96C3F68E470542"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "3C91281D0022E79E"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "448E3A4A9EE905D2"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+			]
+			title: "Block Breakers"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"366785DC22BC8AC5"
+				"021C7EA6FA7DB048"
+			]
+			description: ["Contraptions come in many flavors, not just the spinning kind.  Gantries and pistons allow for sidways movement.  With regular or sequenced gear shifts, you can loop back and forth infinitely or program complicated behavior.  You can even chain them together.  Did I mention the rope pullies and elevator pullies?  I have now.  Not every contraption has to be for resources.  Make an elevator or some fancy revolving doors.  Whatever seems like fun."]
+			icon: "create:gantry_carriage"
+			id: "4DC1C3AC41BFFDD4"
+			rewards: [
+				{
+					id: "62431B7F1098BC94"
+					item: "create:gearshift"
+					type: "item"
+				}
+				{
+					id: "79F7D30B1E80EA45"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "49C16C1B21BA83E6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:gantry_carriage"
+								}
+								{
+									Count: 1b
+									id: "create:mechanical_piston"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6BBC1B95D1A3A67F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:gantry_shaft"
+								}
+								{
+									Count: 1b
+									id: "create:piston_extension_pole"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Side to Side"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4DC1C3AC41BFFDD4"
+				"021C7EA6FA7DB048"
+			]
+			description: [
+				"Minecart contraptions are extremely flexible and powerful.  What's more, you can wrench them up as a whole into a single item that you can then set up somewhere else.  Contraptions in general are quite abusable for their ability to phase through blocks and use minimal stress, but minecarts only need to be rolling.  0 stress cost.  I only ask that you try not to go too crazy with them."
+				""
+				"Finally, the ultimate contraption is the train.  The classiest people and bulk item mover.  I've even included the Steam \\& Rails addon mod to make the fanciest trains, but I have no quests for them in this skyblock.  You are, however, welcome to make a glorious train network and prove their worth."
+			]
+			icon: "create:minecart_contraption"
+			id: "66086D871AE05DC4"
+			rewards: [
+				{
+					count: 4
+					id: "34CDDB054015442E"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "235CE8CC867731B4"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DBCC0EE1A874EA9"
+					table_id: 8364188809956744455L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "59C8FD90CC09B937"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "099D41C4A5841B42"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+			]
+			title: "Carts \\& Trains"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["199802CF608C8E03"]
+			description: ["Andesite funnels and tunnels are especially limited.  They're only able to output one item at a time, and have no control over what goes through them.  Welcome to the revolution.  You'll be using a lot of these.  Keep in mind that filters are only needed when you want to filter multiple items, otherwise you can just click the item you want into the filter slot directly."]
+			icon: "create:brass_funnel"
+			id: "3F1CB1D06C6697F7"
+			rewards: [
+				{
+					id: "549EF74E06D7D998"
+					item: {
+						Count: 1b
+						id: "createaddition:diamond_grit_sandpaper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B5C6353CD665911"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					id: "6EF059997D710873"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0A04E0E14A6A06AE"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "743CD9CA241F8CC9"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			title: "Brass Monkey"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["199802CF608C8E03"]
+			description: [
+				"You can never have too much help.  The deployer can do anything your arm stubs can (fight, dig, place, click), but better because it actually has fingers.  With these you'll be able to make an assembly line for precision mechanisms."
+				""
+				"I'm gifting you the wand of symmetry because I feel that it's an underappreciated tool.  When building symmetrical structures, having this is like having 1 or 2 copies of yourself building right along side you."
+			]
+			id: "6B6BB7EA2A827EBA"
+			rewards: [{
+				id: "2C005DED18F090FD"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "0478B2FA3683FE64"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Helping Hands"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["199802CF608C8E03"]
+			description: [
+				"Create's autocrafting solution.  They're quite stress hungry, especially if you want speed.  Despite that, they're a sight to behold and can complete special extra large shaped recipes that a crafting table can't."
+				""
+				"When using these for automation, keep in mind that you can wrench the dividing lines between crafters to join them into a single inventory, combine that with slot covers and you can often greatly simplify ingredient logistics going in to the crafters.  Try it with the recipe in the next quest."
+				""
+				"The potato cannon is my gift for making it this far.  Be sure to make a back tank to keep it fueled up.  It can shoot all kinds of fruits and veggies, and even cakes; each with silly unique effects."
+			]
+			id: "5C78B2CE25992845"
+			rewards: [{
+				id: "504C81AED08EE418"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 21L
+				id: "037EAFCE5532F721"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Bulky Crafting"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5C78B2CE25992845"
+				"199802CF608C8E03"
+			]
+			description: ["In direct opposition to the millstone, this pair of behemoth slabs are crucial to your success.  Check out the plethora of resources and block conversions for yourself in REI."]
+			id: "12C4F905F652A992"
+			rewards: [
+				{
+					count: 8
+					id: "74BBF064F3BA20A5"
+					item: "minecraft:gold_ore"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5672B843B92A9FDD"
+					item: "minecraft:redstone_ore"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "561FA5B2D8F43603"
+					item: "minecraft:lapis_ore"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "3DF24FE078B874D3"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "The Pleasing People Pulper"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6B6BB7EA2A827EBA"
+				"199802CF608C8E03"
+			]
+			description: ["With the help of precision mechanisms, you can craft more refined machinations.  The mechanical arm can maneuver in awkard spaces and act as an entire sorting system with the help of some filtered funnels.  With the rotation speed controller, you can finally stop spamming big and little cogs."]
+			icon: "create:mechanical_arm"
+			id: "3699716663574082"
+			rewards: [
+				{
+					id: "3B6B3DEAF75DCCC2"
+					item: {
+						Count: 1b
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F60A0FCD0B7B67"
+					table_id: 921460676391692582L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "4E8F759BB346F563"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "728AEB0B9BE1431A"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
+			title: "Absolute Control"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5C78B2CE25992845"
+				"199802CF608C8E03"
+			]
+			description: ["Yes, a jet pack.  G to turn on/off.  H to toggle hover mode.  It takes steam to power, just like the back tank.  Yes, it requires an elytra.  Yes there's a recipe to make the elytra.  Break a leg."]
+			id: "06F286158AE79598"
+			rewards: [{
+				id: "7403BC14BE25D29F"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "604B41BAE1260B0F"
+				item: {
+					Count: 1b
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Jetpack?!"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5C78B2CE25992845"
+				"2A8BADF5450EF9CB"
+				"199802CF608C8E03"
+			]
+			description: [
+				"The alternators turn spinny power into zappy power.  Motors do the reverse.  Their recipes are slightly more costly, but in return the alternator is 90% efficient.  This means it's not entirely unreasonable to use alternators and motors to carry your rotation energy great distances with wire."
+				""
+				"The tesla coil is your sole means of charging items like this hand held teleporter.  With redstone signal, it can also zap mobs in a 3 block radius for 3 hearts a second (buffed from default)."
+				""
+				"copper wire goes with small connectors.  It transfers at 16kFE/t up to 24 blocks before needing another connector.  Electrum wire goes with large connectors and doubles the transfer and max length."
+			]
+			icon: "createaddition:tesla_coil"
+			id: "0C5248D18454AE78"
+			rewards: [
+				{
+					count: 3
+					id: "4F088BDC965AB7A6"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+				{
+					id: "51EDA705CAD2D5A8"
+					item: "tempad:tempad"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "18657BD5D775ED3A"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "7E3607B74AFA45D3"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "48D4E1130121EB39"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createaddition:connector"
+								}
+								{
+									Count: 1b
+									id: "createaddition:large_connector"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3DCBB5A166D268C5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createaddition:copper_spool"
+								}
+								{
+									Count: 1b
+									id: "createaddition:electrum_spool"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19E92A2B9C59AC3A"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+			]
+			title: "Electric Company"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A726898B274793B"]
+			description: ["The miracle cannon that creates instead of destroys.  Make your own schematics to import your creative builds in a survival friendly way.  Save on repetitive building tasks.  You can even grab crazy machine schematics online.  They will all work in this pack provided they're up to date and you can get all the materials."]
+			icon: "create:schematicannon"
+			id: "00D13A1DAFAB8156"
+			rewards: [
+				{
+					count: 2
+					id: "5554C51E4C4E2D22"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "221BD32DC4AAEB0F"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "63563EC8C0EEE3B1"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "30280FCF9EE3276B"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "74E3E21F6490F18C"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "58247FE20081C354"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			title: "3D Printer"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"67FA3F45445A2990"
+				"021C7EA6FA7DB048"
+			]
+			description: [
+				"Depending on the person, juggling items around in Create is a welcome challenge or a horrible nightmare compared to traditional pipes.  Either way, know that you're a lot less limited than you might think."
+				""
+				"Funnels are basically just upside-down hoppers.  They take from the bottom and output to a side."
+				""
+				"Belts and everything else in this quest are basically just multiblock chests."
+				""
+				"While this arrangement is useless, every connection in this picture works."
+				"{image:kubejs:textures/create_juggling.png width:200 height:150 align:1}"
+			]
+			icon: "create:andesite_funnel"
+			id: "087DDD5EC0A8542A"
+			rewards: [
+				{
+					id: "04E53788CFDF3DE0"
+					item: "create:weighted_ejector"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67908F454922AAD6"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4F1D36B4B525EE65"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "77A093277CC5E681"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E4C9622DD901893"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4D24B39BBD094F9B"
+					item: "create:item_vault"
+					type: "item"
+				}
+			]
+			title: "The Ins and Outs"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"199802CF608C8E03"
+				"47647047921418C4"
+			]
+			description: [
+				"Water wheels and wind mills are convenient and simple, but once you get into large factories, you'll quickly get tired of how many you need.  Steam to the rescue."
+				""
+				"All together, you're looking at the basic parts required for a max capacity tier 9 boiler.  If you want the absolute maximum, double the tank and engine count, and then automate your 9 blazes to blue.  Speaking of which, you will still need to get some kind of fuel into the blazes, generally with a mechanical arm if you're using solid fuel like charcoal.  You need 180 RPM worth of water constantly pumping.  That can be one fast pump or multiple slower ones."
+				"{image:kubejs:textures/boiler.png width:181 height:142 align:1}"
+			]
+			icon: "create:steam_engine"
+			id: "4D3D0FF57359193A"
+			rewards: [{
+				count: 18
+				id: "7A30E8078CF0BAF5"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "46A858BADC4A6A18"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "07F368848E1C87C8"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "5EC0BCF03DF291C1"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "415E44AA75370CF6"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "An Un-watched Pot"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["199802CF608C8E03"]
+			description: [
+				"Somehow I've avoided mentioning redstone logic until now.  Let's get it all out of the way at once.  When automating with Create it's very easy to end up with a backlog and start dumping items into the world.  Don't let that tragedy happen to you!  You could just dump your overflow into a lava basin or chest with a void upgrade, but that's not always server friendly."
+				""
+				"Between vanilla and Create circuitry, you can easily detect how many items you have and wirelessly control your systems. I'll give some extra Create circuits to tinker with.  Not enough?  Fine!  Check out the Redstone Pen mod that let's you doodle your circuitry right up the walls."
+			]
+			icon: "create:stockpile_switch"
+			id: "3CF1494C18B147BA"
+			rewards: [
+				{
+					id: "18998FD5E78150E6"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "7D635B02215FD0C1"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "3E42F504D786A952"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "349C1A3F0542A2C1"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23C4629E45D58892"
+					table_id: 8715752666717639304L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "52DA41465C43058E"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "5E09E108754ACC0F"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "417668F8C0B1D366"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					id: "6069386E7C006143"
+					item: "create:clutch"
+					type: "item"
+				}
+			]
+			title: "Overflow Error"
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5A726898B274793B"]
+			description: [
+				"The most fundamental task of Create is balancing your stress and speed, and then getting it where you need it."
+				""
+				"Stress is supplied by your generator, but speed in the early game is a simple matter of big cog > little cog.  Chaining this together gets messy quickly, so take advantage of andesite casings to prevent gear shafts from connecting when you don't want them to."
+				""
+				"{image:kubejs:textures/gear_up.png width:180 height:110 align:1}"
+			]
+			icon: "create:andesite_encased_large_cogwheel"
+			id: "34CA14F6DDF284A5"
+			rewards: [{
+				id: "162EA36572F78528"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "692DB73816458694"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C5E567FF774CA61"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1E4F307AA9F48ED2"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			title: "Clock Work"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["199802CF608C8E03"]
+			description: ["Those blazes are more clever than we give them credit for.  It turns out they can follow recipes and manipulate enchantments.  You'll find extensive Ponders on these functions thanks to Create: Central Kitchen and Create: Enchantment Industry."]
+			icon: "create_central_kitchen:cooking_guide"
+			id: "6C41FFCDBF643199"
+			rewards: [
+				{
+					id: "6EB4742F063DA6BA"
+					item: {
+						Count: 1b
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71FF3F0B8DECBAD9"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "403A736530453D4A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_central_kitchen:cooking_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "4321A2E9D695D730"
+					item: "create_enchantment_industry:enchanting_guide"
+					type: "item"
+				}
+			]
+			title: "A Gentleman and Scholar"
+			x: 3.5d
+			y: 8.5d
+		}
+	]
+	title: "Logistics"
+}

@@ -1,0 +1,13 @@
+#How much durability should be lost if the trident neither is in thunder or has channeling.
+#Range: > 0
+neither = 62
+#How much durability should be lost if the trident only is in thunder.
+#Range: > 0
+thunder = 15
+#How much durability should be lost if the trident only has channeling.
+#Range: > 0
+channeling = 30
+#How much durability should be lost if the trident both is in thunder and has channeling.
+#Range: > 0
+both = 0
+

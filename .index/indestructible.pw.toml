@@ -1,0 +1,13 @@
+filename = 'indestructible-1.19-0.3.2.jar'
+name = 'Indestructible'
+side = 'both'
+
+[download]
+hash = 'cb7595099164c55dc7f8d54e70ce67efd2a80fd5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3886132
+project-id = 546137

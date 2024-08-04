@@ -1,0 +1,13 @@
+filename = 'spawnermod-1.19.0-1.9.1+Forge.jar'
+name = 'Enhanced Mob Spawners'
+side = 'both'
+
+[download]
+hash = '7859ff849944a8f51ed77bde2f32438005edb971'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3879467
+project-id = 321663

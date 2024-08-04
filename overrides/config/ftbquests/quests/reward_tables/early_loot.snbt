@@ -1,0 +1,404 @@
+{
+	hide_tooltip: true
+	id: "7129B255139186EC"
+	loot_crate: {
+		color: 3655423
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "early_loot"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "minecraft:spawner" }
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedbackpacks:netherite_backpack"
+				tag: {
+					RepairCost: 0
+					borderColor: 16383998
+					clothColor: 11546150
+					contentsUuid: [I;
+						1281576891
+						1942833887
+						-1615361526
+						804298253
+					]
+					display: {
+						Name: "{\"text\":\"Santa's Sack\"}"
+					}
+					inventorySlots: 120
+					renderInfo: {
+						upgradeItems: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:feeding_upgrade"
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "minecraft:air"
+								tag: { }
+							}
+						]
+					}
+					upgradeSlots: 7
+				}
+			}
+		}
+		{ count: 2, item: "minecraft:ender_chest" }
+		{ count: 4, item: "farmersdelight:stuffed_pumpkin_block" }
+		{ item: "minecraft:totem_of_undying" }
+		{ count: 8, item: "create:brass_funnel" }
+		{ count: 4, item: "minecraft:ghast_tear" }
+		{ count: 4, item: "minecraft:name_tag" }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_4" }
+		{ count: 10, item: "botania:blacker_lotus" }
+		{
+			item: {
+				Count: 1b
+				id: "silentgear:mattock"
+				tag: {
+					Damage: 0
+					RepairCost: 0
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:mattock_head"
+									Item: {
+										Count: 1b
+										id: "silentgear:mattock_head"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												Count: 4b
+												ID: "silentgear:blackstone"
+												Item: {
+													Count: 1b
+													id: "minecraft:blackstone"
+													tag: {
+														SGear_Grade: "MAX"
+													}
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:metal_alloy"
+												Item: {
+													Count: 1b
+													id: "silentgear:alloy_ingot"
+													tag: {
+														Materials: [
+															{
+																Count: 2b
+																ID: "silentgear:iron"
+																Item: {
+																	Count: 1b
+																	id: "minecraft:iron_ingot"
+																	tag: { }
+																}
+															}
+															{
+																ID: "silentgear:blaze_gold"
+																Item: {
+																	Count: 1b
+																	id: "silentgear:blaze_gold_ingot"
+																	tag: { }
+																}
+															}
+															{
+																ID: "silentgear:gold"
+																Item: {
+																	Count: 1b
+																	id: "minecraft:gold_ingot"
+																	tag: { }
+																}
+															}
+														]
+														SGear_Grade: "MAX"
+													}
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:mixed_fabric"
+												Item: {
+													Count: 1b
+													id: "silentgear:mixed_fabric"
+													tag: {
+														Materials: [
+															{
+																Count: 3b
+																ID: "silentgear:flax"
+																Item: {
+																	Count: 1b
+																	id: "silentgear:flax_string"
+																	tag: { }
+																}
+															}
+															{
+																ID: "silentgear:string"
+																Item: {
+																	Count: 1b
+																	id: "minecraft:string"
+																	tag: { }
+																}
+															}
+														]
+														SGear_Grade: "MAX"
+													}
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:tip"
+									Item: {
+										Count: 1b
+										id: "silentgear:tip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:metal_alloy"
+												Item: {
+													Count: 1b
+													id: "silentgear:alloy_ingot"
+													tag: {
+														Materials: [
+															{
+																ID: "silentgear:iron"
+																Item: {
+																	Count: 1b
+																	id: "minecraft:iron_ingot"
+																	tag: { }
+																}
+															}
+															{
+																ID: "silentgear:redstone"
+																Item: {
+																	Count: 1b
+																	id: "minecraft:redstone"
+																	tag: { }
+																}
+															}
+														]
+														SGear_Grade: "MAX"
+													}
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:grip"
+									Item: {
+										Count: 1b
+										id: "silentgear:grip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:mixed_fabric"
+												Item: {
+													Count: 1b
+													id: "silentgear:mixed_fabric"
+													tag: {
+														Materials: [
+															{
+																ID: "silentgear:phantom_membrane"
+																Item: {
+																	Count: 1b
+																	id: "minecraft:phantom_membrane"
+																	tag: { }
+																}
+															}
+															{
+																ID: "silentgear:fine_silk_cloth"
+																Item: {
+																	Count: 1b
+																	id: "silentgear:fine_silk_cloth"
+																	tag: { }
+																}
+															}
+														]
+														SGear_Grade: "MAX"
+													}
+												}
+											}]
+										}
+									}
+								}
+							]
+							RepairCount: 1
+						}
+						Properties: {
+							LockStats: 0b
+							ModVersion: "3.2.6"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -1.8999999f
+								"silentgear:charging_value": 0.59999996f
+								"silentgear:durability": 441.03943f
+								"silentgear:enchantment_value": 3.8999999f
+								"silentgear:harvest_level": 2.0f
+								"silentgear:harvest_speed": 13.839896f
+								"silentgear:melee_damage": 4.6778665f
+								"silentgear:rarity": 18.05f
+								"silentgear:repair_efficiency": 1.4693627f
+							}
+							Traits: [
+								{
+									Level: 2b
+									Name: "silentgear:jagged"
+								}
+								{
+									Level: 2b
+									Name: "silentgear:hard"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:magnetic"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 1b
+									Name: "silentgear:malleable"
+								}
+								{
+									Level: 2b
+									Name: "silentgear:ancient"
+								}
+								{
+									Level: 1b
+									Name: "silentgear:accelerate"
+								}
+							]
+						}
+						Rendering: {
+							Model: 14
+							ModelKey: "mattock:mattock_head{blackstone,blackstone,blackstone,blackstone},rod{metal_alloy[[iron*2,blaze_goldgold]],metal_alloy[[iron*2,blaze_goldgold]]},binding{mixed_fabric[[flax*3string]]},tip{metal_alloy[[ironredstone]]},grip{mixed_fabric[[phantom_membranefine_silk_cloth]]},"
+						}
+					}
+					SGear_UUID: [I;
+						-979403215
+						-1881454287
+						-1909695051
+						-1859351314
+					]
+					display: {
+						Name: "{\"text\":\"Johnny\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "silentgear:azure_repair_kit"
+				tag: {
+					Storage: {
+						azure_electrum: 64.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+		}
+		{ count: 8, item: "minecraft:ender_pearl" }
+		{ count: 6, item: "create:mechanical_crafter" }
+		{ item: "sophisticatedstorage:basic_to_netherite_tier_upgrade" }
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "farmer_s_treasure"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 8s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{ count: 32, item: "create_enchantment_industry:hyper_experience_bottle" }
+	]
+	title: "Early Loot"
+}

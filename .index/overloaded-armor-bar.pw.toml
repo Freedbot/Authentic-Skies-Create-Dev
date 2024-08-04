@@ -1,0 +1,13 @@
+filename = 'overloadedarmorbar-1.19.3-7.2.jar'
+name = 'Overloaded Armor Bar'
+side = 'both'
+
+[download]
+hash = '16114c15677246aa71bfa4243f2a44fbe8fe4ba1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4631125
+project-id = 314002

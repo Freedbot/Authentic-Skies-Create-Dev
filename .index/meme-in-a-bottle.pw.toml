@@ -1,0 +1,13 @@
+filename = 'MemeInABottle-1.19.2-5.0.0.jar'
+name = 'Meme In A Bottle'
+side = 'both'
+
+[download]
+hash = '79994908a5b45a51cc93d8eefb8431f69b2b6f71'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4467993
+project-id = 240830

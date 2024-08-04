@@ -1,0 +1,13 @@
+filename = 'create_enchantment_industry-1.19.2-for-create-0.5.1.f-1.2.9.e.jar'
+name = 'Create Enchantment Industry'
+side = 'both'
+
+[download]
+hash = '453fa207e15819e1fb33548b55df1aa5d0309a8e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5342348
+project-id = 688768

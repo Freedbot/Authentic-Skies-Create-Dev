@@ -1,0 +1,17 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+de.melanx.skyblockbuilder.client.ScreenCustomizeSkyblock {
+}
+
+de.melanx.skyguis.client.screen.info.AllTeamsScreen {
+}
+
+net.minecraft.client.gui.screens.ChatScreen {
+}
+

@@ -1,0 +1,26 @@
+{
+	id: "78F492DF51DE5288"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "redstonepen:pen"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "redstonepen:quill"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Pencil Pen"
+}

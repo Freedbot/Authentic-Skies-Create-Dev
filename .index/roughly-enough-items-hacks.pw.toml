@@ -1,0 +1,13 @@
+filename = 'REIPluginCompatibilities-forge-9.0.90.jar'
+name = 'REI Plugin Compatibilities (REIPC)'
+side = 'both'
+
+[download]
+hash = '6147cba9d73f274cf59249d724571abc2aa0e949'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4837440
+project-id = 521393

@@ -1,0 +1,13 @@
+filename = 'BetterTridents-v4.0.2-1.19.2-Forge.jar'
+name = 'Better Tridents [Forge & Fabric]'
+side = 'both'
+
+[download]
+hash = '08bacaafe928bbbb5ca705c1e1e7704852080432'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4368296
+project-id = 666941

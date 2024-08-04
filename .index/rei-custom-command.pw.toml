@@ -1,0 +1,13 @@
+filename = 'REICustomCommand-1.19.2-forge-1.1.0.jar'
+name = 'REI Custom Command'
+side = 'both'
+
+[download]
+hash = 'abf75fceae1d25a7aa083252dffe9b6914bf4685'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4718900
+project-id = 827792

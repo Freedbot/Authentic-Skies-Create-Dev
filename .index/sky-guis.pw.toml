@@ -1,0 +1,13 @@
+filename = 'SkyGUIs-1.19.1-2.1.4.jar'
+name = 'Sky GUIs'
+side = 'both'
+
+[download]
+hash = 'a856961fda084e318451af592ca5e02cef99a90b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4857683
+project-id = 557696

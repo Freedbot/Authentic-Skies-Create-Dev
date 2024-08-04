@@ -1,0 +1,20 @@
+{
+	id: "5FC37601AF89A4D7"
+	loot_crate: {
+		color: 7294519
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Farmer's Treasure"
+		string_id: "farmer_s_treasure"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 16, item: "farmersdelight:rich_soil" }
+		{ count: 64, item: "minecraft:bone_meal" }
+	]
+	title: "Farmer's Treasure"
+}

@@ -1,0 +1,13 @@
+filename = 'bwncr-forge-1.19.2-3.14.1.jar'
+name = 'Bad Wither No Cookie - Reloaded'
+side = 'both'
+
+[download]
+hash = 'e9c18925359db43168f8872fd533503d4653b13e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4090811
+project-id = 261251

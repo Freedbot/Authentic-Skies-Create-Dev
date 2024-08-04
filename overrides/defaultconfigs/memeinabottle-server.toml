@@ -1,0 +1,17 @@
+
+#General settings
+[general]
+	#When enabled allows you to dig up memes in beaches. (Default: true)
+	memesOnBeach = false
+	#Setting to true allows for some of the questionable memes (Default: false)
+	matureSounds = true
+	#Use Minecraft's narrator to pronounce some copypasta memes (Default: false)
+	useNarator = false
+	#When enabled will log the memes executed. (Default: false)
+	logTriggers = false
+
+#Meme Settings
+[meme]
+	#Any meme id's added here will be removed from the possible meme list
+	disabled_memes = ["memeinabottle:bee_movie", "memeinabottle:navy_seal", "memeinabottle:rightinthe", "memeinabottle:smokeweed"]
+

@@ -1,0 +1,13 @@
+filename = 'toofast-1.19-0.2.2.4.jar'
+name = 'Too Fast'
+side = 'both'
+
+[download]
+hash = 'e3dba85e66bafff52eddf1163fc976efc134088b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4424086
+project-id = 550678

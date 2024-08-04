@@ -1,0 +1,13 @@
+filename = 'RoughlyEnoughProfessions-forge-1.19.2-1.1.4.jar'
+name = 'Roughly Enough Professions (REP)'
+side = 'both'
+
+[download]
+hash = 'bd1f2c72e7c336c7a22cf346324cb2bebfe110c5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4427280
+project-id = 597988

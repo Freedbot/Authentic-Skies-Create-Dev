@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Pack Zips",
+            "type": "shell",
+            "command": "${command:python.interpreterPath}",
+            "args": [
+                ".vscode/build.py", "${input:versionNumber}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "focus": true,
+                "reveal": "always"
+            }
+        }
+    ],
+    "inputs": [
+    {
+      "id": "versionNumber",
+      "type": "promptString",
+      "description": "What version should be zipped?",
+      "default": "0.2.0"
+    }
+  ]
+}

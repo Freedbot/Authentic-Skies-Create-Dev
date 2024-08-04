@@ -1,0 +1,59 @@
+{
+	admin: {
+		name: "Op"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "&5Op - {name}"
+		ftbchunks.max_claimed: 500
+		ftbchunks.max_force_loaded: 25
+		ftbessentials.home.max: 10
+		command.home: true,
+		command.sethome: true,
+		command.back: true,
+		command.tpa: true,
+		command.tpahere: true
+	}
+	new: {
+		name: "New"
+		power: 1
+		condition: "always_active"
+		ftbranks.name_format: "&aNew - {name}"
+		ftbchunks.max_claimed: 9
+		ftbchunks.max_force_loaded: 1
+		ftbessentials.home.max: 0
+		command.rtp: false,
+		command.home: false,
+		command.sethome: false,
+		command.back: false,
+		command.tpa: false,
+		command.tpahere: false
+	}
+	member: {
+		name: "Member"
+		power: 10
+		condition: {
+			type: "playtime"
+			time: 4
+			time_unit: "hours"
+		}
+		ftbranks.name_format: "{name}"
+		ftbchunks.max_claimed: 40
+		ftbchunks.max_force_loaded: 16
+		ftbessentials.home.max: 1
+		command.home: true,
+		command.sethome: true,
+	}
+	vip: {
+		name: "VIP"
+		power: 20
+		ftbranks.name_format: "&6VIP - {name}"
+		ftbchunks.max_claimed: 60
+		ftbchunks.max_force_loaded: 20
+		ftbessentials.home.max: 3
+		command.home: true,
+		command.sethome: true,
+		command.back: true,
+		command.tpa: true,
+		command.tpahere: true
+	}
+}

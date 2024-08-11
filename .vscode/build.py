@@ -20,6 +20,7 @@ INCLUDE = [
 # Patterns to skip.
 EXCLUDE = [
     '**/*.bak',
+    '.DevResources/**/*',
     'overrides/kubejs/probe*',
     'overrides/kubejs/jsconfig.json'
 ]

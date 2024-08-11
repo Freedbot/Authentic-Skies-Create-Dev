@@ -1,13 +1,13 @@
-filename = 'EasierSleeping-1.19.2-2.1.2.jar'
+filename = 'EasierSleeping-1.20.1-2.1.3.jar'
 name = 'Easier Sleeping'
 side = 'both'
 
 [download]
-hash = '4a0c6f7e456c41baa53200d9bbde4dca09153823'
+hash = '6c1a71fc31882666909a8c3341cbd05e133a89b5'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3962615
+file-id = 4628693
 project-id = 388364

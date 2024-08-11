@@ -1,13 +1,13 @@
-filename = 'occultcreate-1.19.2-1.0.1.jar'
+filename = 'occultcreate-1.20.1-1.0.1.jar'
 name = 'Occult Creations'
 side = 'both'
 
 [download]
-hash = '4872a7a84d5a23ae1a27e828267a45d7e5a0d171'
+hash = '27659a3f58a53c0d4e6d41d07e488deb7b5b7596'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5159663
+file-id = 5159639
 project-id = 982483

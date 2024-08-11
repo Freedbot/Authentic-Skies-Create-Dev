@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "botania:brew_flask"
 				tag: {
 					brewKey: "botania:regen"
@@ -14,7 +14,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "botania:brew_flask"
 				tag: {
 					brewKey: "botania:soul_cross"

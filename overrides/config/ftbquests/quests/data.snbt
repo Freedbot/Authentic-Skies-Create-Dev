@@ -7,10 +7,7 @@
 	detection_delay: 20
 	disable_gui: false
 	drop_loot_crates: false
-	emergency_items: [
-		{ Count: 1b, id: "libraryferret:gold_coins_jtl" }
-		{ Count: 1b, id: "memeinabottle:meme_in_a_bottle" }
-	]
+	emergency_items: [{ Count: 1, id: "libraryferret:gold_coins_jtl" }]
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
 	lock_message: ""

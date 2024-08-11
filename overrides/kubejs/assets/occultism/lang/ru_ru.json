@@ -1,0 +1,5 @@
+{
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.description.text": "В этом ритуале появляется [#](ad03fc)Хранитель[#](), используя жизненную энергию [#](ad03fc)Аксолотля[#](), и сразу овладевается путём призыва [#](ad03fc)Джинни[#](). При убийстве [#](ad03fc)Одержимый хранитель[#]() всегда выдаёт минимум 1 [](item://minecraft:sculk_catalyst), а с некоторой вероятностью выдаёт [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template), [](item://minecraft:ward_armor_trim_smithing_template). Если вы попытаетесь сбежать, этот одержимый Хранитель упадёт на пол, как обычный хранитель.\n",
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.entity.text": "**Добыча**: 1х [](item://minecraft:sculk_catalyst)\nи предметы, связанные с древним городом.\n",
+  "item.occultism.ritual_dummy.possess_warden.tooltip": "При убийстве Одержимый хранитель всегда может выдать катализатор и другие древние вещи (кузнечные шаблоны и пластинки)."
+}

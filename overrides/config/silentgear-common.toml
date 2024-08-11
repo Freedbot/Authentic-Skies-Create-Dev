@@ -94,10 +94,12 @@
 	#The item tier assigned to gear tool items.
 	#Leave this alone unless you are trying to work around mod compatibility issues!
 	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	#Allowed Values: WOOD, STONE, IRON, DIAMOND, GOLD, NETHERITE
 	dummyToolTier = "WOOD"
 	#The armor material assigned to the gear armor items.
 	#Leave this alone unless you are trying to work around mod compatibility issues!
 	#Normally, this value is not used for anything. But some mods mistakenly check it.
+	#Allowed Values: LEATHER, CHAIN, IRON, GOLD, DIAMOND, TURTLE, NETHERITE
 	dummyArmorMaterial = "LEATHER"
 
 	[gear.enchanting]

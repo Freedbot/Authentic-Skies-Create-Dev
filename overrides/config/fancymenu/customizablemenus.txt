@@ -9,9 +9,12 @@ net.minecraft.client.gui.screens.TitleScreen {
 de.melanx.skyblockbuilder.client.ScreenCustomizeSkyblock {
 }
 
-de.melanx.skyguis.client.screen.info.AllTeamsScreen {
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
 net.minecraft.client.gui.screens.ChatScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
 }
 

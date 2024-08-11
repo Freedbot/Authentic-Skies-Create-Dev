@@ -7,6 +7,8 @@ ServerEvents.compostableRecipes( event => {
 ServerEvents.recipes(event => {
 	// Remove all of this library mod and it's recipes, but I'm still using 1 of the coins.
 	event.remove({ mod: 'libraryferret' })
+	//biome beans not worth it's own file, see also wandering villager for bag removal and REI hides.
+	event.remove({id: 'biome_beans:mixed_bean_bag_recipe'})
 	//dealing with tempad here rather than it's own file
 	event.remove({id: 'tempad:tempad'})
 	//smelting compatibility for silent gear and occultism
@@ -18,6 +20,11 @@ ServerEvents.recipes(event => {
 	event.blasting('occultism:silver_ingot','create:crushed_raw_silver').xp(0.1)
 	event.smelting('occultism:iesnium_ingot','create:crushed_raw_iesnium').xp(0.1)
 	event.blasting('occultism:iesnium_ingot','create:crushed_raw_iesnium').xp(0.1)
+	//Sherdded end fertted bricks
+	//Unique loot patterns and discs come from ritual summons and crushing sherds.
+	Ingredient.of('#decorated_pot_sherds').itemIds.forEach(sherd => {
+		event.stonecutting(sherd, 'brick')
+	})
 	//tempad sensible recipe
 	event.shaped('tempad:tempad', [
 		'GLB',
@@ -42,15 +49,27 @@ ServerEvents.recipes(event => {
 		R: 'createaddition:iron_rod',
 		L: 'leather'
 	})
+	//Deepslate has uses as witherproof block and late game ingredient potential
+	//Note tooltip and block edits
+	event.smithing('create:reinforced_sheet', 'netherite_upgrade_smithing_template', 'echo_shard', 'createdeco:netherite_sheet')
+	//End portal frame recipe
+	event.shaped('reinforced_deepslate', [
+		'DDD',
+		'DRD',
+		'DDD'
+	], {
+		R: 'create:reinforced_sheet',
+		D: 'deepslate'
+	})
 	//End portal frame recipe
 	event.shaped('end_portal_frame', [
-		' W ',
-		'ESE',
+		' S ',
+		'ERE',
 		' E '
 	], {
 		E: 'end_stone',
 		S: 'sculk_shrieker',
-		W: 'witherproofed:sculk_metal'
+		R: 'reinforced_deepslate'
 	})
 	//Spawn Eggs for convenience
 	event.shapeless('zombie_villager_spawn_egg', [
@@ -72,14 +91,17 @@ ServerEvents.recipes(event => {
 	})
 	//Spawner recipe
 	event.shaped('spawner', [
-		'BBB',
+		'NBN',
 		'BSB',
-		'BBB'
+		'NBN'
 	], {
-		B: 'createdeco:netherite_bars',
+		B: 'createdeco:industrial_iron_bars',
+		N: 'createdeco:netherite_nugget',
 		S: 'nether_star'
 	})
 })
+//Mined Spawner no xp
+BlockEvents.broken('spawner', event => event.setXp(0))
 //Right click
 BlockEvents.rightClicked('block.right_click', (event) => {
 	const { item, hand, facing, block, player } = event

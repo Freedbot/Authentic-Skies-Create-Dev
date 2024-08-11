@@ -10,4 +10,8 @@ channeling = 30
 #How much durability should be lost if the trident both is in thunder and has channeling.
 #Range: > 0
 both = 0
+#Is channeling required for lightning to be summoned?
+requirechanneling = false
+#Is thunder required for lightning to be summoned?
+requirethunder = false
 

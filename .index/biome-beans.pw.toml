@@ -1,0 +1,13 @@
+filename = 'biome_beans-1.0.2.jar'
+name = 'Biome Beans'
+side = 'both'
+
+[download]
+hash = '5aa7aa6a68a0001800a645c98b8e210e4b49f35b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5101903
+project-id = 958387

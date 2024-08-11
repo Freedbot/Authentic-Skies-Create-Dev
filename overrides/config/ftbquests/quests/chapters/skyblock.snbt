@@ -14,7 +14,7 @@
 			description: [
 				"&oHey, you.  You're finally awake.  You were caught trying to cross the border, right?&r"
 				""
-				"Kidding, there's no lore here, just me, Freedbot.  Welcome to \"Purgatory\", AKA: world spawn.  This is a safe space where you can't do anything but relax and get your settings in order before you begin.  These quests can also be opened from the book icon in the upper left of the inventory screen or by pressing the ` ~ key.  The book item itself isn't needed."
+				"Kidding, there's no lore here, just me, Freedbot.  Welcome to \"Purgatory\", AKA: world spawn.  This is a safe space where you can't do anything but relax and get your settings in order before you begin.  These quests can also be opened from the book icon in the upper left of the inventory screen or by pressing the &9` ~&r key.  The book item itself isn't needed."
 				""
 				"If playing on a server, this is also a perfect time to chat with and visit other team's islands before joining one or making your own."
 				""
@@ -42,34 +42,34 @@
 			description: [
 				"I do have some custom controls bound for mods.  Vanilla controls are mostly default.  Use this as a quick reference for useful mod buttons."
 				""
-				"C - Open any portable crafting item or terminal."
-				"X - Open Occultism remote storage."
-				"B - Open Backpack"
-				"V - Run Backpack Upgrades"
-				"ALT + Z/X - Toggle first/second backpack upgrade slots"
-				"K / CTRL+K / Shift+K - Compress craft stack/item/all respectively."
-				"Delete (+ Shift) - Delete item (all of type)"
-				"Left Alt - Access nearby toolboxes"
-				"` - Quest book"
-				"Y - Skyblock Menu"
-				"M - Map"
-				"Z - Zoom"
-				"=/- - Zoom mini-map"
-				"N - Quick Waypoint"
-				"P - Waypoint Menu"
-				"J - Swap hotbar"
-				"U - Toggle magnet"
-				"G - Toggle Jetpack"
-				"H - Jetpack hover mode"
-				"CTRL + L - Rotation Lock"
-				"F7 - Toggle light overlay"
-				"I - Hud Config"
-				"Left Shift (or with inv open) - Pick up entity (Expand item tooltip)"
-				"\\ - Open Crafting Calculator"
-				"End - Scan for lag sources"
+				"&9C&r - Open any portable crafting item or terminal."
+				"&9X&r - Open Occultism remote storage."
+				"&9B&r - Open Backpack"
+				"&9V&r - Run Backpack Upgrades"
+				"&9ALT&r+&9Z&r/&9X&r - Toggle first/second backpack upgrade slots"
+				"&9K&r / &9CTRL&r+&9K&r / &9Shift&r+&9K&r - Compress craft stack/item/all respectively."
+				"&9Delete&r (+&9Shift&r) - Delete item (all of type)"
+				"&9Left Alt&r - Access nearby toolboxes"
+				"&9`&r - Quest book"
+				"&9Y&r - Skyblock Menu"
+				"&9M&r - Map"
+				"&9Z&r - Zoom"
+				"&9=&r/&9-&r - Zoom mini-map"
+				"&9N&r - Quick Waypoint"
+				"&9P&r - Waypoint Menu"
+				"&9J&r - Swap hotbar"
+				"&9U&r - Toggle magnet"
+				"&9G&r - Toggle Jetpack"
+				"&9H&r - Jetpack hover mode"
+				"&9CTRL&r+&9L&r - Rotation Lock"
+				"&9F7&r - Toggle light overlay"
+				"&9I&r - Hud Config"
+				"&9Left Shift&r (or with inv open) - Pick up entity (Expand item tooltip)"
+				"&9\\\\ &r- Open Crafting Calculator"
+				"&9End&r - Scan for lag sources"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:icons/controller"
@@ -92,13 +92,13 @@
 		{
 			dependencies: ["674A17872D5104F2"]
 			description: [
-				"Now I'll quickly cover the rest of the menu buttons in the upper left corner of the inventory screen.  By the way, you can drag to arrange them, remove them, or add more options from the + button in the bottom left corner."
+				"Now I'll quickly cover the rest of the menu buttons in the upper left corner of the inventory screen.  By the way, you can &9drag&r to arrange them, remove them, or add more options from the &9+ button&r in the bottom left corner."
 				""
-				"This one is the teams button.  It's specifically for sharing quests and claimed chunks.  If on multiplayer, deal with this now, if not, then don't worry about it other than to know that it has the anti-griefing rule settings for your claimed chunks."
+				"This one is the &9teams button&r.  It's specifically for sharing quests and claimed chunks.  If on multiplayer, deal with this now, if not, then don't worry about it other than to know that it has the anti-griefing rule settings for your claimed chunks."
 			]
 			hide: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/teams.png"
@@ -121,15 +121,15 @@
 		{
 			dependencies: ["30F9917413F39510"]
 			description: [
-				"Next: the map.  M key also opens it.  You can right click to make/remove waypoints here (N key).  The upper left compass button opens a waypoint manager (P key)."
+				"Next: the &9map&r.  &9M&r also opens it.  You can &9right click&r to make/remove waypoints here (&9N&r).  The upper left &9compass button&r opens a waypoint manager (&9P&r)."
 				""
-				"The map icon above that is IMPORTANT.  This one opens the chunk claiming UI.  Click to claim a chunk for your team, shift click to force load the chunk.  Right click to unclaim.  Be kind to the game, only keep the chunks loaded that you absolutely need to.  If you prefer, you may remove the normal map button from the inventory screen and replace it with the Chunk Claim button from the + menu on the bottom."
+				"The &9map icon&r above that is &cimportant&r.  This one opens the chunk claiming UI.  &9Click&r to claim a chunk for your team.  &9Shift&r+&9click&r to force load the chunk.  &9Right click&r to unclaim.  Be kind to the game, only keep the chunks loaded that you absolutely need to.  If you prefer, you may remove the normal &9map button&r from the inventory screen and/or add the &9chunk claim button&r from the &9+ menu&r on the bottom."
 				""
-				"For that matter, if you don't want the mini-map, it can be disabled from the gear icon in the bottom left of the FTB map screen."
+				"For that matter, if you don't want the &9mini-map&r, it can be disabled from the &9gear icon&r in the bottom left of the FTB map screen."
 			]
 			hide: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:icons/map"
@@ -153,22 +153,29 @@
 		{
 			dependencies: ["653398F0460277AF"]
 			description: [
-				"Finally, the Skyblock UI button (Y key) controls your skyblock team, spawn point, and starting island.  It also has options for inviting visitors and teleporting.  You have to make a team to start.  This is different from the FTB team.  Every member must be added to both.  After completing this quest, just look around at the blocks on your island to trigger the correct quest line.  Don't visit another team before it triggers."
+				"Finally, the &9Skyblock UI button&r (&9Y&r) controls your skyblock team, spawn point, and starting island.  It also has options for inviting visitors and teleporting.  You have to make a team to start.  This is different from the FTB team.  Every member must be added to both.  After completing this quest, just look around at the blocks on your island to trigger the correct quest line.  Don't visit another team before it triggers."
 				""
 				"Now choose wisely:"
 				""
-				"The Classic (Normal): Chest contains Ice, Lava, and 10 Obsidian."
+				"&9The Classic (Normal)&r: Chest contains Ice, Lava, and 10 Obsidian."
 				""
-				"Just Moss (Hard): Nothing to do but twerk and suffer."
+				"&9Just Moss (Hard)&r: Nothing to do but twerk and suffer."
 				""
-				"Potato Island (Easy): Start with Create.  By ClaudiusMinimus."
+				"&9Potato Island (Easy)&r: Start with Create.  By ClaudiusMinimus."
 			]
 			hide: false
 			icon: "kubejs:sky_gui"
 			id: "79F2430624FDF498"
 			rewards: [{
-				id: "3B77C028B6053C55"
-				item: "minecraft:torch"
+				id: "152AAF7A8EB7BB79"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -182,7 +189,7 @@
 		{
 			dependencies: ["79F2430624FDF498"]
 			description: [
-				"Stark, isn't it?  It's not all bad.  As mentioned, you can twerk.  Unlike most grass-like blocks, moss will produce from the power of twerk alone.  Spam that shift key, but be careful.  Any trees you grow will convert the block below to dirt, and you'll want to preserve some of your moss."
+				"Stark, isn't it?  It's not all bad.  As mentioned, you can twerk.  Unlike most grass-like blocks, moss will produce from the power of twerk alone.  Spam that &9shift&r key, but be careful.  Any trees you grow will convert the block below to dirt, and you'll want to preserve some of your moss."
 				""
 				"Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
 			]
@@ -201,7 +208,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p is stuck on a patch of \"Just Moss\"!"
+					command: "/say {team} is stuck on a patch of \"Just Moss\"!"
 					id: "3288490AD9A63697"
 					team_reward: true
 					type: "command"
@@ -228,7 +235,7 @@
 			description: [
 				"This island is perhaps the oldest well recognized player made structure in minecraft.  It doesn't play much differently either."
 				""
-				"Oh right, there's mods.  After you chop down your tree and replant a sapling, you can twerk (spam the shift key) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
+				"Oh right, there's mods.  After you chop down your tree and replant a sapling, you can twerk (spam &9shift&r) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:grass_block"
@@ -246,7 +253,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p embraces tradition with \"The Classic\" skyblock!"
+					command: "/say {team} embraces tradition with \"The Classic\" skyblock!"
 					id: "3842099BEB262423"
 					team_reward: true
 					type: "command"
@@ -273,7 +280,7 @@
 			description: [
 				"Paradise.  Water, lava, dripstone, crops, ores, and even a sheep.  You can jump directly into Create, however, be extra careful with your metals, andesite, and diorite.  Come up with a plan to make them renewable before you start crafting them away."
 				""
-				"Of course there's more mods in here than just Create.  After you chop down your tree and replant a sapling, you can twerk (spam the shift key) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
+				"Of course there's more mods in here than just Create.  After you chop down your tree and replant a sapling, you can twerk (spam &9shift&r) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
 			]
 			hide_dependent_lines: true
 			icon: "farmersdelight:potato_crate"
@@ -291,7 +298,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p is relaxing on \"Potato Island\"!"
+					command: "/say {team} is relaxing on \"Potato Island\"!"
 					id: "32FDD8321D410AA9"
 					team_reward: true
 					type: "command"
@@ -316,19 +323,21 @@
 		{
 			dependencies: ["2B0B038376AB1BC3"]
 			description: [
-				"This pack uses REI to help look up items and recipes.  Most of you will be familiar with having a giant flood of items to search through on the right of your inventory.  REI is currently set to hide that mess until you start typing in the bottom right box.  Hover on the crafting table icon for the option to bring it back if you want.  When looking up recipes, you can click the + icon next to a recipe REI has it's own useful keys when your inventory is open."
+				"This pack uses REI to help look up items and recipes.  Most of you will be familiar with having a giant flood of items to search through on the right of your inventory.  REI is currently set to hide that mess until you start typing in the bottom right box.  Hover on the &9crafting table icon&r for the option to bring it back if you want.  When looking up recipes, you can click the &9+ icon&r next to a recipe to auto-fill the crafting table."
 				""
-				"R/U - show the hovered item's recipes/uses"
-				"Left/Right Click - same as above if on a search result item."
-				"A - bookmark an item or whole recipe to the left"
-				"A (on a bookmark) - remove's it."
-				"Double Click search bar - highlight items in your inventory."
+				"These REI hotkeys can be used on the inventory screen."
 				""
-				"Smart search by prefixing with special characters: @modname, #tooltip, $tag, r/regex/, \"with spaces\", this | or that."
+				"&9R&r/&9U&r - show the hovered item's recipes/uses"
+				"&9Left&r/&9Right Click&r - same as above if on a search result item."
+				"&9A&r - bookmark an item or whole recipe to the left"
+				"&9A&r (on a bookmark) - remove's it."
+				"&9Double Click&r search bar - highlight items in your inventory."
+				""
+				"Smart search by prefixing with special characters: &9@&rmodname, &9#&rtooltip, &9$&rtag, &9r/&rregex&9/&r, &9\"&rwith spaces&9\"&r, this &9|&r or that."
 			]
 			hide: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "roughlyenoughitems:textures/gui/config/search.png"
@@ -355,7 +364,7 @@
 				"3683C72D2F5A9840"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Rejoice!  Carry On is in the pack!  You can pick up most storage blocks and living things (including mobs).  I added Obsidian as well in case you have an oopsie.  For those who say it's unrealistic, I'll remind you that Steve is 2 meters tall and built like a brick.  Just empty your hands, get real close, crouch for good posture, and right click.  If that somehow isn't enough block moving ability for you, I present the humble cardboard box."]
+			description: ["Rejoice!  Carry On is in the pack!  You can pick up most storage blocks and living things (including mobs).  I added Obsidian as well in case you have an oopsie.  For those who say it's unrealistic, I'll remind you that Steve is 2 meters tall and built like a brick.  Just &9empty&r your hands, get real close, &9crouch&r for good posture, and &9right click&r.  If that somehow isn't enough block moving ability for you, I present the humble cardboard box."]
 			hide_dependency_lines: true
 			icon: "cardboardboxes:cardboardbox"
 			id: "43BAA357A883A79F"
@@ -395,8 +404,13 @@
 					type: "choice"
 				}
 				{
+					id: "7C710133094D8CAD"
+					item: "torchmaster:feral_flare_lantern"
+					type: "item"
+				}
+				{
 					auto: "invisible"
-					command: "/say @p has managed to not make obsidian!"
+					command: "/say {team} has managed to not make obsidian!"
 					id: "54ED6BBFD39A787F"
 					team_reward: true
 					type: "command"
@@ -430,12 +444,12 @@
 			description: [
 				"Insurance for peace of mind.  At the low cost of 1 gold coin, you can reclaim those squandered resources that may have met a tragic fate."
 				""
-				"For Emergency use only.  Simply click the heart button in the upper right corner of this book to get your coin to trade here."
+				"For Emergency use only.  Simply click the &9heart button&r in the upper right corner of this book to get your coin to trade here."
 				""
 				"Sorry for the 2 step process.  This is a very dynamic quest line, and I can't just change the emergency items based on the island chosen."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/emergency_items.png"
@@ -494,12 +508,12 @@
 			description: [
 				"Insurance for peace of mind.  At the low cost of 1 gold coin, you can reclaim those squandered resources that may have met a tragic fate."
 				""
-				"For Emergency use only.  Simply click the heart button in the upper right corner of this book to get your coin to trade here."
+				"For Emergency use only.  Simply click the &9heart button&r in the upper right corner of this book to get your coin to trade here."
 				""
 				"Sorry for the 2 step process.  This is a very dynamic quest line, and I can't just change the emergency items based on the island chosen."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/emergency_items.png"
@@ -552,12 +566,12 @@
 			description: [
 				"Insurance for peace of mind.  At the low cost of 1 gold coin, you can reclaim those squandered resources that may have met a tragic fate."
 				""
-				"For Emergency use only.  Simply click the heart button in the upper right corner of this book to get your coin to trade here."
+				"For Emergency use only.  Simply click the &9heart button&r in the upper right corner of this book to get your coin to trade here."
 				""
 				"Sorry for the 2 step process.  This is a very dynamic quest line, and I can't just change the emergency items based on the island chosen."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/emergency_items.png"
@@ -591,18 +605,22 @@
 			description: [
 				"It's time to address the food issue.  You may have noticed this button in your inventory and gotten a bit concerned.  Indeed, malnourishment is bad, but extra nutrition is very good.  Consider this motivation to actually make the fancy meals available from Farmer's Delight."
 				""
-				"You started at 50%.  If you die, each group loses 10% or resets to 30%, whichever is higher.  Each group in the top/bottom 20% will add/remove 1/2 heart of max health.  At a <20% average, you suffer slowness."
+				"Nutrition Values:"
+				"&950%&r to start."
+				"&9-10%&r each upon death (resets to &930%&r minimum)."
+				"top/bottom &920%&r = &c+&r/&c-&r &c1/2 heart&r of max health per group."
+				"&9<20%&r average = &5weakness&r debuff."
 				""
-				"Each group boosts these stats at 60% and 80%:"
-				"Protein: 3 Attack Damage"
-				"Grains: 15% Attack Speed"
-				"Vegetables: 2 Toughness"
-				"Fruit: 1 Luck"
-				"Sugar: 20% Movement Speed"
+				"Boosts at &960%&r and &980%&r:"
+				"&6Protein&r: &9+3&r Attack Damage"
+				"&eGrains&r: &9+15%&r Attack Speed"
+				"&2Vegetables&r: &9+2&r Toughness"
+				"&cFruit&r: &9+1&r Luck"
+				"&dSugar&r: &9+20%&r Movement Speed"
 			]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "minecraft:textures/mob_effect/hunger.png"
@@ -618,7 +636,7 @@
 			tasks: [{
 				id: "5E9A45415A5AD960"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:crops"
@@ -643,7 +661,7 @@
 				""
 				"Discovering the answer is half the fun, so from now on these quests will NOT be tutorialized."
 				""
-				"Composting:"
+				"&9Composting:&r"
 				"Twerking is work and won't grow everything you need.  Leaves make for an efficient source of compost."
 			]
 			hide_dependency_lines: true
@@ -656,11 +674,6 @@
 					type: "item"
 				}
 				{
-					id: "656343929FEA55C7"
-					item: "memeinabottle:meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "756103C0677299E3"
 					table_id: 8154244678801262316L
@@ -668,7 +681,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has learned proper organic waste disposal and completed the tutorial!"
+					command: "/say {team} has learned proper organic waste disposal and completed the tutorial!"
 					id: "264276C218A4AFFB"
 					team_reward: true
 					type: "command"
@@ -704,17 +717,17 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"While the Main quests aren't tutorialized, there's no shame in getting a little help.  To the left of every Main quest is a Clue quest like this one.  Simply opening and reading it will give you a very subtle Clue to help you.  If you don't want any help, don't even open the Clue quests."
+				"While the Main quests aren't tutorialized, there's no shame in getting a little help.  To the left of every Main quest is a Clue quest like this one.  Simply &9opening&r and reading it will give you a very subtle Clue to help you.  If you don't want any help, don't even open the Clue quests."
 				""
-				"However, if that isn't enough help, then click the \"Give Up\" checkmark task to reveal the Hint Quest.  It's pre-revealed this time only, so go check it out to learn more."
+				"However, if that isn't enough help, then &9click&r the &9\"Give Up\" checkmark task&r to reveal the Hint Quest.  It's pre-revealed this time only, so go check it out to learn more."
 				""
 				"No Clue or Hint quests have rewards, and both will be disabled (with hint revealed) once the related Main quest is done."
 				""
-				"Composting Clue: There are patterns in the tree bark."
+				"&9Composting Clue:&r There are patterns in the tree bark."
 			]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -743,7 +756,7 @@
 				""
 				"Normally this would be invisible unless the Clue quest to the right or the related Main quest to the right of that is complete.  However, I've revealed it early for the sake of explanation.  Only click the Clue hint checkbox to reveal Hint quests if you've given up on figuring out the Main quest."
 				""
-				"If you still need help, have feedback, or just want to share your progress you'll find a Discord link button in the corner of the main menu.  Youtube and stream links are welcome."
+				"If you still need help, have feedback, or just want to share your progress you'll find a &5Discord&r link button in the corner of the main menu.  &cYoutube&r and &9stream&r links are also welcome."
 			]
 			hide: false
 			icon: "silentgear:shears_template"
@@ -787,11 +800,6 @@
 					type: "item"
 				}
 				{
-					id: "597C3D6ED2305DB9"
-					item: "memeinabottle:meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6697BC322E857061"
 					table_id: 8154244678801262316L
@@ -799,7 +807,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has put rain water in a bucket! Genius!"
+					command: "/say {team} has put rain water in a bucket! Genius!"
 					id: "0FCD53A18B25DA09"
 					team_reward: true
 					type: "command"
@@ -821,7 +829,7 @@
 			description: ["These things don't just naturally spawn from nothing, or do they?"]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -888,11 +896,24 @@
 			]
 			hide_dependency_lines: true
 			id: "7ADC17D2AE4755D3"
-			rewards: [{
-				id: "70CD0CE8D1F77AD2"
-				item: "botania:cocoon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "70CD0CE8D1F77AD2"
+					item: "botania:cocoon"
+					type: "item"
+				}
+				{
+					id: "42BC8C3853BC432F"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1AD93AF0FF36B1B1"
 				item: "botania:cocoon"
@@ -909,15 +930,17 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Did you notice the boosted iron drop rates?  Zombified Piglin, Enderman, Blaze, and especially Witch drops have also been overhauled.  Check the uses on spawn eggs with REI to learn more."
+				"Did you notice the boosted iron drop rates?  Zombified Piglin, Enderman, Blaze, and especially Witch drops have also been overhauled.  Check the &9uses&r on spawn eggs with REI to learn more."
 				""
 				"Speaking of which, mobs can drop their spawn eggs.  Some can even be crafted or summoned.  Humanoid mobs have much higher chances to drop their gear.  Zombies, converted Drowned, and Wither Skeletons hold more varied weaponry."
 				""
-				"Bonus Hint: Witches didn't always drop mushrooms.  There might be a convenient reason to go with this addition."
+				"&9Bonus Hint&r: Witches didn't always drop mushrooms.  There might be a convenient reason to go with this addition."
+				""
+				"&9Double Bonus Hint&r: Phantoms don't spawn if you're below Y:64."
 			]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbchunks:textures/faces/minecraft/zombie.png"
@@ -928,7 +951,7 @@
 				{
 					id: "62EC83A26A7E5A00"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -944,6 +967,12 @@
 					id: "6333014EDECCE04C"
 					item: "createaddition:barbed_wire"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7132D3778E88A0B8"
+					table_id: 682330588461211592L
+					type: "choice"
 				}
 			]
 			tasks: [{
@@ -963,7 +992,11 @@
 				"7D14566E49E00B34"
 			]
 			dependency_requirement: "one_completed"
-			description: ["While this isn't an expert pack, those of you expecting to make your drawer wall and searchable storage network right at the start will be disappointed to learn that there has been some slight recipe gating in order to balance mods with each other.  Not all hope is lost however.  The crafting station can use ingredients from an adjacent inventory and doesn't dump items when you exit it.  The crafting table on a stick can be worn on a bauble slot and opened with the C key."]
+			description: [
+				"While this isn't an expert pack, those of you expecting to make your drawer wall and searchable storage network right at the start will be disappointed to learn that there has been some slight recipe gating in order to balance mods with each other.  Not all hope is lost however.  The crafting station can use ingredients from an adjacent inventory and doesn't dump items when you exit it."
+				""
+				"The crafting table on a stick can be worn on a bauble slot and opened with &9C&r."
+			]
 			hide_dependency_lines: true
 			id: "422C459DE52FA4EC"
 			rewards: [{
@@ -990,9 +1023,9 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "644AB7D808F52E22"
-					item: "memeinabottle:meme_in_a_bottle"
+					count: 4
+					id: "4436B132DEFB6CC7"
+					item: "torchmaster:feral_flare_lantern"
 					type: "item"
 				}
 				{
@@ -1003,7 +1036,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has struck gold!"
+					command: "/say {team} has struck gold!"
 					id: "118C17383EAF2020"
 					team_reward: true
 					type: "command"
@@ -1022,7 +1055,7 @@
 			description: ["Poseidon and Zeus, working in perfect harmony."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -1048,7 +1081,7 @@
 			dependency_requirement: "one_completed"
 			description: ["Check the tooltip on lightning rods and tridents."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:trident"
 				tag: {
 					Damage: 0
@@ -1061,7 +1094,7 @@
 				{
 					entity: "minecraft:drowned"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/drowned.png"
@@ -1079,7 +1112,7 @@
 				{
 					id: "62FFFC4154F6F311"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:trident"
 						tag: {
 							Damage: 0
@@ -1091,7 +1124,7 @@
 					checkItem: false
 					entity: "minecraft:pig"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/pig.png"
@@ -1105,7 +1138,7 @@
 				{
 					entity: "minecraft:zombified_piglin"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/zombified_piglin.png"
@@ -1139,11 +1172,6 @@
 					type: "item"
 				}
 				{
-					id: "2779F31259205F4D"
-					item: "memeinabottle:splash_meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "67AF15B50D3EA7C6"
 					table_id: 8154244678801262316L
@@ -1151,7 +1179,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p just got scammed for some andesite!"
+					command: "/say {team} just got scammed for some andesite!"
 					id: "2BAAEA687ABF107B"
 					team_reward: true
 					type: "command"
@@ -1175,7 +1203,7 @@
 			description: ["The polinated droppings of a fellen scarecrow lead to more fickle dealings."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -1206,7 +1234,7 @@
 				"Classic players can skip directly to the Nether of course.  Fel pumpkins are required for those who don't have lava/obsidian."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbchunks:textures/faces/minecraft/piglin.png"
@@ -1220,7 +1248,7 @@
 					checkItem: false
 					entity: "minecraft:wandering_trader"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
@@ -1260,7 +1288,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/piglin.png"
@@ -1307,12 +1335,6 @@
 					type: "choice"
 				}
 				{
-					count: 2
-					id: "6ADB41A38E870D34"
-					item: "memeinabottle:splash_meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4046D764148C3E18"
 					table_id: 8826100719775049635L
@@ -1320,7 +1342,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has managed to make their own lava AND not turn it into obsidian!"
+					command: "/say {team} has managed to make their own lava AND not turn it into obsidian!"
 					id: "324F313AFBA346B4"
 					team_reward: true
 					type: "command"
@@ -1356,7 +1378,7 @@
 			description: ["Healthy bricks and juiced up burny boys.  That's how."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -1430,8 +1452,24 @@
 					type: "item"
 				}
 				{
-					id: "24A9617A7D276583"
-					item: "memeinabottle:splash_meme_in_a_bottle"
+					id: "2E9A7D18FC8166D8"
+					item: {
+						Count: 1
+						id: "exchangers:iron_exchanger"
+						tag: {
+							Damage: 0
+							blockstate: {
+								Name: "minecraft:air"
+							}
+							directionalPlacement: 0b
+							forceDropItems: 0b
+							fuzzyPlacement: 0b
+							fuzzyPlacementChance: 100
+							mode: 0
+							range: 0
+							voidItems: 0b
+						}
+					}
 					type: "item"
 				}
 				{
@@ -1442,7 +1480,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has made some friends... with money!"
+					command: "/say {team} has made some friends... with money!"
 					id: "32A7EF9A9BBBE636"
 					team_reward: true
 					type: "command"
@@ -1473,12 +1511,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "13C77B9CF7103B3C"
-					item: "memeinabottle:splash_meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "00DA76AE6313DE68"
 					table_id: 8826100719775049635L
@@ -1486,7 +1518,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has won the war for wealth!"
+					command: "/say {team} has won the war for wealth!"
 					id: "30A5B5789EF7A9C4"
 					team_reward: true
 					type: "command"
@@ -1510,7 +1542,7 @@
 			description: ["Yesterday's enemies are today's friends."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -1537,7 +1569,7 @@
 			dependency_requirement: "one_completed"
 			description: ["A little piglin zombie gold.  An apple from an \"oak\" tree.  If asked nicely, a witch will provide the potion, or at least the ingredients.  Weakness potions aren't complicated.  You could probably make them in a puddle."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbchunks:textures/faces/minecraft/villager.png"
@@ -1555,7 +1587,7 @@
 				{
 					id: "2FC8F3871013A1B9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:splash_potion"
 						tag: {
 							Potion: "minecraft:weakness"
@@ -1565,7 +1597,7 @@
 				}
 				{
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/zombie_villager.png"
@@ -1590,7 +1622,7 @@
 			dependency_requirement: "one_completed"
 			description: ["Hopefully you have enough villagers with professions to make it worth the effort."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "minecraft:textures/mob_effect/hero_of_the_village.png"
@@ -1628,7 +1660,7 @@
 			description: ["If it's a good game, the hero should always prosper, don't you think?"]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -1660,6 +1692,8 @@
 				"You should also know that all of that is a ploy to discourage the \"mainstream\" Minecraft players from discovering this truly badass mod."
 				""
 				"Botania can get you some utility features and tools sooner than most other mods.  You can also \"repair\" Botania based tools/armor with mana."
+				""
+				"You'll find it in the &9Magic chapter&r."
 			]
 			hide_dependency_lines: true
 			icon: "botania:lexicon"
@@ -1696,7 +1730,7 @@
 			description: [
 				"Here is where the pack truly begins.  The main reason to play newer versions of Minecraft.  A mod only slightly less good than the massive hype surrounding it.  A mod so pivotal, Minecraft youtubers risk starvation if they don't put this mod in their video titles.  A mod that needs no introduction..."
 				""
-				"Wait, so why did I make this introduction quest?  Whatever!  Go check out Create in the Logistics chapter."
+				"Wait, so why did I make this introduction quest?  Whatever!  Go check out Create in the &9Logistics chapter&r."
 			]
 			hide_dependency_lines: true
 			id: "4B2728EACC1051F1"
@@ -1726,6 +1760,8 @@
 				"Occultism falls into the style of magic mods where crafting is cheap, but the methods are obscure.  In this case it's a matter of using a \"lens of truth\" kind of effect and rituals.  Think of rituals as multiblock crafting tables, except sometimes the products are satanic aberrations and the ingredients involve live sacrifice.  With this in mind and a couple tweaks, it makes for an excellent skyblock mod."
 				""
 				"You've already had to use datura fruit and spirit fire.  It's time to use it properly.  Burn some blocks.  Eat some psychedelic fruit.  Chop some trees.  Any vanilla sapling can be converted."
+				""
+				"Check the &9Magic chapter&r to continue."
 			]
 			hide_dependency_lines: true
 			icon: "occultism:otherstone"
@@ -1733,7 +1769,7 @@
 			rewards: [{
 				id: "5BD6ED95E5DC8036"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "occultism:dictionary_of_spirits"
 					tag: {
 						"modonomicon:book_id": "occultism:dictionary_of_spirits"
@@ -1770,12 +1806,20 @@
 			hide: false
 			icon: "minecraft:grass_block"
 			id: "101617A4B9974927"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5D4D69A02EB8B068"
-				table_id: 8154244678801262316L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "027D4ECD519F5B4C"
+					item: "biome_beans:golden_bean"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D4D69A02EB8B068"
+					table_id: 8154244678801262316L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					count: 128L
@@ -1786,7 +1830,7 @@
 				{
 					id: "779C3E1DFAD56693"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1815,7 +1859,7 @@
 			description: [
 				"I know I promised \"no expert recipes\".  While that is true, I did sadly gate a few recipes that could have bypassed Create's methods.  Don't worry though.  There're plenty of convenient storage options in the pack."
 				""
-				"Hexagonal quests unlock quest lines.  This one unlocks the Logistics chapter, where you'll find quests for Sophisticated Storage and Backpacks."
+				"Hexagonal quests unlock quest lines.  This one unlocks the &9Logistics chapter&r, where you'll find quests for Sophisticated Storage and Backpacks."
 			]
 			hide: false
 			icon: "minecraft:chest"
@@ -1831,13 +1875,18 @@
 					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
 					type: "item"
 				}
+				{
+					id: "098CD1AE5675C577"
+					item: "create:clipboard"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
 				count: 2L
 				id: "44030B7ED40F77F3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1911,7 +1960,7 @@
 			]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:miner_foliot_unspecialized"
 				tag: {
 					Damage: 0
@@ -1929,12 +1978,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "0D2CC3CEB5CF19D4"
-					item: "memeinabottle:splash_meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "70F1A6EF126C9290"
 					table_id: 8826100719775049635L
@@ -1942,7 +1985,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p's wish for more resources has been granted!"
+					command: "/say {team}'s wish for more resources has been granted!"
 					id: "38920EF80F80BB6E"
 					team_reward: true
 					type: "command"
@@ -1952,7 +1995,7 @@
 				{
 					id: "66DCE928DEA06FDC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:miner_foliot_unspecialized"
 						tag: {
 							Damage: 0
@@ -1982,7 +2025,7 @@
 			description: ["Some things that are born of &bmagic&r must also be percieved and collected with &5magic&r."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -2048,7 +2091,7 @@
 				{
 					id: "34DA4A9214A78853"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:otherworld_goggles"
 						tag: {
 							Damage: 0
@@ -2059,7 +2102,7 @@
 				{
 					id: "310EBD4381973101"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:infused_pickaxe"
 						tag: {
 							Damage: 0
@@ -2108,19 +2151,17 @@
 		}
 		{
 			dependencies: ["1D75A07A68B1F883"]
-			description: ["It's an easy mission this time.  I'm sure you've been looking forward to a proper storage system.  Once you the first few pieces of certus you can start the process of growing more.  You can build your budding certus up to the flawed level.  Flawless isn't available, at least not yet."]
+			description: [
+				"It's an easy mission this time.  I'm sure you've been looking forward to a proper storage system.  Once you the first few pieces of certus you can start the process of growing more.  You can build your budding certus up to the flawed level.  Flawless isn't available, at least not yet."
+				""
+				"This will reveal Applied Energistics in the &9Logistics chapter&r."
+			]
 			hide_dependency_lines: true
 			id: "6CF56C744EF8AAEF"
 			rewards: [
 				{
 					id: "5BC920BF0EA85319"
 					item: "ae2:flawed_budding_quartz"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "5527FE724D58D4E8"
-					item: "memeinabottle:splash_meme_in_a_bottle"
 					type: "item"
 				}
 				{
@@ -2131,7 +2172,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has entered the information age!"
+					command: "/say {team} has entered the information age!"
 					id: "3ED3AC6294DEF9CE"
 					team_reward: true
 					type: "command"
@@ -2156,7 +2197,7 @@
 			description: ["Mangle and remake the final stone."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -2257,19 +2298,13 @@
 					type: "loot"
 				}
 				{
-					count: 9
-					id: "01A685EE2595E57A"
-					item: "memeinabottle:lingering_meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					id: "2FDEBC8A3163C48D"
 					item: "minecraft:dragon_head"
 					type: "item"
 				}
 				{
 					auto: "invisible"
-					command: "/say @p has slain the mighty dragon!"
+					command: "/say {team} has slain the mighty dragon!"
 					id: "500340BEDFE79ED2"
 					team_reward: true
 					type: "command"
@@ -2305,7 +2340,7 @@
 			description: ["The last boss is always be preceded by many others and followed by the End Credits."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -2331,7 +2366,7 @@
 			dependency_requirement: "one_completed"
 			description: ["Tons of killing.  These are not accurate numbers, of course.  Make extra ingredients and be ready to kill the same enemies and bosses repeatedly, and then even more killing to feed the Sculk Catalyst."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbchunks:textures/faces/minecraft/warden.png"
@@ -2356,7 +2391,7 @@
 				{
 					entity: "minecraft:elder_guardian"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/elder_guardian.png"
@@ -2369,7 +2404,7 @@
 				{
 					entity: "minecraft:evoker"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/evoker.png"
@@ -2382,7 +2417,7 @@
 				{
 					entity: "minecraft:shulker"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/shulker.png"
@@ -2395,7 +2430,7 @@
 				{
 					entity: "minecraft:wither"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "minecraft:textures/painting/wither.png"
@@ -2408,7 +2443,7 @@
 				{
 					entity: "minecraft:warden"
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "ftbquests:custom_icon"
 						tag: {
 							Icon: "ftbchunks:textures/faces/minecraft/warden.png"
@@ -2426,7 +2461,7 @@
 				{
 					id: "643ED086986B279E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:miner_marid_master"
 						tag: {
 							Damage: 0
@@ -2444,7 +2479,7 @@
 				}
 				{
 					id: "7D7E9310665F5AB5"
-					item: "witherproofed:sculk_metal"
+					item: "minecraft:reinforced_deepslate"
 					type: "item"
 				}
 			]
@@ -2454,7 +2489,7 @@
 		}
 		{
 			dependencies: ["054A207F874487C2"]
-			description: ["Now that you've conquered every obstacle I've thrown at you, you're welcome to take full advantage of the most useful parts of Applied Energistics that were unavailable before."]
+			description: ["Now that you've conquered every obstacle I've thrown at you, you're welcome to take full advantage of the most useful parts of Applied Energistics that were unavailable before.  They're next to the other AE quests in the &9Logistics chapter&r."]
 			hide_dependency_lines: true
 			icon: "ae2:sky_dust"
 			id: "2E559BF166A16E48"
@@ -2486,7 +2521,7 @@
 			description: ["Besides being an ingredient for automation in this pack, skystone has another use.  Indestructible enchantment books.  It's exactly what it sounds like.  The recipe is among the Occultism rituals in REI."]
 			hide: false
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -2500,7 +2535,7 @@
 				{
 					id: "306166B62B660997"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -2514,7 +2549,7 @@
 				{
 					id: "19B974D086605718"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -2530,7 +2565,7 @@
 				{
 					id: "2614B9C2A18262CB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -2572,7 +2607,7 @@
 				{
 					id: "71353A6F5676DB75"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2605,10 +2640,10 @@
 				"Gear can get more stats and traits by adding certain parts like a coating, grip, tip, etc.  The tip also affects mining level."
 				""
 				"As for the machines... I'll do my best."
-				"* The 3 compounding machines: alloy materials and their stats."
-				"* Salvager: de-crafts items.  Some ingredients may be lost."
-				"* Material grader and starlight charger: consume special dust to boost material stats.  Better dust = better odds.  The charger uses a multiblock structure."
-				"* Metal press turns 1 ingot to 2 plates."
+				"&9* The 3 compounding machines:&r alloy materials and their stats."
+				"&9* Salvager:&r de-crafts items.  Some ingredients may be lost."
+				"&9* Material grader and starlight charger:&r consume special dust to boost material stats.  Better dust = better odds.  The charger uses a multiblock structure."
+				"&9* Metal press:&r turns 1 ingot to 2 plates."
 			]
 			icon: "silentgear:pickaxe_blueprint"
 			id: "0180AA9A8D31D078"
@@ -2616,7 +2651,7 @@
 				{
 					id: "1F0E4FF7ACE0EA20"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "silentgear:blueprint_book"
 						tag: {
 							Inventory: { }
@@ -2629,11 +2664,16 @@
 					item: "silentgear:guide_book"
 					type: "item"
 				}
+				{
+					id: "6B3B74153FBCFC68"
+					item: "silentgear:saw_blueprint"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "61AD578D19BD89C5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "silentgear:blueprints"
@@ -2664,12 +2704,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "21CE2BB791813C53"
-					item: "memeinabottle:splash_meme_in_a_bottle"
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "11FFEED6455666E4"
 					table_id: 8826100719775049635L
@@ -2677,7 +2711,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say @p was trying to bake a cake, but ended up with brass instead!"
+					command: "/say {team} was trying to bake a cake, but ended up with brass instead!"
 					id: "0C527E20D97AD6F2"
 					team_reward: true
 					type: "command"
@@ -2702,7 +2736,7 @@
 			description: ["A rock collection is worth more when &1soaked&r and sprinkled with &bmagic&r."]
 			hide_dependency_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/search.png"
@@ -2745,7 +2779,7 @@
 				{
 					id: "3D50DB4349F4251C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [

@@ -1,0 +1,5 @@
+{
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.description.text": "この儀式では[](item://minecraft:sculk_catalyst)[#](ad03fc)ワーデン[#]()は[#](ad03fc)Axolotl[#]()の生命力を使ってスポーンされ、召喚された[#](ad03fc)Djinni[#]()によってすぐに所有されます。 [](//minecraft:disc_fragment_5) [](//minecraft:disc_fragment)を落とす確率として、[](//minecraft:silence_armor_smithing_template)[](//minecraft:disc:music_disc_otherside)[](//minecraft:silence_armor_smithing_template)[](/minecraft:silence_trimithing_template) [](//minecraft:ward_armor_trimithing_template)を落とす確率があります。 もし逃げようとすると、このウォーデンは普通の看守のように床に向かうでしょう。\n",
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.entity.text": "**ドロップ**: 1x [](item://minecraft:sculk_catalyst)\nと古代都市に関連するアイテム。\n",
+  "item.occultism.ritual_dummy.possess_warden.tooltip": "所有しているWardenは常にスカルク触媒をドロップし、殺されたときにAnother古代のもの(鍛造テンプレートとディスク)をドロップすることができます。"
+}

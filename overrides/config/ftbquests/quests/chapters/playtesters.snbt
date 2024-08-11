@@ -5,13 +5,41 @@
 	filename: "playtesters"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "botania:item/cosmetic_googly_eyes"
 		}
 	}
 	id: "3B3941BC4A8CABDA"
+	images: [
+		{
+			click: "https://forms.gle/yiVDrZR4f9CEudFE7"
+			height: 1.0d
+			hover: [
+				"Google Doc Version"
+				"of Feedback Form"
+			]
+			image: "create:block/clipboard_model_filled"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			click: "https://github.com/Freedbot/Authentic-Skies-Create-Dev/issues"
+			height: 1.0d
+			hover: [
+				"Github Link for"
+				"Posting Issues/Suggestions"
+			]
+			image: "roughlyenoughitems:textures/gui/config/debug.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -2.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -24,7 +52,7 @@
 				"Be honest, be cruel if you feel like it.  If you have a drastic change in mind that you know won't be accepted, suggest it anyway, it'll give me insight into people's preferences to help me make adjustments."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbquests:textures/gui/info.png"
@@ -38,7 +66,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -4.375d
 		}
 		{
 			description: [
@@ -46,10 +74,10 @@
 				""
 				"My DM's are open and you don't have to friend request for me to see them, in fact I prefer you don't since I mostly just use that for IRL friends.  Thank you for understanding."
 				""
-				"After the first few patches I'll put up a Github and Curseforge page."
+				"After the first few patches Curseforge page.  The github is open NOW!  Click the link to the left to visit visit it and post your suggestions and bugs in the issue tracker."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftbteams:textures/chat.png"
@@ -75,7 +103,7 @@
 				"3. Tutorials/Tips: If you can concisely explain some progression hints or mod tutorials that I didn't cover well enough, I'd like to hear about it.  Pictures in quests are a great way to get a point across quickly."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "minecraft:textures/painting/sunset.png"
@@ -115,12 +143,9 @@
 				"My quests are also certainly full of spelling, grammer, and plain old fact mistakes."
 				""
 				"Here's your chance to roast me on all of them.  All my custom recipes are KubeJS and mostly commented, so you should be able to tell what's going on.  All of the quests are basically in plain text format, so they're really easy to correct and share the files.  All loot changes are datapack based and can be found in the kubejs/data folder."
-				""
-				"Currently known bugs:"
-				"On only the first load of a world, many recipes will be bugged, usually with no ingredients.  Making them visible but not craftible in a crafting table.  /reload or exiting and reloading the same world file fixes it."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "ftblibrary:icons/bug"
@@ -132,7 +157,7 @@
 				title: "Bugs, Mistakes, \\& Typos"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: -2.0d
 		}
 		{
@@ -159,7 +184,7 @@
 		}
 		{
 			description: [
-				"The 3 bottom \"quests\" are things I hope people will be charitable enough to contribute, but I would like everyone to submit the bug reports as you find them and submit this form after you've finished playtesting."
+				"The 3 bottom \"quests\" are things I hope people will be charitable enough to contribute, but I would like everyone to submit the bug reports as you find them and submit this form after you've finished playtesting.  You can DM me numbered answers or click the clipboard link to the right of this quest to fill it out online."
 				""
 				"1. What is your prefered gameplay style?"
 				"Examples: Building, Art, RPG, Exploration, Automation, etc."
@@ -191,7 +216,7 @@
 				title: "Feedback Form"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -2.0d
 		}
 	]

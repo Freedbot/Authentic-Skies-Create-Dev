@@ -1,0 +1,13 @@
+filename = 'EasierVillagerTradingRebuild-1.2.0.jar'
+name = 'EasierVillagerTradingRebuild'
+side = 'both'
+
+[download]
+hash = 'fbf1e5fe3aa5f2504bf80b8dac789aaa14cb4c70'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5116597
+project-id = 976177

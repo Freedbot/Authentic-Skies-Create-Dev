@@ -1,0 +1,50 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "occultism:crafting_rituals",
+  "condition": {
+    "type": "modonomicon:true"
+  },
+  "description": "",
+  "hide_while_locked": false,
+  "icon": {
+    "item": "enchanted_book"
+  },
+  "name": "Indestructible Enchanted Book",
+  "pages": [
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "item": "enchanted_book"
+      },
+      "text": "This custom ritual crafts an Indestructible enchanted book.  It works on almost all gear with durability, including bound ritual items.",
+      "title": ""
+    },
+    {
+      "type": "occultism:ritual_recipe",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "recipe_id_1": "occultism:ritual/indestructible_enchanted_book",
+      "text": "",
+      "title1": "",
+      "title2": ""
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "occultism:crafting_rituals/craft_marid_miner",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "x": 2,
+  "y": -3
+}

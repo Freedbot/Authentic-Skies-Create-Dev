@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
     //Remove by recipe id
     const removed_recipes = [
         'occultism:crafting/spirit_campfire', //removing and hiding because it's useless, but people try to use or look up crafting with it
+        'occultism:ritual/possess_warden', //replaced below, lang file changed
         //garbage miner removal
         'occultism:miner/basic_resources/stone',
 		'occultism:miner/ores/gravel',
@@ -65,12 +66,6 @@ ServerEvents.recipes(event => {
 		'ender_pearl',
 		'sculk_sensor'
 	)
-    //fixing goofed recipe "dummy output" in occultism JS
-	event.replaceOutput(
-		{id: 'occultism:ritual/craft_miner_marid_master'},
-		'occultism:ritual_dummy/custom_ritual',
-		'occultism:ritual_dummy/craft_miner_marid_master'
-	)
 	//fel loaf, technically this is botania, but the crafting is occultism
 	event.shaped('botania:fel_loaf', [
 		'SGS',
@@ -108,26 +103,6 @@ ServerEvents.recipes(event => {
     minorPool('master', 'silentgear:azure_silver_ore', 200)
     
     //Rituals
-    //Phantom
-    event.recipes.occultism.ritual(
-        Item.of('phantom_membrane',
-        {
-            display:{
-                Name:"\"Ritual: Summon Phantom\"",
-                Lore:["\"The Phantom drops Membrane\""]
-            }
-        }),
-        [
-            '#forge:leather',
-            '#forge:feathers',
-            '#forge:leather',
-            '#forge:feathers'
-        ],
-        'occultism:book_of_binding_bound_foliot',
-        'occultism:possess_foliot',
-        30,
-
-    ).ritualType('occultism:summon').summon('phantom').dummy('occultism:ritual_summon_phantom').sacrifice({tag: 'forge:flying_passives', name: 'Bat or Parrot'}).id('occultism:rituals/summon_phantom')
     //Wandering Trader
     event.recipes.occultism.ritual(
         Item.of('wandering_trader_spawn_egg',
@@ -147,7 +122,7 @@ ServerEvents.recipes(event => {
         'occultism:possess_foliot',
         30,
 
-    ).ritualType('occultism:summon').summon('wandering_trader').dummy('occultism:ritual_summon_wandering_trader').sacrifice({tag: 'forge:zombies', name: 'Zombie'}).id('occultism:rituals/summon_wandering_trader')
+    ).ritualType('occultism:summon').summon('wandering_trader').dummy('occultism:ritual_possess_wandering_trader').sacrifice({tag: 'forge:zombies', name: 'Zombie'}).id('occultism:ritual/possess_wandering_trader')
     //Pillager Captain
     event.recipes.occultism.ritual(
         Item.of('pillager_spawn_egg',
@@ -169,40 +144,14 @@ ServerEvents.recipes(event => {
 
     ).ritualType('occultism:summon').summon('pillager')
     .entityNbt(`{CanJoinRaid: 1b, OnGround: 1b, AbsorptionAmount: 0.0f, PatrolLeader: 1b, Invulnerable: 0b, ArmorDropChances: [0.085f, 0.085f, 0.085f, 2.0f], ArmorItems: [{}, {}, {}, {id: "minecraft:white_banner", tag: {HideFlags: 32, display: {Name: '{"color":"gold","translate":"block.minecraft.ominous_banner"}'}, BlockEntityTag: {id: "minecraft:banner", Patterns: [{Pattern: "mr", Color: 9}, {Pattern: "bs", Color: 8}, {Pattern: "cs", Color: 7}, {Pattern: "bo", Color: 8}, {Pattern: "ms", Color: 15}, {Pattern: "hh", Color: 8}, {Pattern: "mc", Color: 8}, {Pattern: "bo", Color: 15}]}}, Count: 1b}], HandItems: [{id: "minecraft:crossbow", tag: {Damage: 0}, Count: 1b}, {}], Patrolling: 0b}`)
-    .dummy('occultism:ritual_summon_pillager').sacrifice({tag: 'forge:villagers', name: 'Villager'}).id('occultism:rituals/summon_pillager')
-    //Elder Guardian for Heart of Sea
-    event.recipes.occultism.ritual(
-        Item.of('heart_of_the_sea',
-        {
-            display:{
-                Name:"\"Ritual: Summon Bigger Fish\"",
-                Lore:["\"The Elder Guardian drops a Heart of the Sea\""]
-            }
-        }),
-        [
-        'oxidized_copper',
-        'prismarine',
-        'prismarine_bricks',
-        'dark_prismarine',
-        'yellow_wool',
-        'sea_lantern',
-        'water_bucket',
-        'water_bucket',
-        'water_bucket',
-        'emerald'
-        ],
-        'occultism:book_of_binding_bound_afrit',
-        'occultism:possess_afrit',
-        60,
-
-    ).ritualType('occultism:summon').summon('elder_guardian').dummy('occultism:ritual_summon_bigger_fish').sacrifice({tag: 'botania:cocoon/common_aquatic', name: 'Any Live Fish'}).id('occultism:rituals/summon_bigger_fish')
+    .dummy('occultism:ritual_possess_pillager').sacrifice({tag: 'forge:villagers', name: 'Villager'}).id('occultism:ritual/possess_pillager')
     //Warden for Skulk
     event.recipes.occultism.ritual(
         Item.of('sculk_catalyst',
         {
             display:{
-                Name:"\"Ritual: Summon Warden\"",
-                Lore:["\"The Warden drops a Sculk Catalyst\""]
+                Name:"[{\"translate\":\"item.occultism.ritual_dummy.possess_warden\"}]",
+                Lore:["[{\"translate\":\"item.occultism.ritual_dummy.possess_warden.tooltip\"}]"]
             }
         }),
         [
@@ -219,9 +168,9 @@ ServerEvents.recipes(event => {
         ],
         'conduit',
         'occultism:summon_wild_greater_spirit',
-        90,
+        60,
 
-    ).ritualType('occultism:summon').summon('warden').dummy('occultism:ritual_summon_warden').sacrifice({tag: 'forge:iron_golems', name: 'Iron Golem'}).id('occultism:rituals/summon_warden')
+    ).ritualType('occultism:summon').summon('occultism:possessed_warden').dummy('occultism:ritual_dummy/possess_warden').sacrifice({tag: 'forge:axolotls', name: 'ritual.occultism.sacrifice.axolotls'}).id('occultism:ritual/possess_warden')
     //Indestructible Book
     event.recipes.occultism.ritual(
         Item.of('enchanted_book').enchant('indestructible:indestructible_enchant', 1),
@@ -237,5 +186,5 @@ ServerEvents.recipes(event => {
         'occultism:craft_marid',
         60,
 
-    ).dummy('occultism:ritual_indestructible_enchanted_book').id('occultism:rituals/indestructible_enchanted_book')
+    ).dummy('occultism:ritual_indestructible_enchanted_book').id('occultism:ritual/indestructible_enchanted_book')
 })

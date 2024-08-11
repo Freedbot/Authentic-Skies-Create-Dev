@@ -1,13 +1,13 @@
-filename = 'ftb-xmod-compat-forge-1.2.4.jar'
+filename = 'ftb-xmod-compat-forge-2.1.1.jar'
 name = 'FTB XMod Compat'
 side = 'both'
 
 [download]
-hash = 'a3afc5feb1597a332a631f117f33aea8068e6611'
+hash = '55897695a22247ebe781499558a87b779175082a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5327224
+file-id = 5257897
 project-id = 889915

@@ -1,13 +1,13 @@
-filename = 'liolib-forge-1.19.2.jar'
-name = 'LioLib'
+filename = 'liolib-forge-1.20.1-0.0.2.jar'
+name = 'liolib'
 side = 'both'
 
 [download]
-hash = '70a074e22e9dff974e0f5129b7b93d776dca175b'
+hash = 'c9694417a43d150561f0a31395942ad387936e65'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5104922
+file-id = 5535510
 project-id = 973100

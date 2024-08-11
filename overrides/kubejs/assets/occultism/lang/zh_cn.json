@@ -1,0 +1,5 @@
+{
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.description.text": "In this ritual a [#](ad03fc)Warden[#]() is spawned using the life energy of a [#](ad03fc)Axolotl[#]() and immediately possessed. The [#](ad03fc)Possessed Warden[#]() will always drop at least one [](item://minecraft:sculk_catalyst) when killed and as a chance to drop [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template), [](item://minecraft:ward_armor_trim_smithing_template). If you try to escape, this possessed Warden will go to the floor like a normal warden.\n",
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.entity.text": "**Drops**: 1x [](item://minecraft:sculk_catalyst)\nand items related to ancient city.\n",
+  "item.occultism.ritual_dummy.possess_warden.tooltip": "The possessed Warden will always drop a sculk catalyst and can drop anothers ancient stuff (smithing templates and discs) when killed."
+}

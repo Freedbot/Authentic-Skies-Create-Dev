@@ -23,7 +23,7 @@
       "id": "versionNumber",
       "type": "promptString",
       "description": "What version should be zipped?",
-      "default": "0.2.0"
+      "default": "0.3."
     }
   ]
 }

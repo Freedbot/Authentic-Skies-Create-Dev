@@ -1,6 +1,7 @@
 MoreJSEvents.wandererTrades(event => {
     event.removeVanillaTrades(1);
     event.removeVanillaTrades(2);
+    event.removeModdedTrades(1);
     event.removeModdedTrades(2);
     //1 means common pool, first 5 trades
     event.addTrade(1, 'emerald', 'fern').maxUses(12);
@@ -38,11 +39,18 @@ MoreJSEvents.wandererTrades(event => {
     event.addTrade(1, TradeItem.of('emerald', 5), 'oak_sapling').maxUses(8);
     event.addTrade(1, TradeItem.of('emerald', 5), 'spruce_sapling').maxUses(8);
     event.addTrade(1, TradeItem.of('emerald', 5), 'mangrove_propagule').maxUses(8);
+    event.addTrade(1, TradeItem.of('emerald', 5), 'cherry_sapling').maxUses(8);
     event.addTrade(1, TradeItem.of('emerald', 5), 'nautilus_shell').maxUses(8);
+    //Modded trades.  This is all of them except biome beans mixed bag
+    event.addTrade(1, 'emerald', 'farmersdelight:cabbage_seeds').maxUses(12);
+    event.addTrade(1, 'emerald', 'farmersdelight:tomato_seeds').maxUses(12);
+    event.addTrade(1, 'emerald', 'farmersdelight:rice').maxUses(12);
+    event.addTrade(1, 'emerald', 'farmersdelight:onion').maxUses(12);
     //2 means rare pool, final trade
     event.addTrade(2, TradeItem.of('emerald', 3), TradeItem.of('podzol', 3)).maxUses(6);
     event.addTrade(2, TradeItem.of('emerald', 3), 'packed_ice').maxUses(6);
     event.addTrade(2, TradeItem.of('emerald', 5), 'pufferfish_bucket').maxUses(4);
     event.addTrade(2, TradeItem.of('emerald', 5), 'tropical_fish_bucket').maxUses(4);
     event.addTrade(2, TradeItem.of('emerald', 6), 'blue_ice').maxUses(6);
+    event.addTrade(2, TradeItem.of('emerald', 10), 'sniffer_egg').maxUses(2);
 });

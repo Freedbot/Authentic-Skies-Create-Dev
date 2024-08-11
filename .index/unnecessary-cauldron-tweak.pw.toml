@@ -1,13 +1,13 @@
-filename = 'unnecessarycauldrontweak-2.0.jar'
+filename = 'unnecessarycauldrontweak-3.0.jar'
 name = 'Unnecessary Cauldron Tweak'
 side = 'both'
 
 [download]
-hash = '439fe649c91dccff89608c34ed214cbf46f08671'
+hash = 'c4bba590e61a61948fed3dd3fb80285f6545bd8a'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5539462
+file-id = 5603060
 project-id = 941136

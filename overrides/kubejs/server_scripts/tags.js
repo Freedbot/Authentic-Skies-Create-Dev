@@ -17,11 +17,11 @@ ServerEvents.tags('item', event => {
 })
 ServerEvents.tags('entity_type', event => {
     //Get/make the #group:thing tag collection and add ID to it
-    //occultism tags for ritual sacrifice
-    event.add('forge:axolotls', 'axolotl')
-    event.add('forge:flying_passives', ['bat','parrot'])
-    event.add('forge:iron_golems', 'iron_golem')
     //botania cocoon tags
     event.remove('botania:cocoon/rare', 'turtle')
     event.add('botania:cocoon/rare_aquatic', 'turtle')
+  })
+  ServerEvents.tags('block', event => {
+    event.add('mineable/pickaxe', 'reinforced_deepslate')
+    event.add('forge:needs_netherite_tool', 'reinforced_deepslate')
   })

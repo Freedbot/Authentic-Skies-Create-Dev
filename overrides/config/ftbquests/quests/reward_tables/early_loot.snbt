@@ -16,7 +16,7 @@
 		{ item: "minecraft:spawner" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedbackpacks:netherite_backpack"
 				tag: {
 					RepairCost: 0
@@ -83,7 +83,7 @@
 		{ count: 10, item: "botania:blacker_lotus" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "silentgear:mattock"
 				tag: {
 					Damage: 0
@@ -344,7 +344,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "silentgear:azure_repair_kit"
 				tag: {
 					Storage: {
@@ -355,7 +355,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "constructionwand:infinity_wand"
 				tag: {
 					wand_options: { }
@@ -367,7 +367,7 @@
 		{ item: "sophisticatedstorage:basic_to_netherite_tier_upgrade" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "farmer_s_treasure"
@@ -376,7 +376,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -388,7 +388,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{

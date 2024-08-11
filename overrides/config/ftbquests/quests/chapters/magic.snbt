@@ -5,7 +5,7 @@
 	filename: "magic"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
 			Icon: "botania:block/detector_light_relay"
@@ -115,7 +115,7 @@
 				{
 					id: "5CF8902A40C56418"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:twig_wand"
 						tag: {
 							color1: 11
@@ -231,7 +231,7 @@
 				{
 					id: "4F170968E3230142"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_helmet"
 						tag: {
 							Damage: 0
@@ -242,7 +242,7 @@
 				{
 					id: "3BDF8B7C15C3DEA1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_chestplate"
 						tag: {
 							Damage: 0
@@ -253,7 +253,7 @@
 				{
 					id: "4A5F9B425D00984D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_leggings"
 						tag: {
 							Damage: 0
@@ -264,7 +264,7 @@
 				{
 					id: "47111DD3503AFE79"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:manasteel_boots"
 						tag: {
 							Damage: 0
@@ -451,7 +451,7 @@
 				{
 					id: "50644087A0D65A7C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_helmet"
 						tag: {
 							Damage: 0
@@ -462,7 +462,7 @@
 				{
 					id: "004F2C645173EF0F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_chestplate"
 						tag: {
 							Damage: 0
@@ -473,7 +473,7 @@
 				{
 					id: "10D721B8EE4891F6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_leggings"
 						tag: {
 							Damage: 0
@@ -484,7 +484,7 @@
 				{
 					id: "02AFD8C20ABAF308"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:elementium_boots"
 						tag: {
 							Damage: 0
@@ -495,7 +495,7 @@
 				{
 					id: "2FEFBA1A0C36B613"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terra_sword"
 						tag: {
 							Damage: 0
@@ -512,7 +512,7 @@
 			dependencies: ["68C924C2EF76667B"]
 			description: ["With all this garishly hued equipment you will truly be the most dressed up and talked about girl at the prom.  Jokes aside this gear is powerful, and you're gonna need it for the final battle."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "botania:flight_tiara"
 				tag: {
 					variant: 0
@@ -537,7 +537,7 @@
 				{
 					id: "66F2C07CB342792E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:flight_tiara"
 						tag: {
 							variant: 0
@@ -553,7 +553,7 @@
 				{
 					id: "19B9324FA50A7CB1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_helmet"
 						tag: {
 							Damage: 0
@@ -564,7 +564,7 @@
 				{
 					id: "0638972B2CE22E15"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_chestplate"
 						tag: {
 							Damage: 0
@@ -575,7 +575,7 @@
 				{
 					id: "0469A09935DA0D9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_leggings"
 						tag: {
 							Damage: 0
@@ -586,7 +586,7 @@
 				{
 					id: "1A9879FFB050D882"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:terrasteel_boots"
 						tag: {
 							Damage: 0
@@ -752,7 +752,7 @@
 				{
 					id: "396410550E1296CD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:odin_ring"
 						tag: {
 							baubleUUID: [I;
@@ -795,7 +795,7 @@
 				"First Tip: Use visualize feature when building pentacles.  It's the little eye button on the pentacle's picture in the book."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:chalk_white"
 				tag: {
 					Damage: 0
@@ -826,7 +826,7 @@
 				{
 					id: "22BD26EFF55BA7B1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:chalk_white"
 						tag: {
 							Damage: 0
@@ -837,7 +837,7 @@
 				{
 					id: "79A430E51A0BBDFA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "minecraft:candles"
@@ -874,7 +874,7 @@
 				"If you haven't made some progress in Create and Botania though, I'll stop you now.  You need a source of crushed ore to progress beyond the most basic foliot ritual."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:chalk_gold"
 				tag: {
 					Damage: 0
@@ -904,7 +904,7 @@
 				{
 					id: "318A87D8DE8E5D93"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:chalk_gold"
 						tag: {
 							Damage: 0
@@ -964,7 +964,7 @@
 				"You'll be building a good number of pentacles.  You've got 2 options: adjust and remake your pentacles constantly, or make a bunch of them.  You won't be repeatedly using every circle, but I suggest keeping a few and saving space by building vertically.  This also prevents your pentacles from messing with eachother's ingredients."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:chalk_purple"
 				tag: {
 					Damage: 0
@@ -992,7 +992,7 @@
 				{
 					id: "63E353AAD2C3DE8D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:chalk_purple"
 						tag: {
 							Damage: 0
@@ -1009,7 +1009,7 @@
 			dependencies: ["12B7DA74036C4FC9"]
 			description: ["and this is why I pushed for progressing to better circles.  The up front diamond cost is tragic to say the least, but this is well worth it.  Preserve your summon's life span.  Carry around and safely store villagers, mobs, spare cows, whatever."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:soul_gem"
 				tag: { }
 			}
@@ -1018,7 +1018,7 @@
 				{
 					id: "55A3260D2BC34A91"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:soul_gem"
 						tag: { }
 					}
@@ -1027,7 +1027,7 @@
 				{
 					id: "1B3326C2F8AE2E92"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:soul_gem"
 						tag: { }
 					}
@@ -1044,7 +1044,7 @@
 				{
 					id: "2564A3AC7E555371"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:soul_gem"
 						tag: { }
 					}
@@ -1063,7 +1063,7 @@
 				"When deciding on other familiars, look to see if they can be upgraded, if so, plop the blacksmith next to them and click iron onto him."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "occultism:textures/gui/book/familiar_blacksmith.png"
@@ -1092,7 +1092,7 @@
 				{
 					id: "4E118D4E270EA8ED"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_pickaxe"
 						tag: {
 							Damage: 0
@@ -1103,7 +1103,7 @@
 				{
 					id: "454AF99D6B591B0A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_axe"
 						tag: {
 							Damage: 0
@@ -1114,7 +1114,7 @@
 				{
 					id: "1E014D6C413B4D5E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:iron_shovel"
 						tag: {
 							Damage: 0
@@ -1136,7 +1136,7 @@
 				{
 					id: "16A95EFACEBCBEB9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:book_of_binding_bound_foliot"
 						tag: {
 							spiritName: "Luigi"
@@ -1157,7 +1157,7 @@
 			]
 			description: ["Hopefully you've realized that the divination rod is useless in skyblock.  The goggles and infused pick however are necessary in order to progress in this mod pack."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:otherworld_goggles"
 				tag: {
 					Damage: 0
@@ -1182,7 +1182,7 @@
 				{
 					id: "64DD1E318EDAF8AD"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:otherworld_goggles"
 						tag: {
 							Damage: 0
@@ -1193,7 +1193,7 @@
 				{
 					id: "21E1F45A29ACB39E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:infused_pickaxe"
 						tag: {
 							Damage: 0
@@ -1215,7 +1215,7 @@
 			dependency_requirement: "one_completed"
 			description: ["Certainly a searchable bulk storage option is not what you'd expect from this kind of magic mod, but here we are.  It's quite good.  Too good in fact, so the wormhole has had a recipe tweak as the ender chest to gate wireless item transfer.  The basic storage and remote are quite cheap, but tiering up capacity gets expensive quickly, and lacks Applied Energistics advanced features and logistics."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:dimensional_matrix"
 				tag: {
 					spiritName: "Lukkyld"
@@ -1237,7 +1237,7 @@
 				{
 					id: "0460B969D36B5F36"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:storage_remote"
 						tag: { }
 					}
@@ -1261,7 +1261,7 @@
 			tasks: [{
 				id: "25A78F329F030E75"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							hasFamiliar: 0b
@@ -1284,7 +1284,7 @@
 			dependency_requirement: "one_completed"
 			description: ["This is the final missing puzzle piece.  As with skeleton skulls before, you can do the Wild Hunt ritual to get some easy wither skulls."]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "occultism:chalk_red"
 				tag: {
 					Damage: 0
@@ -1333,7 +1333,7 @@
 				{
 					id: "7B8D11C77A21BA9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "occultism:chalk_red"
 						tag: {
 							Damage: 0

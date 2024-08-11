@@ -1,13 +1,13 @@
-filename = 'tempad-forge-1.19.2-1.4.5.jar'
+filename = 'tempad-forge-1.20.1-2.3.4.jar'
 name = 'Tempad'
 side = 'both'
 
 [download]
-hash = 'e91822609917de070e4a9b261152d4543bb3b87d'
+hash = '04f4c46e58317dca0e5665cee65a7fba730112ad'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4586186
+file-id = 5515064
 project-id = 514923

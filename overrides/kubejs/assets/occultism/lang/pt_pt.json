@@ -1,0 +1,5 @@
+{
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.description.text": "Neste ritual, um [#](ad03fc)Warden[#]() é invocado usando a energia vital de um [#](ad03fc)Axolotel[#]() e imediatamente possuído. O [#](ad03fc)Warden Possuído[#]() sempre dropará pelo menos um [](item://minecraft:sculk_catalyst) quando morto e tem a chance de dropar [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template), [](item://minecraft:ward_armor_trim_smithing_template). Se você tentar escapar, este Warden possuído se comportará como um Warden normal.\n",
+  "book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.entity.text": "**Drops**: 1x [](item://minecraft:sculk_catalyst)\ne itens relacionados à cidade antiga.\n",
+  "item.occultism.ritual_dummy.possess_warden.tooltip": "O Warden Possuído sempre dropará um catalisador de escultura e pode dropar outros itens antigos (molde de ferraria e discos) quando morto."
+}

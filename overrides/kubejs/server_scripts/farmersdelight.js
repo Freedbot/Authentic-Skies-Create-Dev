@@ -42,16 +42,10 @@ ServerEvents.recipes(event => {
                 ]
             )
         }
-        if (wood == 'bamboo') {
-            log = '_block'
-            barker()
-        }
-        else {
-            if (mod != 'silentgear') barker()
-            if (mod == 'botania:') log = ''
-            else log = '_wood'
-            barker()
-        }
+        if (mod != 'silentgear:') barker()
+        if (mod == 'botania:') log = ''
+        else log = '_wood'
+        barker()
         //salvaging doors, trapdoors, and signs if set to
         if (scrapping) {
             let scrapper = (woodItem) => {
@@ -65,11 +59,10 @@ ServerEvents.recipes(event => {
             }
             scrapper('_door')
             scrapper('_trapdoor')
-            if (mod != 'silentgear') scrapper('_sign')
+            if (mod != 'silentgear') {scrapper('_sign'), scrapper('_hanging_sign')}
         }
     }
     cuttingWood('silentgear', 'netherwood')
-    cuttingWood('quark', 'bamboo')
     cuttingWood('quark', 'ancient')
     cuttingWood('quark', 'blossom')
     cuttingWood('botania', 'livingwood', false)

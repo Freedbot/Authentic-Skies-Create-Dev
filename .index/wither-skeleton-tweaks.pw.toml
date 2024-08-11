@@ -1,13 +1,13 @@
-filename = 'WitherSkeletonTweaks-1.19.2-8.0.4.jar'
+filename = 'WitherSkeletonTweaks-1.20.1-9.1.0.jar'
 name = 'Wither Skeleton Tweaks'
 side = 'both'
 
 [download]
-hash = '030ac9cde23a15b7e07a5634c81045a90ebd631d'
+hash = 'e5c31395e10d9e858ca1fde42d35113945bfb658'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4631144
+file-id = 5086320
 project-id = 255902

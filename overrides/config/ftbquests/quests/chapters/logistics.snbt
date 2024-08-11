@@ -5,7 +5,7 @@
 	filename: "logistics"
 	group: ""
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "sophisticatedstorage:diamond_chest"
 		tag: {
 			woodType: "spruce"
@@ -25,7 +25,7 @@
 				"You've already made the chests in the unlock quest.  Add these upgrades with the previous, and you'll have 2 iron chests.  It's not time to waste your own iron yet, so let's move on."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedstorage:iron_chest"
 				tag: {
 					woodType: "oak"
@@ -56,7 +56,7 @@
 		{
 			dependencies: ["1C8BCFFE1729DDC3"]
 			description: [
-				"Leather is likely to be one of the few early materials you can get in reliable quantity.  Luckily, Sophisticated Backpacks are quite versatile.  Simply pop it onto your Curio back slot, and access it with B.  Alternatively, place it on the ground with Shift + Right Click and use it like a normal chest."
+				"Leather is likely to be one of the few early materials you can get in reliable quantity.  Luckily, Sophisticated Backpacks are quite versatile.  Simply pop it onto your Curio back slot, and access it with &9B&r.  Alternatively, place it on the ground with &9Shift&r+&9Right Click&r and use it like a normal chest."
 				""
 				"They can be dyed or crafted into the next tier just like Sophisticated Storage blocks.  When dying, dyes to the left of the backpack in the crafting grid affect bag color, dyes to the right affect accent color."
 			]
@@ -69,7 +69,7 @@
 			tasks: [{
 				id: "5A97C7BE466ADDEB"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedbackpacks:backpack"
 					tag: {
 						contentsUuid: [I;
@@ -93,9 +93,9 @@
 			description: [
 				"Upgrades are actually rediculous.  Read up on their descriptions."
 				""
-				"A quick note on stack upgrades.  You can only have 1 per storage.  If the storage is too full to remove the upgrade, you can still click that slot with a higher tier one on your cursor to swap them."
-				""
 				"Before you go too nuts investing into Sophisticated Storage, I'll let you know that Occultism and Applied Energistics will be available before long, and both have great searchable storage options."
+				""
+				"&cNote:&r You can only have 1 stack upgrade per storage.  If the storage is too full to remove the upgrade, you can still &9click&r that slot with a higher tier one on your &9cursor&r to swap them."
 			]
 			icon: "sophisticatedbackpacks:upgrade_base"
 			id: "4734AA0794233966"
@@ -107,7 +107,7 @@
 			tasks: [{
 				id: "448EDE7EDB67EAC8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -141,10 +141,13 @@
 				""
 				"For those new to this kind of thing.  Limited Barrels only hold 1-4 different items depending on the barrel, but they hold far more stacks than a normal chest, and can be conveniently used without opening an inventory."
 				""
-				"Left-click takes out 1 item.  Shift + left click takes out 64.  Right click deposits what's in your hand to that slot.  Double right click deposits all matching items from your inventory."
+				"&9Left Click&r - take 1 item out."
+				"&9Shift&r+&9Left Click&r - take 1 stack out."
+				"&9Right Click&r - deposit held item."
+				"&9Double Right Click&r - deposits all matching from inventory."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedstorage:limited_barrel_4"
 				tag: {
 					woodType: "oak"
@@ -159,7 +162,7 @@
 			tasks: [{
 				id: "2EABAF5425B0428A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -210,7 +213,7 @@
 				""
 				"To start, you'll need tons of iron, sand, certus and nether quartz, redstone, glowstone, and some gold and diamonds.  Dropping a charged certus, nether quartz, and redstone dust in water makes 2 fluix crystals."
 				""
-				"The charger does not exist.  Instead a powered Tesla Coil will add some sparkle to your certus."
+				"&cNote:&r The charger does not exist.  Instead a powered Tesla Coil will add some sparkle to your certus."
 			]
 			icon: "ae2:fluix_crystal"
 			id: "771BA4BA41507CC2"
@@ -433,7 +436,7 @@
 					count: 4L
 					id: "6423F5CD43069796"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:item_storage_cell_1k"
 						tag: { }
 					}
@@ -447,7 +450,7 @@
 				{
 					id: "78DB9EB6E2737BF3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:dense_energy_cell"
 						tag: { }
 					}
@@ -508,7 +511,7 @@
 				"Speaking of cells, besides Create's tanks, fluid cells are the only way to store large amounts of liquid conveniently in this pack."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ae2:portable_item_cell_256k"
 				tag: {
 					internalCurrentPower: 20000.0d
@@ -558,7 +561,7 @@
 				{
 					id: "56AFC2AC9C5F2A66"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:certus_quartz_cutting_knife"
 						tag: {
 							Damage: 0
@@ -844,7 +847,7 @@
 				{
 					id: "16F3576FAABC487D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:memory_card"
 						tag: { }
 					}
@@ -926,7 +929,7 @@
 				""
 				"Read the tooltips and use the \"Ponder\" feature!  Everything is there."
 				""
-				"IMPORTANT:  For this pack, sail blocks and wool are twice as effective.  That means 4 minimum and for every +1 RPM instead of 8.  This change is based on my personal opinion of power balance as well as the annoyance of wool farming in skyblock."
+				"&cImportant:&r  For this pack, sail blocks and wool are twice as effective.  That means 4 minimum and for every +1 RPM instead of 8.  This change is based on my personal opinion of power balance as well as the annoyance of wool farming in skyblock."
 			]
 			icon: "create:wrench"
 			id: "5A726898B274793B"
@@ -939,7 +942,7 @@
 			tasks: [{
 				id: "43E36E21B6A4BEE5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1258,7 +1261,7 @@
 				{
 					id: "4820E2DF39420562"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:super_glue"
 						tag: {
 							Damage: 0
@@ -1358,7 +1361,7 @@
 				{
 					id: "49C16C1B21BA83E6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1379,7 +1382,7 @@
 					count: 3L
 					id: "6BBC1B95D1A3A67F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1458,7 +1461,7 @@
 				{
 					id: "549EF74E06D7D998"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "createaddition:diamond_grit_sandpaper"
 						tag: {
 							Damage: 0
@@ -1531,7 +1534,7 @@
 			rewards: [{
 				id: "504C81AED08EE418"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:potato_cannon"
 					tag: {
 						Damage: 0
@@ -1598,7 +1601,7 @@
 				{
 					id: "3B6B3DEAF75DCCC2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:extendo_grip"
 						tag: {
 							Damage: 0
@@ -1644,7 +1647,7 @@
 			tasks: [{
 				id: "604B41BAE1260B0F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create_jetpack:jetpack"
 					tag: {
 						Air: 900
@@ -1699,7 +1702,7 @@
 					count: 2L
 					id: "48D4E1130121EB39"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -1720,7 +1723,7 @@
 					count: 4L
 					id: "3DCBB5A166D268C5"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:or"
 						tag: {
 							items: [
@@ -2011,7 +2014,7 @@
 				{
 					id: "6EB4742F063DA6BA"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "farmersdelight:diamond_knife"
 						tag: {
 							Damage: 0
@@ -2029,7 +2032,7 @@
 				{
 					id: "403A736530453D4A"
 					item: {
-						Count: 1b
+						Count: 1
 						ForgeCaps: {
 							Parent: { }
 						}

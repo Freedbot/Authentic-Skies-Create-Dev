@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
         'crimson',
         'warped',
         'mangrove',
+        'cherry',
         'diorite',
         'andesite',
         'granite'
@@ -36,13 +37,14 @@ ServerEvents.recipes(event => {
         })
     })
 
-    function dyeSapling(dye, sapling) {
-        event.shapeless('quark:'+sapling+'_blossom_sapling', ['#forge:dyes/'+dye, '#saplings'])
-    }
-    dyeSapling('light_blue', 'blue')
-    dyeSapling('magenta', 'lavender')
-    dyeSapling('orange', 'orange')
-    dyeSapling('pink', 'pink')
-    dyeSapling('yellow', 'yellow')
-    dyeSapling('red', 'red')
+    const dyeSapling = [
+        'blue',
+        'lavender',
+        'orange',
+        'yellow',
+        'red'
+    ]
+    dyeSapling.forEach(color => {(
+        event.shapeless('quark:'+color+'_blossom_sapling', ['#forge:dyes/'+color, '#saplings'])
+    )})
 })

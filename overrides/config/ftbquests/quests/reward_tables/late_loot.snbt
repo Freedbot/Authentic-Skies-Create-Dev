@@ -16,7 +16,7 @@
 		{ item: "minecraft:spawner" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "sophisticatedbackpacks:netherite_backpack"
 				tag: {
 					RepairCost: 0
@@ -84,7 +84,7 @@
 		{ count: 2, item: "witherproofed:sculk_metal" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -103,7 +103,7 @@
 		{ count: 16, item: "minecraft:ender_pearl" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "create:red_toolbox"
 				tag: {
 					Inventory: {

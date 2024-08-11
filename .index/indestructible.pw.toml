@@ -1,13 +1,13 @@
-filename = 'indestructible-1.19-0.3.2.jar'
-name = 'Indestructible'
+filename = 'indestructible-1.19-0.5.jar'
+name = 'Indestructible Enchantment'
 side = 'both'
 
 [download]
-hash = 'cb7595099164c55dc7f8d54e70ce67efd2a80fd5'
+hash = '8435528b993afcecb5f5f352b9e67ee8c57bd584'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 3886132
+file-id = 4574007
 project-id = 546137

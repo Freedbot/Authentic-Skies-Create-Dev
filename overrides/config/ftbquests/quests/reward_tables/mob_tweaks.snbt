@@ -1,0 +1,16 @@
+{
+	id: "0978200E189D1FC8"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+		}
+		{ item: "botania:slime_bottle" }
+	]
+	title: "Mob Tweaks"
+}

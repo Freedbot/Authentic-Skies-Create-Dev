@@ -1,13 +1,13 @@
-filename = 'Allay-In-A-Bottle-1.1.0.jar'
+filename = 'Allay-In-A-Bottle-FORGE-1.1.2.jar'
 name = 'Allay in a Bottle'
 side = 'both'
 
 [download]
-hash = 'dd2908ae126c7c678fc6e7ae21501ba5b5cc21bd'
+hash = 'd108e04b9f4a6338c4432bce65d1bc1818a3eb57'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4226676
+file-id = 4742204
 project-id = 759620

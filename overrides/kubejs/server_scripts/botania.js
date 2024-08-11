@@ -40,6 +40,8 @@ ServerEvents.recipes(event => {
 	//azalea to oak saplings for apple availability
 	event.recipes.botania.mana_infusion("oak_sapling", "azalea", 200, "botania:alchemy_catalyst")
 	event.recipes.botania.mana_infusion("oak_sapling", "flowering_azalea", 200, "botania:alchemy_catalyst")
+	//missed in botania's flower transmutation chain, better done this way anyway.
+	event.recipes.botania.mana_infusion("pink_petals", "cherry_leaves", 200, "botania:alchemy_catalyst")
 	
 	//seed transmute loop for modded crops, occultism's demon seeds come from breaking tall grass
 	//farmers delight seeds are available from at least the wandering trader... perhaps I just need the sgear?

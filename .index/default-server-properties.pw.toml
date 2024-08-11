@@ -1,13 +1,13 @@
-filename = 'default-server-properties-forge-77.1.0.jar'
+filename = 'default-server-properties-forge-81.1.0.jar'
 name = 'Default Server Properties'
 side = 'both'
 
 [download]
-hash = 'f20d325e54cd5fda64e8130e2d2844e8ed780bef'
+hash = '040e4cfde815d022cc3899ba0ef290a9843a47c8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4599519
+file-id = 4599572
 project-id = 676811

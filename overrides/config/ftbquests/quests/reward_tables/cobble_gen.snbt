@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "simplemagnets:basicmagnet"
 				tag: { }
 			}

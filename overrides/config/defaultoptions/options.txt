@@ -1,5 +1,6 @@
-version:3120
+version:3465
 autoJump:false
+operatorItemsTab:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -25,6 +26,10 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
+glintSpeed:0.5
+glintStrength:0.75
+damageTiltStrength:1.0
+highContrast:false
 gamma:0.5
 renderDistance:12
 simulationDistance:12
@@ -33,12 +38,12 @@ guiScale:3
 particles:0
 maxFps:260
 graphicsMode:1
-ao:2
+ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","quark:emote_resources","create_central_kitchen:create_styled","file/Createful-Plaques v0.6 (1.19.2).zip","file/Create Style Redstone Pen v2.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/Create Style Redstone Pen v2.zip"]
+resourcePacks:["vanilla","mod_resources","file/Create Style Redstone Pen v2.zip","Moonlight Mods Dynamic Assets","create_central_kitchen:create_styled","file/Createful-Plaques v0.6 (1.20.x).zip"]
+incompatibleResourcePacks:["file/Create Style Redstone Pen v2.zip","create_central_kitchen:create_styled"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -52,12 +57,12 @@ advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
-heldItemTooltips:true
 chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
+notificationDisplayTime:1.0
 mipmapLevels:2
 useNativeTransport:true
 mainHand:"right"
@@ -75,8 +80,10 @@ hideBundleTutorial:true
 syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
-chatPreview:1
 onlyShowSecureChat:false
+panoramaScrollSpeed:1.0
+telemetryOptInExtra:false
+onboardAccessibility:false
 soundCategory_master:0.75827813
 soundCategory_music:0.0
 soundCategory_record:0.6079812

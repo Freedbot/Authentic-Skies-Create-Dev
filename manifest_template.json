@@ -5,8 +5,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "minecraft": {
-    "modLoaders": [{ "id": "forge-43.4.2", "primary": true }],
-    "version": "1.19.2"
+    "modLoaders": [{ "id": "forge-47.3.5", "primary": true }],
+    "version": "1.20.1"
   },
   "overrides": "overrides",
   "files": [
@@ -16,7 +16,7 @@
       "required": true
     },
     {
-      "fileID": 4814107,
+      "fileID": 4814101,
       "projectID": 920589,
       "required": true
     }

@@ -12,18 +12,39 @@ const removed_items = [
     'createaddition:gold_spool',
     'createaddition:electrum_amulet',
     'create_enchantment_industry:experience_rotor', //unneeded when no alt XP to convert
+    '/quark.+crab/',
+    'quark:crafter',
+    'quark:crate',
+    'quark:dragon_scale',
+    '/quark:glow_shroom/',
     'quark:gold_bars',
     'quark:brick_vertical_slab',
     'quark:chute', //redundant
+    'quark:seed_pouch',
+    '#quark:shards',
     '#quark:stools', //create seats are better
     '/corundum/', //quark, not made available and no recipes
     '/quark.+azalea(?!.+(carpet|hedge))/', //removing the disabled quark azalea wood
+    '/quark.+limestone/', //extra stone types
+    '/quark.+jasper/',
+    '/quark.+shale/',
+    '/quark.+myalite/',
+    'quark:matrix_enchanter',
+    'quark:pathfinders_quill',
+    'quark:pickarang',
+    'quark:flamerang',
+    'quark:pipe',
+    'quark:encased_pipe',
+    'quark:diamond_heart',
     'farmersdelight:wheat_dough',
     '/incomplete/', //all incomplete create multistep items
     'silentgear:rough_rod',
     'silentgear:iron_rod', //duplicate with easier recipe.
     'indestructible:indestructible_gem', //stick with just the book.  Books are simple
     'tempad:he_who_remains_tempad',
+    'biome_beans:mixed_bean_bag', //disabled and is source for other 2
+    'biome_beans:rotten_bean',
+    'biome_beans:rotten_worm_spawn_egg',
     //disabling liquid items in Sophisticated for consistancy
     'sophisticatedbackpacks:tank_upgrade',
     'sophisticatedbackpacks:pump_upgrade',
@@ -87,17 +108,12 @@ REIEvents.information (event => {
 	event.addItem(
         ['#forge:spawn_eggs', 'spawner'],
         'Spawn Egg Info',
-        'Spawn Eggs are rare mob drops.  They can be applied to spawners and are returned along with the spawner when it is mined.  Some can be crafted into a more rare type.'
+        'Spawn Eggs are rare mob drops.  They can be applied to spawners and are returned along with the spawner when it is mined.  Some eggs can be crafted into a more rare type.'
     )
 	event.addItem(
         ['diamond', 'emerald_block'],
         'Gem Sources',
         'Beloved Heroes of the people shall be handsomely rewarded.'
-    )
-	event.addItem(
-        'witherproofed:withered_powder',
-        'Withered Powder',
-        'Dropped by the Wither.'
     )
 	event.addItem(
         'create:wrench',

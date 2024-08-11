@@ -144,6 +144,26 @@ ServerEvents.recipes(event => {
         ],
         'silentgear:raw_azure_silver'
     )
+    //Final Suspicious Gravel drops from craftable sherds (see vanilla.js)
+    event.recipes.create.crushing(
+        [
+            Item.of('music_disc_relic').withChance(0.05),
+            Item.of('wayfinder_armor_trim_smithing_template').withChance(0.05),
+            Item.of('shaper_armor_trim_smithing_template').withChance(0.05),
+            Item.of('raiser_armor_trim_smithing_template').withChance(0.05),
+            Item.of('host_armor_trim_smithing_template').withChance(0.05)
+        ],
+        '#decorated_pot_sherds'
+    )
+    //source for dessert and jungle pyramid templates
+    event.recipes.create.crushing(
+        Item.of('dune_armor_trim_smithing_template').withChance(0.1),
+        'chiseled_red_sandstone'
+    )
+    event.recipes.create.crushing(
+        Item.of('wild_armor_trim_smithing_template').withChance(0.1),
+        'mossy_stone_bricks'
+    )
     //AE2 Sky Stone
     event.recipes.create.crushing(
         [
@@ -257,6 +277,8 @@ ServerEvents.recipes(event => {
     event.recipes.create.haunting('silentgear:netherwood_sapling', '#forge:saplings_vanilla') //silent gear sourcing
     //pressing (works on bare ground)
 	coral_types.forEach(coral => event.recipes.create.pressing('calcite', 'dead_'+coral+'_coral_block'))
+    //most cruel template source
+    event.recipes.create.pressing('vex_armor_trim_smithing_template', 'allaybottle:allay_bottle')
     //compacting (needs basin, can be heated/super)
     event.recipes.create.compacting(
         'ae2:certus_quartz_crystal',

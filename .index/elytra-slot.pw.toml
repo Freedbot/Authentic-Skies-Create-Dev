@@ -1,13 +1,13 @@
-filename = 'elytraslot-forge-6.1.2+1.19.2.jar'
+filename = 'elytraslot-forge-6.4.3+1.20.1.jar'
 name = 'Elytra Slot'
 side = 'both'
 
 [download]
-hash = '584f6a21fd2452094fe4023f909775e35be19c28'
+hash = 'f89a72686f410dbeb73bc4cbb2dafbbca44c9225'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5417799
+file-id = 5583756
 project-id = 317716

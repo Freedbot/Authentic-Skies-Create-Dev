@@ -1,3 +1,13 @@
+## 0.3.1 - Curseforge Public Beta
+* Edited beta warning and linked curseforge page in main menu and github.
+* Slight menu screen cleanup and darkmode mod blacklisting for better menu screen visuals.
+* Curseforge project ID in bcc config
+* Compressed background image for web pack logo
+* Changed default options to dark mojang background as it affects the Forge blinding red loading screen.
+* Removed the 1.20.1 migration from playtester quests.
+* Updated mods.
+* For those reading this on Curseforge, a full changelog will always be included in the pack files.
+
 ## 0.3.0 - The Greate 1.20.1 Migration
 * Swapped Mods:
 	* OCD -> Oculus (client)

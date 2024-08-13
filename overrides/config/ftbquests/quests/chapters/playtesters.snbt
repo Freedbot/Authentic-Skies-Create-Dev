@@ -24,7 +24,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			click: "https://github.com/Freedbot/Authentic-Skies-Create-Dev/issues"
@@ -37,7 +37,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.0d
-			y: -2.0d
+			y: -1.5d
 		}
 	]
 	order_index: 1
@@ -115,7 +115,7 @@
 				title: "Content Contributions"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -133,7 +133,7 @@
 				title: "Content Feedback"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -159,28 +159,6 @@
 			}]
 			x: 0.0d
 			y: -2.0d
-		}
-		{
-			description: [
-				"I'm playing with the idea of MAYBE upgrading the pack to 1.20.1., but it's a large undertaking.  Any help would be appreciated.  What kind of help?"
-				""
-				"1.  Check if all mods are available on 1.20.1 specifically.  If not, is there an alternative.  I think the best way to get through that suffering is to divide up the mod list into chunks.  Here's where I find out if it's even possible to switch."
-				""
-				"2.  What mods have content changes or new compatibility issues that would mess with my current setup?"
-				""
-				"3.  What other vanilla content is added that I need to make available somehow?"
-				""
-				"I don't expect anyone to help much with this one because it is such a royal pain.  Anyway, I will be sticking with Forge and Curseforge for this pack reguardless, not as a matter of politics, but just familiarity and mod availability."
-			]
-			icon: "sophisticatedstorage:basic_tier_upgrade"
-			id: "364CC0444020EC8C"
-			tasks: [{
-				id: "0144F0C6097A5FA5"
-				title: "Update to 1.20.1?"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -1.0d
 		}
 		{
 			description: [

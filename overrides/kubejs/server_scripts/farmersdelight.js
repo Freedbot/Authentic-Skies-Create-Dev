@@ -2,6 +2,8 @@
 ServerEvents.recipes(event => {
     //Conflicting    
     event.remove({ id: 'farmersdelight:wheat_dough_from_water' })
+    //bypasses quartz/andesite progression
+    event.remove({ id: 'farmersdelight:cutting/quartz_block' })
 
     event.replaceOutput({id: 'farmersdelight:wheat_dough_from_eggs'},
         'farmersdelight:wheat_dough',
@@ -11,7 +13,7 @@ ServerEvents.recipes(event => {
     let toolsToPebs = (tool, multi) => {
         event.recipes.farmersdelight.cutting(
             'stone_'+tool,
-            'silentgear:hammer',
+            'quark:hammer',
             [
                 Item.of('silentgear:pebble', (multi*6)),
                 Item.of('silentgear:pebble', multi).withChance(0.75),
@@ -25,7 +27,7 @@ ServerEvents.recipes(event => {
     toolsToPebs('axe', 3),
     toolsToPebs('sword', 2),
     toolsToPebs('hoe', 2),
-    toolsToPebs('shovel', 2)
+    toolsToPebs('shovel', 1)
     //full wood compatibility
     let cuttingWood = (mod, wood, scrapping) => {
         mod = mod+':'

@@ -1,10 +1,14 @@
+## 0.3.3
+* Removed cutting board and mana alchemy recipe to break down quartz blocks due to bypassing progression.
+* Redesigned and repurposed Quark hammer for pebbles.
+
 ## 0.3.2
 * Reddened warning on customize world screen.
 * Switched pack logo back to png for launcher support I guess.
 * Fixed missing colon in netherwood script recipes that caused a minor error in console.
 * Changed leaves in composting to tag item.
-* chat command quest rewards were broken.  Format changed.  No preceding /.
-* REI needs to be on the server. Also check iron ingot drop rates in JER on server.  (FIX)
+* Chat command quest rewards were broken.  Format changed.  No preceding /.
+* REI added to server.
 * Reverted CarryOn block config to disabled and blacklist because it's shared with tile entities.
 	* Made turtle eggs not require silk touch.  Relevent Info tab added.
 	* Reduced time required to mine obsidian (3 minutes to punch instead of 5).

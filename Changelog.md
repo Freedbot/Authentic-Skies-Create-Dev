@@ -1,3 +1,17 @@
+## 0.3.2
+* Reddened warning on customize world screen.
+* Switched pack logo back to png for launcher support I guess.
+* Fixed missing colon in netherwood script recipes that caused a minor error in console.
+* Changed leaves in composting to tag item.
+* chat command quest rewards were broken.  Format changed.  No preceding /.
+* REI needs to be on the server. Also check iron ingot drop rates in JER on server.  (FIX)
+* Reverted CarryOn block config to disabled and blacklist because it's shared with tile entities.
+	* Made turtle eggs not require silk touch.  Relevent Info tab added.
+	* Reduced time required to mine obsidian (3 minutes to punch instead of 5).
+* Doubled zombie and zombified piglin drop rates again.  4x total.  Also 3x looting benefit total
+* Diet adjusted so that weakness only sets in at 10% average due to stats not resetting by death (I thought that's how it worked).
+	* Also adjusted in quest info.
+
 ## 0.3.1 - Curseforge Public Beta
 * Edited beta warning and linked curseforge page in main menu and github.
 * Slight menu screen cleanup and darkmode mod blacklisting for better menu screen visuals.

@@ -20,7 +20,7 @@
           "groups": ["proteins", "grains", "vegetables", "fruits", "sugars"],
           "match": "average",
           "above": 0.0,
-          "below": 0.2
+          "below": 0.1
         }
       ]
     },

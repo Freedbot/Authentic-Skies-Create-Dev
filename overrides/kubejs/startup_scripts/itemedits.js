@@ -17,4 +17,7 @@ BlockEvents.modification(event => {
     event.modify('reinforced_deepslate', block =>{
         block.requiresTool = true
     })
+    event.modify('obsidian', block =>{
+        block.destroySpeed = 30
+    })
 })

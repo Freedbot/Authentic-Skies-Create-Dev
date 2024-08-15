@@ -98,7 +98,7 @@ REIEvents.information (event => {
             'gold_ingot', 'piglin_spawn_egg', Item.of('enchanted_book').enchant('soul_speed', 1).weakNBT(), Item.of('minecraft:splash_potion', '{Potion:"minecraft:fire_resistance"}').weakNBT(), Item.of('minecraft:potion', '{Potion:"minecraft:water"}').weakNBT(), 'iron_nugget', 'ender_pearl', 'white_wool', 'quartz', 'obsidian', 'crying_obsidian', 'fire_charge', 'leather', 'soul_sand', 'gravel', 'blackstone'
         ],
         'Bartering',
-        'Piglin bartering has slightly better odds.  The complete list: soul speed book/boots, fire resistance/water potions, iron nuggets, ender pearls, wool, quartz, obsidian, crying obsidian, fire charges, leather, soul sand, gravel, and blackstone.'
+        'Piglin bartering has slightly better odds.  The complete list: soul speed book/boots, fire resistance/water bottles, iron nuggets, ender pearls, wool, quartz, obsidian, crying obsidian, fire charges, leather, soul sand, gravel, and blackstone.'
     )
 	event.addItem(
         ['vex_spawn_egg', 'allay_spawn_egg'],
@@ -114,6 +114,11 @@ REIEvents.information (event => {
         ['diamond', 'emerald_block'],
         'Gem Sources',
         'Beloved Heroes of the people shall be handsomely rewarded.'
+    )
+	event.addItem(
+        'turtle_egg',
+        'Sturdy Turtle Eggs',
+        'For the sake of zombie mob farm convenience, turtle eggs no longer require silk touch to mine.'
     )
 	event.addItem(
         'create:wrench',

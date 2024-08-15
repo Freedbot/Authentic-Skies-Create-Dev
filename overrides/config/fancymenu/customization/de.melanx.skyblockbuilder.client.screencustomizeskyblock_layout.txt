@@ -32,7 +32,7 @@ element {
   source_mode = direct
   shadow = true
   scale = 1.0
-  base_color = #FFFFFFFF
+  base_color = #CC0000
   text_border = 2
   line_spacing = 2
   enable_scrolling = false

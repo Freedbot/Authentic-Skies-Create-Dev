@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
             }
             scrapper('_door')
             scrapper('_trapdoor')
-            if (mod != 'silentgear') {scrapper('_sign'), scrapper('_hanging_sign')}
+            if (mod != 'silentgear:') {scrapper('_sign'), scrapper('_hanging_sign')}
         }
     }
     cuttingWood('silentgear', 'netherwood')

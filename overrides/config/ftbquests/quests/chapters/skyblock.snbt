@@ -208,7 +208,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} is stuck on a patch of \"Just Moss\"!"
+					command: "say {team} is stuck on a patch of \"Just Moss\"!"
 					id: "3288490AD9A63697"
 					team_reward: true
 					type: "command"
@@ -253,7 +253,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} embraces tradition with \"The Classic\" skyblock!"
+					command: "say {team} embraces tradition with \"The Classic\" skyblock!"
 					id: "3842099BEB262423"
 					team_reward: true
 					type: "command"
@@ -298,7 +298,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} is relaxing on \"Potato Island\"!"
+					command: "say {team} is relaxing on \"Potato Island\"!"
 					id: "32FDD8321D410AA9"
 					team_reward: true
 					type: "command"
@@ -410,7 +410,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has managed to not make obsidian!"
+					command: "say {team} has managed to not make obsidian!"
 					id: "54ED6BBFD39A787F"
 					team_reward: true
 					type: "command"
@@ -607,8 +607,8 @@
 				""
 				"Nutrition Values:"
 				"&950%&r to start."
-				"&9-10%&r each upon death (resets to &930%&r minimum)."
-				"top/bottom &920%&r = &c+&r/&c-&r &c1/2 heart&r of max health per group."
+				"&9-10%&r each upon death (If above &930%&r)."
+				"top/bottom &910%&r = &c+&r/&c-&r &c1/2 heart&r of max health per group."
 				"&9<20%&r average = &5weakness&r debuff."
 				""
 				"Boosts at &960%&r and &980%&r:"
@@ -681,7 +681,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has learned proper organic waste disposal and completed the tutorial!"
+					command: "say {team} has learned proper organic waste disposal and completed the tutorial!"
 					id: "264276C218A4AFFB"
 					team_reward: true
 					type: "command"
@@ -696,7 +696,14 @@
 				{
 					count: 8L
 					id: "50DA201C39DCE4F2"
-					item: "minecraft:oak_leaves"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+					title: "Any #minecraft:leaves"
 					type: "item"
 				}
 				{
@@ -807,7 +814,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has put rain water in a bucket! Genius!"
+					command: "say {team} has put rain water in a bucket! Genius!"
 					id: "0FCD53A18B25DA09"
 					team_reward: true
 					type: "command"
@@ -1036,7 +1043,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has struck gold!"
+					command: "say {team} has struck gold!"
 					id: "118C17383EAF2020"
 					team_reward: true
 					type: "command"
@@ -1179,7 +1186,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} just got scammed for some andesite!"
+					command: "say {team} just got scammed for some andesite!"
 					id: "2BAAEA687ABF107B"
 					team_reward: true
 					type: "command"
@@ -1342,7 +1349,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has managed to make their own lava AND not turn it into obsidian!"
+					command: "say {team} has managed to make their own lava AND not turn it into obsidian!"
 					id: "324F313AFBA346B4"
 					team_reward: true
 					type: "command"
@@ -1480,7 +1487,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has made some friends... with money!"
+					command: "say {team} has made some friends... with money!"
 					id: "32A7EF9A9BBBE636"
 					team_reward: true
 					type: "command"
@@ -1518,7 +1525,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has won the war for wealth!"
+					command: "say {team} has won the war for wealth!"
 					id: "30A5B5789EF7A9C4"
 					team_reward: true
 					type: "command"
@@ -1985,7 +1992,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team}'s wish for more resources has been granted!"
+					command: "say {team}'s wish for more resources has been granted!"
 					id: "38920EF80F80BB6E"
 					team_reward: true
 					type: "command"
@@ -2172,7 +2179,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has entered the information age!"
+					command: "say {team} has entered the information age!"
 					id: "3ED3AC6294DEF9CE"
 					team_reward: true
 					type: "command"
@@ -2304,7 +2311,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has slain the mighty dragon!"
+					command: "say {team} has slain the mighty dragon!"
 					id: "500340BEDFE79ED2"
 					team_reward: true
 					type: "command"
@@ -2711,7 +2718,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} was trying to bake a cake, but ended up with brass instead!"
+					command: "say {team} was trying to bake a cake, but ended up with brass instead!"
 					id: "0C527E20D97AD6F2"
 					team_reward: true
 					type: "command"

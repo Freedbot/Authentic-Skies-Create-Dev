@@ -3,7 +3,6 @@
 ServerEvents.recipes(event => {
 	//Remove by recipe id
 	const removed_recipes = [
-		'botania:mana_infusion/quartz_deconstruct', //bypasses quartz/andesite progression
 		'botania:cocoon', //see occultism for alternate source
 		//degrading output, replaced with create stone types, weights handled by crushing recipes
 		'botania:orechid/copper_ore',

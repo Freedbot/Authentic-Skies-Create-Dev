@@ -10,15 +10,6 @@ ServerEvents.recipes(event => {
     ]
 	removed_recipes.forEach(id => event.remove({ output: id }));
 
-    //Add recipe for hammer, see farmersdelight.js for use and itemedits.js for durability
-    event.shaped('quark:hammer', [
-        'FFF',
-        'FFF',
-        ' S '
-    ], {
-        F: 'flint',
-        S: 'stick'
-    })
     //Dealing with recipe conficts here.
     const mcw_shutters = [
         'oak',

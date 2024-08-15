@@ -1,3 +1,8 @@
+MoreJSEvents.villagerTrades(event => {
+    event.removeVanillaTrades('minecraft:mason', 5)
+    event.addTrade('minecraft:mason', 5, 'emerald', 'chiseled_quartz_block').maxUses(12).villagerExperience(30)
+    event.addTrade('minecraft:mason', 5, 'emerald', 'quartz_pillar').maxUses(12).villagerExperience(30)
+})
 MoreJSEvents.wandererTrades(event => {
     event.removeVanillaTrades(1);
     event.removeVanillaTrades(2);

@@ -11,6 +11,9 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'biome_beans:mixed_bean_bag_recipe'})
 	//dealing with tempad here rather than it's own file
 	event.remove({id: 'tempad:tempad'})
+	//Remove gold nuggets from gold gear, progression breaking
+	event.remove({id: 'minecraft:gold_nugget_from_smelting'})
+	event.remove({id: 'minecraft:gold_nugget_from_blasting'})
 	//smelting compatibility for silent gear and occultism
 	event.smelting('silentgear:crimson_iron_ingot','create:crushed_raw_crimson_iron').xp(0.1)
 	event.blasting('silentgear:crimson_iron_ingot','create:crushed_raw_crimson_iron').xp(0.1)

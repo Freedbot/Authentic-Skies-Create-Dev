@@ -12,10 +12,6 @@ ItemEvents.modification(event => {
     event.modify('exchangers:obsidian_exchanger', item => {
         item.maxDamage = 0
     })
-    //enabling for use
-    event.modify('quark:hammer', item => {
-        item.maxDamage = 128
-    })
 })
 BlockEvents.modification(event => {
     event.modify('reinforced_deepslate', block =>{

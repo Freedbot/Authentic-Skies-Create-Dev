@@ -1,3 +1,8 @@
+## 0.3.4 - NVM
+* Reverted 0.3.3 entirely due to poor decision making :'(
+* Removed smelting and blasting gold gear into nuggets.
+* Swapped Mason's quartz block trade for chiseled
+
 ## 0.3.3
 * Removed cutting board and mana alchemy recipe to break down quartz blocks due to bypassing progression.
 * Redesigned and repurposed Quark hammer for pebbles.

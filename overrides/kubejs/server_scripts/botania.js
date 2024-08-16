@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
 	//Remove by recipe id
 	const removed_recipes = [
 		'botania:cocoon', //see occultism for alternate source
+		'botania:mana_infusion/stone_to_andesite',
 		//degrading output, replaced with create stone types, weights handled by crushing recipes
 		'botania:orechid/copper_ore',
 		'botania:orechid/iron_ore',

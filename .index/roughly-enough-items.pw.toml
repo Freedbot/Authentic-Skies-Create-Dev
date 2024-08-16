@@ -1,13 +1,13 @@
-filename = 'RoughlyEnoughItems-12.1.740-forge.jar'
+filename = 'RoughlyEnoughItems-12.1.750-forge.jar'
 name = 'Roughly Enough Items (REI)'
 side = 'both'
 
 [download]
-hash = '151308a48e514663b839f65dbdeb7014c92947e8'
+hash = '7f5f05702e00b051c2076f6b12ca58437e8ed2f6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5554253
+file-id = 5627518
 project-id = 310111

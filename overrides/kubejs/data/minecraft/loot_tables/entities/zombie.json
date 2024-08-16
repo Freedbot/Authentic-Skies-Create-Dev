@@ -36,7 +36,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ingot",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -70,9 +71,10 @@
         {
           "condition": "minecraft:random_chance_with_looting",
           "chance": 0.1,
-          "looting_multiplier": 0.03
+          "looting_multiplier": 0.04
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/zombie"
 }

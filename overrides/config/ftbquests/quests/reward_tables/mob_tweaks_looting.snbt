@@ -1,0 +1,785 @@
+{
+	id: "4108CC8C169D29F1"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "silentgear:sword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:sword_blade"
+									Item: {
+										Count: 1b
+										id: "silentgear:sword_blade"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:flint"
+												Item: {
+													Count: 1b
+													id: "minecraft:flint"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:iron"
+												Item: {
+													Count: 1b
+													id: "minecraft:iron_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:sinew"
+												Item: {
+													Count: 1b
+													id: "silentgear:sinew_fiber"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:grip"
+									Item: {
+										Count: 1b
+										id: "silentgear:grip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:wool/white"
+												Item: {
+													Count: 1b
+													id: "minecraft:white_wool"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							HarvestTier: "minecraft:iron"
+							LockStats: 0b
+							ModVersion: "3.6.5"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -2.3f
+								"silentgear:charging_value": 0.8f
+								"silentgear:durability": 124.0f
+								"silentgear:enchantment_value": 2.9999998f
+								"silentgear:harvest_speed": 5.5f
+								"silentgear:melee_damage": 5.0f
+								"silentgear:rarity": 5.9999995f
+								"silentgear:repair_efficiency": 1.15f
+							}
+							Traits: [
+								{
+									Level: 3b
+									Name: "silentgear:jagged"
+								}
+								{
+									Level: 4b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:magnetic"
+								}
+							]
+						}
+						Rendering: {
+							Model: 11
+							ModelKey: "sword:sword_blade{flint,flint},rod{iron,iron},binding{sinew},grip{wool/white},"
+						}
+					}
+					SGear_UUID: [I;
+						-839999268
+						-1713487148
+						-1492198703
+						484395163
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "silentgear:katana"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:katana_blade"
+									Item: {
+										Count: 1b
+										id: "silentgear:katana_blade"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												Count: 3b
+												ID: "silentgear:flint"
+												Item: {
+													Count: 1b
+													id: "minecraft:flint"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:iron"
+												Item: {
+													Count: 1b
+													id: "minecraft:iron_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:sinew"
+												Item: {
+													Count: 1b
+													id: "silentgear:sinew_fiber"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:grip"
+									Item: {
+										Count: 1b
+										id: "silentgear:grip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:wool/white"
+												Item: {
+													Count: 1b
+													id: "minecraft:white_wool"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							HarvestTier: "minecraft:iron"
+							LockStats: 0b
+							ModVersion: "3.6.5"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -2.4999998f
+								"silentgear:charging_value": 0.8f
+								"silentgear:durability": 139.5f
+								"silentgear:enchantment_value": 2.7f
+								"silentgear:harvest_speed": 5.5f
+								"silentgear:melee_damage": 6.0f
+								"silentgear:rarity": 6.0f
+								"silentgear:repair_efficiency": 1.15f
+							}
+							Traits: [
+								{
+									Level: 3b
+									Name: "silentgear:jagged"
+								}
+								{
+									Level: 4b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:magnetic"
+								}
+							]
+						}
+						Rendering: {
+							Model: 11
+							ModelKey: "katana:katana_blade{flint,flint,flint},rod{iron,iron},binding{sinew},grip{wool/white},"
+						}
+					}
+					SGear_UUID: [I;
+						11657429
+						-1477423151
+						-1580533350
+						-1731752370
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "silentgear:machete"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:machete_blade"
+									Item: {
+										Count: 1b
+										id: "silentgear:machete_blade"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												Count: 3b
+												ID: "silentgear:flint"
+												Item: {
+													Count: 1b
+													id: "minecraft:flint"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:iron"
+												Item: {
+													Count: 1b
+													id: "minecraft:iron_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:sinew"
+												Item: {
+													Count: 1b
+													id: "silentgear:sinew_fiber"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:grip"
+									Item: {
+										Count: 1b
+										id: "silentgear:grip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:wool/white"
+												Item: {
+													Count: 1b
+													id: "minecraft:white_wool"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							HarvestTier: "minecraft:iron"
+							LockStats: 0b
+							ModVersion: "3.6.5"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -2.1f
+								"silentgear:charging_value": 0.8f
+								"silentgear:durability": 124.0f
+								"silentgear:enchantment_value": 3.0f
+								"silentgear:harvest_speed": 5.5f
+								"silentgear:melee_damage": 4.0f
+								"silentgear:rarity": 6.0f
+								"silentgear:repair_efficiency": 1.15f
+							}
+							Traits: [
+								{
+									Level: 3b
+									Name: "silentgear:jagged"
+								}
+								{
+									Level: 4b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:magnetic"
+								}
+							]
+						}
+						Rendering: {
+							Model: 11
+							ModelKey: "machete:machete_blade{flint,flint,flint},rod{iron,iron},binding{sinew},grip{wool/white},"
+						}
+					}
+					SGear_UUID: [I;
+						-445732117
+						1886539156
+						-1685132404
+						747501374
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "silentgear:dagger"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:dagger_blade"
+									Item: {
+										Count: 1b
+										id: "silentgear:dagger_blade"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:flint"
+												Item: {
+													Count: 1b
+													id: "minecraft:flint"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:iron"
+												Item: {
+													Count: 1b
+													id: "minecraft:iron_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:sinew"
+												Item: {
+													Count: 1b
+													id: "silentgear:sinew_fiber"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:grip"
+									Item: {
+										Count: 1b
+										id: "silentgear:grip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:wool/white"
+												Item: {
+													Count: 1b
+													id: "minecraft:white_wool"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							HarvestTier: "minecraft:iron"
+							LockStats: 0b
+							ModVersion: "3.6.5"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -1.1f
+								"silentgear:charging_value": 0.8f
+								"silentgear:durability": 124.0f
+								"silentgear:enchantment_value": 3.0f
+								"silentgear:harvest_speed": 5.5f
+								"silentgear:melee_damage": 3.0f
+								"silentgear:rarity": 6.0f
+								"silentgear:repair_efficiency": 2.3f
+							}
+							Traits: [
+								{
+									Level: 3b
+									Name: "silentgear:jagged"
+								}
+								{
+									Level: 4b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:magnetic"
+								}
+							]
+						}
+						Rendering: {
+							Model: 11
+							ModelKey: "dagger:dagger_blade{flint},rod{iron,iron},binding{sinew},grip{wool/white},"
+						}
+					}
+					SGear_UUID: [I;
+						1679959200
+						787563952
+						-1148779083
+						904918268
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "silentgear:knife"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:knife_blade"
+									Item: {
+										Count: 1b
+										id: "silentgear:knife_blade"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:flint"
+												Item: {
+													Count: 1b
+													id: "minecraft:flint"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:iron"
+												Item: {
+													Count: 1b
+													id: "minecraft:iron_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:sinew"
+												Item: {
+													Count: 1b
+													id: "silentgear:sinew_fiber"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:grip"
+									Item: {
+										Count: 1b
+										id: "silentgear:grip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:wool/white"
+												Item: {
+													Count: 1b
+													id: "minecraft:white_wool"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							HarvestTier: "minecraft:iron"
+							LockStats: 0b
+							ModVersion: "3.6.5"
+							Stats: {
+								"silentgear:attack_reach": 3.0f
+								"silentgear:attack_speed": -1.5f
+								"silentgear:charging_value": 0.8f
+								"silentgear:durability": 155.0f
+								"silentgear:enchantment_value": 3.0f
+								"silentgear:harvest_speed": 5.5f
+								"silentgear:melee_damage": 2.0f
+								"silentgear:rarity": 6.0f
+								"silentgear:repair_efficiency": 2.3f
+							}
+							Traits: [
+								{
+									Level: 3b
+									Name: "silentgear:jagged"
+								}
+								{
+									Level: 4b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:magnetic"
+								}
+							]
+						}
+						Rendering: {
+							Model: 11
+							ModelKey: "knife:knife_blade{flint},rod{iron,iron},binding{sinew},grip{wool/white},"
+						}
+					}
+					SGear_UUID: [I;
+						-553363190
+						536365570
+						-1220240168
+						1366118549
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "silentgear:spear"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+					SGear_Data: {
+						Construction: {
+							Parts: [
+								{
+									ID: "silentgear:spear_tip"
+									Item: {
+										Count: 1b
+										id: "silentgear:spear_tip"
+										tag: {
+											CraftedCount: 1
+											Damage: 0
+											Materials: [{
+												ID: "silentgear:flint"
+												Item: {
+													Count: 1b
+													id: "minecraft:flint"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:rod"
+									Item: {
+										Count: 1b
+										id: "silentgear:rod"
+										tag: {
+											CraftedCount: 4
+											Materials: [{
+												Count: 2b
+												ID: "silentgear:iron"
+												Item: {
+													Count: 1b
+													id: "minecraft:iron_ingot"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:binding"
+									Item: {
+										Count: 1b
+										id: "silentgear:binding"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:sinew"
+												Item: {
+													Count: 1b
+													id: "silentgear:sinew_fiber"
+												}
+											}]
+										}
+									}
+								}
+								{
+									ID: "silentgear:grip"
+									Item: {
+										Count: 1b
+										id: "silentgear:grip"
+										tag: {
+											CraftedCount: 1
+											Materials: [{
+												ID: "silentgear:wool/white"
+												Item: {
+													Count: 1b
+													id: "minecraft:white_wool"
+												}
+											}]
+										}
+									}
+								}
+							]
+						}
+						Properties: {
+							HarvestTier: "minecraft:iron"
+							LockStats: 0b
+							ModVersion: "3.6.5"
+							Stats: {
+								"silentgear:attack_reach": 4.0f
+								"silentgear:attack_speed": -2.6f
+								"silentgear:charging_value": 0.8f
+								"silentgear:durability": 99.2f
+								"silentgear:enchantment_value": 3.0f
+								"silentgear:harvest_speed": 5.5f
+								"silentgear:melee_damage": 5.0f
+								"silentgear:rarity": 6.0f
+								"silentgear:repair_efficiency": 1.4375f
+							}
+							Traits: [
+								{
+									Level: 3b
+									Name: "silentgear:jagged"
+								}
+								{
+									Level: 4b
+									Name: "silentgear:flexible"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:magnetic"
+								}
+							]
+						}
+						Rendering: {
+							Model: 11
+							ModelKey: "spear:spear_tip{flint},rod{iron,iron},binding{sinew},grip{wool/white},"
+						}
+					}
+					SGear_UUID: [I;
+						1409267892
+						-1191556864
+						-1695419877
+						-1577493153
+					]
+				}
+			}
+		}
+	]
+	title: "Mob Tweaks Looting"
+}

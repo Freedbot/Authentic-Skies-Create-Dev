@@ -36,10 +36,9 @@ ServerEvents.recipes(event => {
             S: mat+'_slab',
         })
     })
-
+    //quark sapling availability just for fun
     const dyeSapling = [
         'blue',
-        'lavender',
         'orange',
         'yellow',
         'red'
@@ -47,4 +46,5 @@ ServerEvents.recipes(event => {
     dyeSapling.forEach(color => {(
         event.shapeless('quark:'+color+'_blossom_sapling', ['#forge:dyes/'+color, '#saplings'])
     )})
+    event.shapeless('quark:lavender_blossom_sapling', ['#forge:dyes/magenta', '#saplings'])
 })

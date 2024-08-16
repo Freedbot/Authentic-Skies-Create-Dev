@@ -1,5 +1,5 @@
 filename = 'caelus-forge-3.2.0+1.20.1.jar'
-name = 'Caelus API'
+name = 'Caelus API (Forge/NeoForge)'
 side = 'both'
 
 [download]

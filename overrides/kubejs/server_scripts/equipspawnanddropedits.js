@@ -2,8 +2,8 @@
 EntityEvents.checkSpawn(['minecraft:creeper', 'minecraft:zombie', 'minecraft:skeleton', 'minecraft:wither_skeleton', 'minecraft:pillager', 'minecraft:vindicator', 'minecraft:ravager'], event => {
     const {entity, type, server} = event
     if(!entity.alive) return
-    //doubling rare spawn rates by replacing only natural zombies and creepers
-    if (type != 'spawner' && type != 'spawn_egg' && (entity.type == 'minecraft:zombie' || entity.type == 'minecraft:creeper') && Math.random() < 0.05) {
+    //doubling rare spawn rates by replacing only natural zombies and creepers, carryon placing counts as type "event"
+    if (type == 'natural' && (entity.type == 'minecraft:zombie' || entity.type == 'minecraft:creeper') && Math.random() < 0.05) {
         if(entity.type == 'minecraft:zombie') {
             entity.block.createEntity('minecraft:zombie_villager').spawn()
         }

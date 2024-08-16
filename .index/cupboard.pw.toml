@@ -1,5 +1,5 @@
 filename = 'cupboard-1.20.1-2.7.jar'
-name = 'Cupboard utilities'
+name = 'Cupboard'
 side = 'both'
 
 [download]

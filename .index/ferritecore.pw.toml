@@ -1,5 +1,5 @@
 filename = 'ferritecore-6.0.1-forge.jar'
-name = 'Ferrite Core'
+name = 'FerriteCore ((Neo)Forge)'
 side = 'both'
 
 [download]

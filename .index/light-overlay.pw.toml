@@ -1,5 +1,5 @@
 filename = 'light-overlay-8.0.0-forge.jar'
-name = 'Light Overlay'
+name = 'Light Overlay (Rift/Forge/Fabric)'
 side = 'both'
 
 [download]

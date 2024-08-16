@@ -1,5 +1,5 @@
 filename = 'moonlight-1.20-2.12.11-forge.jar'
-name = 'Moonlight Library'
+name = 'Moonlight Lib'
 side = 'both'
 
 [download]

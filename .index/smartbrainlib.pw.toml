@@ -1,5 +1,5 @@
 filename = 'SmartBrainLib-forge-1.20.1-1.14.2.jar'
-name = 'SmartBrainLib'
+name = 'SmartBrainLib (Forge/Fabric/Quilt)'
 side = 'both'
 
 [download]

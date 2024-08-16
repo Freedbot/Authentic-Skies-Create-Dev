@@ -81,7 +81,7 @@
 		{ count: 4, item: "minecraft:name_tag" }
 		{ item: "sophisticatedstorage:stack_upgrade_tier_4" }
 		{ count: 10, item: "botania:blacker_lotus" }
-		{ count: 2, item: "witherproofed:sculk_metal" }
+		{ count: 2, item: "minecraft:reinforced_deepslate" }
 		{
 			item: {
 				Count: 1

@@ -1,5 +1,5 @@
 filename = 'cloth-config-11.1.118-forge.jar'
-name = 'Cloth Config v8 API'
+name = 'Cloth Config API (Fabric/Forge/NeoForge)'
 side = 'both'
 
 [download]

@@ -1,5 +1,5 @@
 filename = 'lootr-forge-1.20-0.7.34.87.jar'
-name = 'Lootr'
+name = 'Lootr (Forge & NeoForge)'
 side = 'both'
 
 [download]

@@ -1,3 +1,15 @@
+## 0.3.5
+* Updated Mods: CraftingTweaks, Embeddium, FramedBlocks, Occultism, Roughly Enough Items, Unnecessary Trident Tweak
+* Removed Roughly Enough Trades Mod
+* Replaced missing item late loot reward with reinforced deepslate.
+* Replaced looting book reward in Mob Tweaks with a generous looting weapon choice reward.
+* Fixed zombie villager and witch spawn boosts being triggered by placing carried mobs... lol.
+* Fixed lavender blossom sapling recipe from Quark.
+* Removed sneaky andesite recipe added by botania.
+* Nearly doubled drowned copper drop rate.
+* Very slightly boosted zombie and zomblin metal drop rates again, mostly for looting enchant.
+* Added flint to stone tool smashing recipe.  Pebble drop rolls reduced but output is the same.
+
 ## 0.3.4 - NVM
 * Reverted 0.3.3 entirely due to poor decision making :'(
 * Removed smelting and blasting gold gear into nuggets.

@@ -1,5 +1,5 @@
 filename = 'elytraslot-forge-6.4.3+1.20.1.jar'
-name = 'Elytra Slot'
+name = 'Elytra Slot (Fabric/Forge/Quilt)'
 side = 'both'
 
 [download]

@@ -14,6 +14,10 @@ ServerEvents.tags('item', event => {
     event.add('candles', 'occultism:candle_white')
     //Spawn Egg Group for crafting and REI Info Tab
     event.add('forge:spawn_eggs', '/.*spawn_egg/')
+    //For my bark and scrap recipes in farmersdelight.js
+    event.add('forge:tools/axes', ['silentgear:axe', 'silentgear:machete', 'silentgear:mattock', 'silentgear:paxel'])
+    //Disable making stone tools from flint to smash for more flint and pebbles
+    event.remove('quark:stone_tool_materials', 'flint')
 })
 ServerEvents.tags('entity_type', event => {
     //Get/make the #group:thing tag collection and add ID to it

@@ -1,5 +1,5 @@
 filename = 'silent-lib-1.20.1-8.0.0.jar'
-name = 'Silent Lib'
+name = 'Silent Lib (silentlib)'
 side = 'both'
 
 [download]

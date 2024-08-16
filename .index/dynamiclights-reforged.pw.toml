@@ -1,5 +1,5 @@
 filename = 'dynamiclightsreforged-1.20.1_v1.6.0.jar'
-name = 'Rubidium Dynamic Lights'
+name = 'Embeddium/Rubidium Dynamic Lights'
 side = 'both'
 
 [download]

@@ -13,10 +13,10 @@ ServerEvents.recipes(event => {
             'stone_'+tool,
             'silentgear:hammer',
             [
+                'flint',
                 Item.of('silentgear:pebble', (multi*6)),
                 Item.of('silentgear:pebble', multi).withChance(0.75),
-                Item.of('silentgear:pebble', multi).withChance(0.5),
-                Item.of('silentgear:pebble', multi).withChance(0.25)
+                Item.of('silentgear:pebble', multi).withChance(0.75)
             ],
             "entity.item.break"
         )

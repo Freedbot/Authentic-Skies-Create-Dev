@@ -72,6 +72,8 @@ const removed_items = [
     'quark:potato_crate',
     'quark:beetroot_crate',
     'quark:hammer',
+    'quark:magnet',
+    'quark:magnetized_block',
     'kubejs:sky_gui',
     'ftbquests:custom_icon',
     'ftbquests:missing_item',

@@ -1,5 +1,5 @@
 filename = 'diet-forge-2.1.1+1.20.1.jar'
-name = 'Diet'
+name = 'Diet (Fabric/Forge/Quilt)'
 side = 'both'
 
 [download]

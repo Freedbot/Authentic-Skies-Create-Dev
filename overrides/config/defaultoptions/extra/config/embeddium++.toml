@@ -31,7 +31,7 @@
 		fog = true
 		#Clean my skies
 		#Blue band was a vanilla feature, toggle off will show sky color directly
-		blueBand = false
+		blueBand = true
 		#Raise clouds
 		#Modify clouds height perfect for a adaptative world experience
 		#Range: 0 ~ 512

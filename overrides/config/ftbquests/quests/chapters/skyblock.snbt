@@ -208,7 +208,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} is stuck on a patch of \"Just Moss\"!"
+					command: "tellraw @a {\"text\":\"{team} is stuck on a patch of \"Just Moss\"!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "3288490AD9A63697"
 					team_reward: true
 					type: "command"
@@ -253,7 +253,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} embraces tradition with \"The Classic\" skyblock!"
+					command: "tellraw @a {\"text\":\"{team} embraces tradition with \"The Classic\" skyblock!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "3842099BEB262423"
 					team_reward: true
 					type: "command"
@@ -298,7 +298,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} is relaxing on \"Potato Island\"!"
+					command: "tellraw @a {\"text\":\"{team} is relaxing on \"Potato Island\"!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "32FDD8321D410AA9"
 					team_reward: true
 					type: "command"
@@ -410,7 +410,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has managed to not make obsidian!"
+					command: "tellraw @a {\"text\":\"{team} has managed to not make obsidian!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "54ED6BBFD39A787F"
 					team_reward: true
 					type: "command"
@@ -681,7 +681,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has learned proper organic waste disposal and completed the tutorial!"
+					command: "tellraw @a {\"text\":\"{team} has learned proper organic waste disposal and completed the tutorial!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "264276C218A4AFFB"
 					team_reward: true
 					type: "command"
@@ -807,7 +807,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has put rain water in a bucket! Genius!"
+					command: "tellraw @a {\"text\":\"{team} has put rain water in a bucket! Genius!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "0FCD53A18B25DA09"
 					team_reward: true
 					type: "command"
@@ -1028,7 +1028,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has struck gold!"
+					command: "tellraw @a {\"text\":\"{team} has struck gold!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "118C17383EAF2020"
 					team_reward: true
 					type: "command"
@@ -1171,7 +1171,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} just got scammed for some andesite!"
+					command: "tellraw @a {\"text\":\"{team} just got scammed for some andesite!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "2BAAEA687ABF107B"
 					team_reward: true
 					type: "command"
@@ -1334,7 +1334,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has managed to make their own lava AND not turn it into obsidian!"
+					command: "tellraw @a {\"text\":\"{team} has managed to make their own lava AND not turn it into obsidian!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "324F313AFBA346B4"
 					team_reward: true
 					type: "command"
@@ -1472,7 +1472,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has made some friends... with money!"
+					command: "tellraw @a {\"text\":\"{team} has made some friends... with money!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "32A7EF9A9BBBE636"
 					team_reward: true
 					type: "command"
@@ -1510,7 +1510,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has won the war for wealth!"
+					command: "tellraw @a {\"text\":\"{team} has won the war for wealth!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "30A5B5789EF7A9C4"
 					team_reward: true
 					type: "command"
@@ -1977,7 +1977,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team}'s wish for more resources has been granted!"
+					command: "tellraw @a {\"text\":\"{team}'s wish for more resources has been granted!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "38920EF80F80BB6E"
 					team_reward: true
 					type: "command"
@@ -2164,7 +2164,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has entered the information age!"
+					command: "tellraw @a {\"text\":\"{team} has entered the information age!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "3ED3AC6294DEF9CE"
 					team_reward: true
 					type: "command"
@@ -2296,7 +2296,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} has slain the mighty dragon!"
+					command: "tellraw @a {\"text\":\"{team} has slain the mighty dragon!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "500340BEDFE79ED2"
 					team_reward: true
 					type: "command"
@@ -2703,7 +2703,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/say {team} was trying to bake a cake, but ended up with brass instead!"
+					command: "tellraw @a {\"text\":\"{team} was trying to bake a cake, but ended up with brass instead!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "0C527E20D97AD6F2"
 					team_reward: true
 					type: "command"

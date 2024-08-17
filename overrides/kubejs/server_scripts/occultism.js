@@ -139,7 +139,7 @@ ServerEvents.recipes(event => {
             'emerald'
         ],
         'occultism:book_of_binding_bound_djinni',
-        'occultism:possess_djinni',
+        'occultism:summon_foliot',
         60,
 
     ).ritualType('occultism:summon').summon('pillager')

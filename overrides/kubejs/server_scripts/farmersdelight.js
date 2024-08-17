@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
     toolsToPebs('sword', 2),
     toolsToPebs('hoe', 2),
     toolsToPebs('shovel', 1)
+
     //full wood compatibility
     let cuttingWood = (mod, wood, scrapping) => {
         mod = mod+':'

@@ -24,6 +24,11 @@ ServerEvents.recipes(event => {
 	];
 	removed_recipes.forEach(id => event.remove({ id: id }));
 
+	//earth rune without coal access
+	event.replaceInput({id: 'botania:runic_altar/earth'},
+		'coal_block',
+		['coal_block', 'quark:charcoal_block']
+	)
 	//orechid custom ores to add
 	event.recipes.botania.orechid("create:veridium", "stone", 13500)//copper 80%
 	event.recipes.botania.orechid("create:crimsite", "stone", 13500)//iron 40%

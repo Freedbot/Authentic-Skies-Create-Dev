@@ -18,6 +18,9 @@ ServerEvents.tags('item', event => {
     event.add('forge:tools/axes', ['silentgear:axe', 'silentgear:machete', 'silentgear:mattock', 'silentgear:paxel'])
     //Disable making stone tools from flint to smash for more flint and pebbles
     event.remove('quark:stone_tool_materials', 'flint')
+    //Stone from pebbles from other stone, including tradable
+    event.remove('forge:stone', 'quark:permafrost')
+    event.add('silentgear:pebble_crushables', ['#forge:cobblestone', '#minecraft:dripstone_replaceable_blocks', '#forge:stone', '#minecraft:stone_bricks'])
 })
 ServerEvents.tags('entity_type', event => {
     //Get/make the #group:thing tag collection and add ID to it

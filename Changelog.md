@@ -1,3 +1,15 @@
+## 0.3.6
+* Added QuickStack mod.  Keys unbound by default.
+	* To anyone trying to change the favorites color, it's borked. #SSRRGG S=saturation, R=red, G=green, nothing = blue.
+* Updated Lootr, Moonlight Lib, Occultism, Oculus Flywheel Compat
+* Fix GREEN NETHER and YELLOW END by Re-enabling Sky Blue band in Embeddium++
+	* However, this is in default configs. You'll have to fix it yourself in Video Settings/Embeddium++/Quality++/Use Sky Blue band.  See [Github](https://github.com/Freedbot/Authentic-Skies-Create-Dev/issues/8) for pictures if you need it.
+* Fix Rune of Earth accepts charcoal blocks or coal blocks
+* Fixed the quest flavor text rewards for real this time by switching from /say to tellraw.
+* Changed Raid Captain summon to Aviar's circle
+* Expanded silent gear crafting recipe for pebbles to recycle lots of things for several stone options.
+* Disabled iron golem egg drop.
+
 ## 0.3.5
 * Updated Mods: CraftingTweaks, Embeddium, FramedBlocks, Occultism, Roughly Enough Items, Unnecessary Trident Tweak
 * Removed Roughly Enough Trades Mod

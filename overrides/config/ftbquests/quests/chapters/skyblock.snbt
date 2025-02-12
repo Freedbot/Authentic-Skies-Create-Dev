@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "skyblock"
 	group: ""
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "kubejs:sky_gui"
 	id: "55EB19B6D0365F1C"
 	order_index: 0
@@ -47,6 +47,7 @@
 				"&9B&r - Open Backpack"
 				"&9V&r - Run Backpack Upgrades"
 				"&9ALT&r+&9Z&r/&9X&r - Toggle first/second backpack upgrade slots"
+				"&9CTRL&r+&9Left Click&r - Favorite item to prevent quickstacking"
 				"&9K&r / &9CTRL&r+&9K&r / &9Shift&r+&9K&r - Compress craft stack/item/all respectively."
 				"&9Delete&r (+&9Shift&r) - Delete item (all of type)"
 				"&9Left Alt&r - Access nearby toolboxes"
@@ -96,7 +97,7 @@
 				""
 				"This one is the &9teams button&r.  It's specifically for sharing quests and claimed chunks.  If on multiplayer, deal with this now, if not, then don't worry about it other than to know that it has the anti-griefing rule settings for your claimed chunks."
 			]
-			hide: false
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -127,7 +128,7 @@
 				""
 				"For that matter, if you don't want the &9mini-map&r, it can be disabled from the &9gear icon&r in the bottom left of the FTB map screen."
 			]
-			hide: false
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -163,21 +164,32 @@
 				""
 				"&9Potato Island (Easy)&r: Start with Create.  By ClaudiusMinimus."
 			]
-			hide: false
+			hide_until_deps_complete: false
 			icon: "kubejs:sky_gui"
 			id: "79F2430624FDF498"
-			rewards: [{
-				id: "152AAF7A8EB7BB79"
-				item: {
-					Count: 1
-					id: "constructionwand:iron_wand"
-					tag: {
-						Damage: 0
-						wand_options: { }
+			rewards: [
+				{
+					id: "152AAF7A8EB7BB79"
+					item: {
+						Count: 1
+						id: "constructionwand:iron_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 5D79772E88D7D72D"
+					elevate_perms: true
+					id: "2CF62231EB781334"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "1EE9A423E0B3C2F2"
 				title: "Skyblock Menu"
@@ -187,18 +199,20 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["79F2430624FDF498"]
+			dependencies: [
+				"79F2430624FDF498"
+				"5D79772E88D7D72D"
+			]
 			description: [
 				"Stark, isn't it?  It's not all bad.  As mentioned, you can twerk.  Unlike most grass-like blocks, moss will produce from the power of twerk alone.  Spam that &9shift&r key, but be careful.  Any trees you grow will convert the block below to dirt, and you'll want to preserve some of your moss."
 				""
 				"Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
 			]
 			hide_dependent_lines: true
+			hide_until_deps_complete: false
 			id: "7D14566E49E00B34"
-			incompatible: [
-				"3683C72D2F5A9840"
-				"724C09CFF3F604F4"
-			]
+			invisible: true
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -208,13 +222,21 @@
 				}
 				{
 					auto: "invisible"
-					command: "tellraw @a {\"text\":\"{team} is stuck on a patch of \"Just Moss\"!\",\"bold\":true,\"color\":\"blue\"}"
+					command: "tellraw @a {\"text\":\"{team} is stuck on a patch of ''Just Moss''!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "3288490AD9A63697"
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 5D79772E88D7D72D"
+					elevate_perms: true
+					id: "7F2377E355D0A784"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
-			secret: true
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
@@ -231,19 +253,21 @@
 			y: 2.600000000000001d
 		}
 		{
-			dependencies: ["79F2430624FDF498"]
+			dependencies: [
+				"79F2430624FDF498"
+				"5D79772E88D7D72D"
+			]
 			description: [
 				"This island is perhaps the oldest well recognized player made structure in minecraft.  It doesn't play much differently either."
 				""
 				"Oh right, there's mods.  After you chop down your tree and replant a sapling, you can twerk (spam &9shift&r) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
 			]
 			hide_dependent_lines: true
+			hide_until_deps_complete: false
 			icon: "minecraft:grass_block"
 			id: "724C09CFF3F604F4"
-			incompatible: [
-				"3683C72D2F5A9840"
-				"7D14566E49E00B34"
-			]
+			invisible: true
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -253,13 +277,21 @@
 				}
 				{
 					auto: "invisible"
-					command: "tellraw @a {\"text\":\"{team} embraces tradition with \"The Classic\" skyblock!\",\"bold\":true,\"color\":\"blue\"}"
+					command: "tellraw @a {\"text\":\"{team} embraces tradition with ''The Classic'' skyblock!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "3842099BEB262423"
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 5D79772E88D7D72D"
+					elevate_perms: true
+					id: "789D982D64F2DA61"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
-			secret: true
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
@@ -276,19 +308,21 @@
 			y: 2.600000000000001d
 		}
 		{
-			dependencies: ["79F2430624FDF498"]
+			dependencies: [
+				"79F2430624FDF498"
+				"5D79772E88D7D72D"
+			]
 			description: [
 				"Paradise.  Water, lava, dripstone, crops, ores, and even a sheep.  You can jump directly into Create, however, be extra careful with your metals, andesite, and diorite.  Come up with a plan to make them renewable before you start crafting them away."
 				""
 				"Of course there's more mods in here than just Create.  After you chop down your tree and replant a sapling, you can twerk (spam &9shift&r) as a poor man's bone meal.  This works on crops as well.  Actual bone meal is also enhanced to work on all plants and many blocks.  Dead bushes from sand or mushrooms from mycelium for example.  It also spreads grasses."
 			]
 			hide_dependent_lines: true
+			hide_until_deps_complete: false
 			icon: "farmersdelight:potato_crate"
 			id: "3683C72D2F5A9840"
-			incompatible: [
-				"7D14566E49E00B34"
-				"724C09CFF3F604F4"
-			]
+			invisible: true
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -298,22 +332,30 @@
 				}
 				{
 					auto: "invisible"
-					command: "tellraw @a {\"text\":\"{team} is relaxing on \"Potato Island\"!\",\"bold\":true,\"color\":\"blue\"}"
+					command: "tellraw @a {\"text\":\"{team} is relaxing on ''Potato Island''!\",\"bold\":true,\"color\":\"blue\"}"
 					id: "32FDD8321D410AA9"
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s reset 5D79772E88D7D72D"
+					elevate_perms: true
+					id: "799EBA24D7D79811"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
-			secret: true
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				icon: "minecraft:oak_sign"
+				icon: "minecraft:dark_oak_sign"
 				id: "181EB13B66BBE7EC"
 				observe_type: 0
 				timer: 0L
 				title: "Observe Sign"
-				to_observe: "minecraft:oak_sign"
+				to_observe: "minecraft:dark_oak_sign"
 				type: "observation"
 			}]
 			title: "Potato Island"
@@ -335,7 +377,7 @@
 				""
 				"Smart search by prefixing with special characters: &9@&rmodname, &9#&rtooltip, &9$&rtag, &9r/&rregex&9/&r, &9\"&rwith spaces&9\"&r, this &9|&r or that."
 			]
-			hide: false
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -456,6 +498,7 @@
 				}
 			}
 			id: "0C1D5ADFCAE879DC"
+			optional: true
 			rewards: [
 				{
 					id: "4EDCF3D8BF261EE7"
@@ -520,6 +563,7 @@
 				}
 			}
 			id: "3AEC948B2AC83588"
+			optional: true
 			rewards: [
 				{
 					id: "4C5D29BEFAA589B0"
@@ -578,6 +622,7 @@
 				}
 			}
 			id: "7A2B2336A9A304DD"
+			optional: true
 			rewards: [{
 				id: "03EFAAED3F8121A3"
 				item: "minecraft:moss_block"
@@ -686,6 +731,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 57CB9C66EF23097B"
+					elevate_perms: true
+					id: "3F2AF0E21AB29E55"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 52C4E50619863B2F"
+					elevate_perms: true
+					id: "5E69848004E11506"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -721,7 +784,7 @@
 				""
 				"However, if that isn't enough help, then &9click&r the &9\"Give Up\" checkmark task&r to reveal the Hint Quest.  It's pre-revealed this time only, so go check it out to learn more."
 				""
-				"No Clue or Hint quests have rewards, and both will be disabled (with hint revealed) once the related Main quest is done."
+				"No Clue or Hint quests have rewards, and both will be completed (with hint revealed) once the related Main quest is done."
 				""
 				"&9Composting Clue:&r There are patterns in the tree bark."
 			]
@@ -734,7 +797,6 @@
 				}
 			}
 			id: "57CB9C66EF23097B"
-			incompatible: ["49DCF7803C1AA999"]
 			optional: true
 			tasks: [{
 				id: "3491FEA6F06B2FAB"
@@ -758,10 +820,9 @@
 				""
 				"If you still need help, have feedback, or just want to share your progress you'll find a &5Discord&r link button in the corner of the main menu.  &cYoutube&r and &9stream&r links are also welcome."
 			]
-			hide: false
+			hide_until_deps_complete: false
 			icon: "silentgear:shears_template"
 			id: "52C4E50619863B2F"
-			incompatible: ["49DCF7803C1AA999"]
 			optional: true
 			tasks: [
 				{
@@ -812,6 +873,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 405E7CFC084065A9"
+					elevate_perms: true
+					id: "0C3E4CED8CC87E10"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 7A73D2F872E4183B"
+					elevate_perms: true
+					id: "1F1E7DCA5104ED8B"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "57292CBE3CDDF93D"
@@ -836,7 +915,6 @@
 				}
 			}
 			id: "405E7CFC084065A9"
-			incompatible: ["5411150A732213DA"]
 			optional: true
 			tasks: [{
 				id: "380FC370DA91C8CA"
@@ -857,7 +935,6 @@
 			hide_details_until_startable: true
 			icon: "minecraft:cauldron"
 			id: "7A73D2F872E4183B"
-			incompatible: ["5411150A732213DA"]
 			optional: true
 			tasks: [
 				{
@@ -1033,6 +1110,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 14D93943A994F483"
+					elevate_perms: true
+					id: "40848DE4D0F4AF48"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 387C9BC761A6BF34"
+					elevate_perms: true
+					id: "6F616EAB932635BB"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "21B632E5FD228ED9"
@@ -1054,7 +1149,6 @@
 				}
 			}
 			id: "14D93943A994F483"
-			incompatible: ["6BB28505FA00CC50"]
 			optional: true
 			tasks: [{
 				id: "6BB98494E5FD64A6"
@@ -1080,7 +1174,6 @@
 				}
 			}
 			id: "387C9BC761A6BF34"
-			incompatible: ["6BB28505FA00CC50"]
 			optional: true
 			tasks: [
 				{
@@ -1113,8 +1206,6 @@
 					type: "item"
 				}
 				{
-					checkItem: false
-					entity: "minecraft:pig"
 					icon: {
 						Count: 1
 						id: "ftbquests:custom_icon"
@@ -1123,9 +1214,7 @@
 						}
 					}
 					id: "73682B11ED8A3A7B"
-					nbt: { }
-					type: "questsadditions:interaction"
-					value: 2L
+					type: "custom"
 				}
 				{
 					entity: "minecraft:zombified_piglin"
@@ -1176,6 +1265,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 0A96A541C92D2CAC"
+					elevate_perms: true
+					id: "3F08952B05B7ECD8"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 1B52B254C46F9C89"
+					elevate_perms: true
+					id: "258DAAFDC2D867E1"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "0F38DA0F58E2FED6"
@@ -1192,7 +1299,7 @@
 				"6BB28505FA00CC50"
 				"12624192F450DC39"
 			]
-			description: ["The polinated droppings of a fellen scarecrow lead to more fickle dealings."]
+			description: ["The pollinated droppings of a fellen scarecrow lead to more fickle dealings."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1202,7 +1309,6 @@
 				}
 			}
 			id: "0A96A541C92D2CAC"
-			incompatible: ["6FD36091A6A15488"]
 			min_required_dependencies: 2
 			optional: true
 			tasks: [{
@@ -1233,12 +1339,9 @@
 				}
 			}
 			id: "1B52B254C46F9C89"
-			incompatible: ["6FD36091A6A15488"]
 			optional: true
 			tasks: [
 				{
-					checkItem: false
-					entity: "minecraft:wandering_trader"
 					icon: {
 						Count: 1
 						id: "ftbquests:custom_icon"
@@ -1247,10 +1350,8 @@
 						}
 					}
 					id: "4619B99E6EA22786"
-					nbt: { }
 					title: "Trade with the Wandering Trader"
-					type: "questsadditions:interaction"
-					value: 1L
+					type: "custom"
 				}
 				{
 					id: "6A7FCEA38A71695F"
@@ -1305,8 +1406,8 @@
 		}
 		{
 			dependencies: [
-				"6FD36091A6A15488"
 				"7D14566E49E00B34"
+				"3F83313EE2343BF6"
 			]
 			description: [
 				"Some of you experienced modded skyblock players might be wondering where the mechanical extruder or cobble generator machine is.  Stop looking.  You'll be using old school cobble generators all game.  You can automate the mining process with mods though."
@@ -1339,6 +1440,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 70AC457B47BBDE80"
+					elevate_perms: true
+					id: "1C3DF2455D61F9E6"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 5807557FEE4E7980"
+					elevate_perms: true
+					id: "12E452B384CA5FC1"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -1360,12 +1479,12 @@
 			]
 			title: "Lava \\& Cobblestone"
 			x: 1.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
-				"6FD36091A6A15488"
 				"7D14566E49E00B34"
+				"3F83313EE2343BF6"
 			]
 			description: ["Healthy bricks and juiced up burny boys.  That's how."]
 			hide_dependency_lines: true
@@ -1377,7 +1496,6 @@
 				}
 			}
 			id: "70AC457B47BBDE80"
-			incompatible: ["472FB8381C698F8E"]
 			optional: true
 			tasks: [{
 				id: "65D926D000FDDF5B"
@@ -1386,7 +1504,7 @@
 			}]
 			title: "Clue: Lava \\& Cobblestone"
 			x: 0.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1397,7 +1515,6 @@
 			description: ["You must \"uncook\" the nether brick with health potion, and make biofuel so the blaze burner can get hot enough to melt stone."]
 			icon: "createaddition:straw"
 			id: "5807557FEE4E7980"
-			incompatible: ["472FB8381C698F8E"]
 			optional: true
 			tasks: [
 				{
@@ -1424,7 +1541,7 @@
 			]
 			title: "Hint: Lava \\& Cobblestone"
 			x: -1.0d
-			y: 10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1477,6 +1594,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 251AC701318EB7F5"
+					elevate_perms: true
+					id: "5F2373200A80B068"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 089F415DFA556A1C"
+					elevate_perms: true
+					id: "2325DD86346C3BF2"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "339B9F11F9C66716"
@@ -1515,6 +1650,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 3798D14482493CA3"
+					elevate_perms: true
+					id: "27140F867CB73517"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 3AC0FCF0AA580E99"
+					elevate_perms: true
+					id: "00B93E0790350031"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "74C830281CB4F0AF"
@@ -1541,7 +1694,6 @@
 				}
 			}
 			id: "251AC701318EB7F5"
-			incompatible: ["12624192F450DC39"]
 			min_required_dependencies: 2
 			optional: true
 			tasks: [{
@@ -1568,7 +1720,6 @@
 				}
 			}
 			id: "089F415DFA556A1C"
-			incompatible: ["12624192F450DC39"]
 			optional: true
 			tasks: [
 				{
@@ -1621,12 +1772,11 @@
 				}
 			}
 			id: "3AC0FCF0AA580E99"
-			incompatible: ["47D3EAB6AB1275A0"]
 			optional: true
 			tasks: [
 				{
 					entity: "minecraft:pillager"
-					icon: "kubejs:ritual_summon_pillager"
+					icon: "occultism:ritual_possess_pillager"
 					id: "2B55A029B3CD2FF6"
 					title: "Ritual Summon and Kill a Pillager Captain"
 					type: "kill"
@@ -1659,7 +1809,6 @@
 				}
 			}
 			id: "3798D14482493CA3"
-			incompatible: ["47D3EAB6AB1275A0"]
 			min_required_dependencies: 2
 			optional: true
 			tasks: [{
@@ -1795,7 +1944,7 @@
 				""
 				"You don't have to, but wouldn't dirty duping be a fun little automation project?"
 			]
-			hide: false
+			hide_until_deps_complete: false
 			icon: "minecraft:grass_block"
 			id: "101617A4B9974927"
 			rewards: [
@@ -1853,7 +2002,7 @@
 				""
 				"Hexagonal quests unlock quest lines.  This one unlocks the &9Logistics chapter&r, where you'll find quests for Sophisticated Storage and Backpacks."
 			]
-			hide: false
+			hide_until_deps_complete: false
 			icon: "minecraft:chest"
 			id: "032A48BF62390018"
 			rewards: [
@@ -1982,6 +2131,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 7E59E08494945DBD"
+					elevate_perms: true
+					id: "6FA270E1AB77613B"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 4DE7FE52D099EC69"
+					elevate_perms: true
+					id: "3DBB89179150B97D"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -2024,7 +2191,6 @@
 				}
 			}
 			id: "7E59E08494945DBD"
-			incompatible: ["1D75A07A68B1F883"]
 			min_required_dependencies: 2
 			optional: true
 			tasks: [{
@@ -2045,7 +2211,6 @@
 			description: ["The trick with iesnium is that you'd never know you had it until you know how to see it, and even silk touch won't mine it properly."]
 			icon: "botania:orechid_ignem"
 			id: "4DE7FE52D099EC69"
-			incompatible: ["1D75A07A68B1F883"]
 			optional: true
 			tasks: [
 				{
@@ -2169,6 +2334,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 29566D50E1966992"
+					elevate_perms: true
+					id: "334B1E9105925D14"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 2107B39FCC85FC04"
+					elevate_perms: true
+					id: "6EE0759E7414C744"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -2196,7 +2379,6 @@
 				}
 			}
 			id: "29566D50E1966992"
-			incompatible: ["6CF56C744EF8AAEF"]
 			optional: true
 			tasks: [{
 				id: "442D3D2C0246D962"
@@ -2216,7 +2398,6 @@
 			description: ["Make it, crush it, drain it, press it, craft it, charge it, dunk it.  Technologic."]
 			icon: "occultism:crushed_end_stone"
 			id: "2107B39FCC85FC04"
-			incompatible: ["6CF56C744EF8AAEF"]
 			optional: true
 			tasks: [
 				{
@@ -2301,6 +2482,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 4DFBA7B91347D0B6"
+					elevate_perms: true
+					id: "6CC4B279236C7F4F"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 38D85E2C2A87DC7A"
+					elevate_perms: true
+					id: "42E555B99566A57F"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [
 				{
@@ -2339,7 +2538,6 @@
 				}
 			}
 			id: "4DFBA7B91347D0B6"
-			incompatible: ["054A207F874487C2"]
 			optional: true
 			tasks: [{
 				id: "6D4129F0D2C43359"
@@ -2352,8 +2550,8 @@
 		}
 		{
 			dependencies: [
-				"054A207F874487C2"
 				"4DFBA7B91347D0B6"
+				"054A207F874487C2"
 			]
 			dependency_requirement: "one_completed"
 			description: ["Tons of killing.  These are not accurate numbers, of course.  Make extra ingredients and be ready to kill the same enemies and bosses repeatedly, and then even more killing to feed the Sculk Catalyst."]
@@ -2365,7 +2563,6 @@
 				}
 			}
 			id: "38D85E2C2A87DC7A"
-			incompatible: ["054A207F874487C2"]
 			optional: true
 			tasks: [
 				{
@@ -2511,7 +2708,7 @@
 		{
 			dependencies: ["2E559BF166A16E48"]
 			description: ["Besides being an ingredient for automation in this pack, skystone has another use.  Indestructible enchantment books.  It's exactly what it sounds like.  The recipe is among the Occultism rituals in REI."]
-			hide: false
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "minecraft:enchanted_book"
@@ -2680,9 +2877,9 @@
 		}
 		{
 			dependencies: [
-				"472FB8381C698F8E"
 				"724C09CFF3F604F4"
 				"47D3EAB6AB1275A0"
+				"7D14566E49E00B34"
 			]
 			description: ["For a pack with Create in the name, it might feel like your Create creativity has been stifled.  Let's fix that."]
 			hide_dependency_lines: true
@@ -2708,6 +2905,24 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 401F51E8FCDD11BF"
+					elevate_perms: true
+					id: "7723DDD0E8CDB729"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests change_progress @s complete 29238B4ACC2FF602"
+					elevate_perms: true
+					id: "4B6B991825F70739"
+					silent: true
+					team_reward: true
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "7972C7F1706442D1"
@@ -2716,14 +2931,13 @@
 			}]
 			title: "Brass"
 			x: 1.0d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
-				"472FB8381C698F8E"
 				"724C09CFF3F604F4"
-				"3683C72D2F5A9840"
 				"47D3EAB6AB1275A0"
+				"7D14566E49E00B34"
 			]
 			description: ["A rock collection is worth more when &1soaked&r and sprinkled with &bmagic&r."]
 			hide_dependency_lines: true
@@ -2735,7 +2949,6 @@
 				}
 			}
 			id: "401F51E8FCDD11BF"
-			incompatible: ["3F83313EE2343BF6"]
 			min_required_dependencies: 2
 			optional: true
 			tasks: [{
@@ -2745,7 +2958,7 @@
 			}]
 			title: "Clue: Brass"
 			x: 0.0d
-			y: 11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -2760,7 +2973,6 @@
 			]
 			icon: "botania:orechid"
 			id: "29238B4ACC2FF602"
-			incompatible: ["3F83313EE2343BF6"]
 			optional: true
 			tasks: [
 				{
@@ -2823,7 +3035,23 @@
 			]
 			title: "Hint: Brass"
 			x: -1.0d
-			y: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["79F2430624FDF498"]
+			hide_details_until_startable: true
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "5D79772E88D7D72D"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "54AB17F50B9ECFFD"
+				item: "kubejs:sky_gui"
+				type: "item"
+			}]
+			title: "Awaiting Skyblock Choice"
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "Skyblock"

@@ -23,4 +23,8 @@ ItemEvents.tooltip(tooltip => {
         text.add(1, 'Witherproof')
         text.add(2, 'Mineable with a Netherite level pickaxe.')
     })
+    tooltip.addAdvanced('create_unbreakable:irromolding', (item, advanced, text) => {
+        text.add(1, 'Combine in an anvil with anything that has durability to make it unbreakable.')
+        text.add(2, 'Not compatible with Mending or Unbreaking.')
+    })
 })

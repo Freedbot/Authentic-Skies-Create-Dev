@@ -268,12 +268,12 @@
 				""
 				"Growing crystals has probably felt like pulling teeth, let's speed up the process.  Powered Growth Accelerators placed against the sides of a budding certus may block bud growth on that side, but the remaining sides will sprout much faster and the effect stacks.  The layout and number of accelerators is up to you, but whatever your method is, automate it."
 			]
-			icon: "ae2:quartz_growth_accelerator"
+			icon: "ae2:growth_accelerator"
 			id: "12D8F995FB2EBBE7"
 			rewards: [{
 				count: 2
 				id: "2E56EBEA1775213C"
-				item: "ae2:quartz_growth_accelerator"
+				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
 			tasks: [
@@ -290,7 +290,7 @@
 				}
 				{
 					id: "24AE1A5558D8A098"
-					item: "ae2:quartz_growth_accelerator"
+					item: "ae2:growth_accelerator"
 					type: "item"
 				}
 			]
@@ -466,9 +466,7 @@
 			description: [
 				"There are two different types of \"wireless\" to consider when talking about AE.  One is the quantum network bridge, an expensive multiblock which links 2 ME networks across any distance/dimensions.  I'll let you google that one.  I'm covering the wireless crafting terminal."
 				""
-				"You need a wireless access point attached to the ME network.  The more cards you add to boost it's range, the more power hungry it gets."
-				""
-				"The security terminal is almost useless since you should normally use FTB Utilities to handle protecting everything in your claimed chunks, but you need it hooked up to link your wireless terminal to your ME system."
+				"You need a wireless access point attached to the ME network.  The more cards you add to boost it's range, the more power hungry it gets.  You'll also need to use the point to link your wireless terminal to your ME system."
 				""
 				"Legends tell of a quantum bridge card that goes in a wireless terminal to permanently make it work from anywhere."
 			]
@@ -487,18 +485,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "74F42A425351FAEE"
-					item: "ae2:wireless_crafting_terminal"
-					type: "item"
-				}
-				{
-					id: "2F85B0BA0FB1B7FE"
-					item: "ae2:security_station"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74F42A425351FAEE"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
 			title: "Wireless Access"
 			x: 8.0d
 			y: 5.5d

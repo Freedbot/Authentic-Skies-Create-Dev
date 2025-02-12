@@ -8,9 +8,9 @@
   "description": "",
   "hide_while_locked": false,
   "icon": {
-    "item": "enchanted_book"
+    "item": "create_unbreakable:irromolding"
   },
-  "name": "Indestructible Enchanted Book",
+  "name": "Unbreakable Irromolding",
   "pages": [
     {
       "type": "modonomicon:spotlight",
@@ -19,9 +19,9 @@
         "type": "modonomicon:none"
       },
       "item": {
-        "item": "enchanted_book"
+        "item": "create_unbreakable:irromolding"
       },
-      "text": "This custom ritual crafts an Indestructible enchanted book.  It works on almost all gear with durability, including bound ritual items.",
+      "text": "This custom ritual crafts the Unbreakable Irromolding.  It makes almost all gear with durability unbreakable, including bound ritual items.",
       "title": ""
     },
     {
@@ -30,7 +30,7 @@
       "condition": {
         "type": "modonomicon:none"
       },
-      "recipe_id_1": "occultism:ritual/indestructible_enchanted_book",
+      "recipe_id_1": "occultism:ritual/unbreakable_irromolding",
       "text": "",
       "title1": "",
       "title2": ""

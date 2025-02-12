@@ -70,12 +70,9 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:killed_by_player"
-        },
-        {
           "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.1,
-          "looting_multiplier": 0.04
+          "chance": 0.05,
+          "looting_multiplier": 0.02
         }
       ]
     }

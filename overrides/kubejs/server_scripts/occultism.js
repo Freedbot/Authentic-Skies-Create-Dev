@@ -5,13 +5,16 @@ ServerEvents.recipes(event => {
         'occultism:ritual/possess_warden', //replaced below, lang file changed
         //garbage miner removal
         'occultism:miner/basic_resources/stone',
+        'occultism:miner/basic_resources/end_stone', //adding back with higher chance
 		'occultism:miner/ores/gravel',
 		'occultism:miner/ores/clay',
 		'occultism:miner/ores/otherstone',
 		'occultism:miner/ores/obsidian',
 		'occultism:miner/ores/magma_block',
-        //not occultism, but I'm adding the recipe back here anyway
-        'indestructible:indestructible_gem'
+        'occultism:miner/ores/sky_stone_block',
+        'occultism:miner/master/ancient_debris', //adding back with higher chance
+        //not occultism, but I'm adding the recipe back for the irromolding here anyway
+        'create_unbreakable:mechanical_crafting/eternal_modifier'
     ];
 	removed_recipes.forEach(id => event.remove({ id: id }));
 
@@ -83,24 +86,26 @@ ServerEvents.recipes(event => {
     event.recipes.occultism.spirit_fire('basalt', 'deepslate')
 
     //miner pool shorthand, different miner are "junk", "ores", "deeps", and "master"
-    let minorPool = (pool, ore, chance) => {
+    let minerPool = (pool, ore, chance) => {
         if (pool == 'junk') pool = 'basic_resources'
         let id = 'occultism:miner/'+pool+'/'+ore.replace(/^.+:/, '')
 
         event.recipes.occultism.miner(Item.of(ore).withChance(chance), '#occultism:miners/'+pool).id(id)
     }
     //adding garbage back to the loot pool
-    minorPool('junk', 'dirt', 10000),
-    minorPool('junk', 'occultism:otherstone', 10000),
-    minorPool('junk', 'obsidian', 5000),
-    minorPool('junk', 'magma_block', 5000)
+    minerPool('junk', 'dirt', 10000),
+    minerPool('junk', 'occultism:otherstone', 10000),
+    minerPool('junk', 'obsidian', 5000),
+    minerPool('junk', 'magma_block', 5000)
+    minerPool('junk', 'end_stone', 500)
     //adding to the normal ore loot pool
-    minorPool('ores', 'silentgear:crimson_iron_ore', 200)
+    minerPool('ores', 'silentgear:crimson_iron_ore', 200)
     //adding to the deep ore loot pool
-    minorPool('deeps', 'budding_amethyst', 10),
-    minorPool('deeps', 'occultism:iesnium_ore', 10)
+    minerPool('deeps', 'budding_amethyst', 10),
+    minerPool('deeps', 'occultism:iesnium_ore', 10)
     //adding to the master ore loot pool
-    minorPool('master', 'silentgear:azure_silver_ore', 200)
+    minerPool('master', 'silentgear:azure_silver_ore', 200)
+    minerPool('master', 'ancient_debris', 150)
     
     //Rituals
     //Wandering Trader
@@ -171,9 +176,9 @@ ServerEvents.recipes(event => {
         60,
 
     ).ritualType('occultism:summon').summon('occultism:possessed_warden').dummy('occultism:ritual_dummy/possess_warden').sacrifice({tag: 'forge:axolotls', name: 'ritual.occultism.sacrifice.axolotls'}).id('occultism:ritual/possess_warden')
-    //Indestructible Book
+    //Unbreakable Irromolding
     event.recipes.occultism.ritual(
-        Item.of('enchanted_book').enchant('indestructible:indestructible_enchant', 1),
+        Item.of('create_unbreakable:irromolding'),
         [
             Item.of('enchanted_book').enchant('unbreaking', 3).weakNBT(),
             'netherite_ingot',
@@ -182,9 +187,9 @@ ServerEvents.recipes(event => {
             'ae2:sky_dust',
             'ae2:sky_dust'
         ],
-        'occultism:book_of_binding_bound_marid',
+        'create:precision_mechanism',
         'occultism:craft_marid',
         60,
 
-    ).dummy('occultism:ritual_indestructible_enchanted_book').id('occultism:ritual/indestructible_enchanted_book')
+    ).dummy('occultism:ritual_unbreakable_irromolding').id('occultism:ritual/unbreakable_irromolding')
 })

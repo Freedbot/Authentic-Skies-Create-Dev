@@ -1,0 +1,13 @@
+filename = 'CreateUnbreakableTools-1.6+forge-1.20.1-build.7.jar'
+name = 'Create Unbreakable Tools Mod'
+side = 'both'
+
+[download]
+hash = '3766a0ab3dfd6b0b5e13130ed9648af1bb3bbbb7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6046569
+project-id = 963802

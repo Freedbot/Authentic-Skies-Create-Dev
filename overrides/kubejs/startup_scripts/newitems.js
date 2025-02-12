@@ -13,7 +13,7 @@ StartupEvents.registry('item', event => {
     .tooltip('The Wandering Trader wants all your Emeralds').texture('occultism:item/ritual_dummy')
   event.create('occultism:ritual_possess_pillager').displayName('Ritual: Summon Pillager Captain')
     .tooltip('The Pillager Captain inflicts Bad Omen').texture('occultism:item/ritual_dummy')
-  event.create('occultism:ritual_indestructible_enchanted_book').displayName('Ritual: Indestructible Enchanted Book')
+  event.create('occultism:ritual_unbreakable_irromolding').displayName('Ritual: Unbreakable Irromolding')
     .tooltip('Surpasses Unbreaking III.  Enchanted items no longer lose durability.').texture('occultism:item/ritual_dummy')
 })
 //intermediate fluid ingredient for Create liquid processing, no in world form

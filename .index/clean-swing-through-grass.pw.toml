@@ -1,13 +1,13 @@
-filename = 'cleanswing-1.20-1.5.jar'
+filename = 'cleanswing-1.20-1.8.jar'
 name = 'Clean Swing Through Grass'
 side = 'both'
 
 [download]
-hash = 'eafe4e462b786f87ea18452763fe3f946cc1efbc'
+hash = 'c128e24c47ab4a389b3868ff6913ee0631f254e8'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5086735
+file-id = 5962530
 project-id = 915308

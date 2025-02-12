@@ -1,3 +1,37 @@
+## 0.3.8
+* Added More Dragon Eggs.  I'm so used to an egg every dragon that I forgot it wasn't a vanilla thing.
+* Added Just Zoom.
+* Added Botarium because Tempad had to be special and suddenly require an API to support energy.
+* Replaced Indestructible with Create Unbreakable Tools to avoid cheap enchantment duping.
+* Added back Roughly Enough Resources and Roughly Enough Trades to fix kubejs edits of loot/trades not showing up on servers in JER
+* Removed Just Enough Resources.
+* Mod Updates!: Basically everything, including Forge.  I went through nearly all the changelogs, but please report any changes affecting recipes/progression and any brand new mod incompatibilities that are sure to happen.
+* Edited rei.js to use kubejs' JEI integration instead of REI since either "works", but the REI form bugs out Roughly Enough Resources, preventing mob based loot from showing, which is why the mod was swapped out previously.  This has been a rollercoaster of emotion.
+* Disabled silverfish eggs because they're not useful and mess up the create XP farms.
+* Removed Sky Stone from Occultism miners.  A sneaky mod update added it, but it's supposed to be locked by the dragon egg.
+* Slightly Boosted Endstone and Ancient Debris chances from Occultism miners.
+* Fixed the Reinforced Deepslate recipe (it was always supposed to output 8).
+* Convenience mixing recipes for twisting and weeping vines.
+* Removed charger recipe for AE2 guide book and added a basic crafting recipe.
+* Removed missing security station from wireless terminal quest and rephrased quest appropriately.
+* Disabled and hid new omega stack upgrades for Sophisticated Storage/Backpacks.
+
+## 0.3.7
+* Removed Mobtimizations because it's features mostly just mess with mob farm rates.
+* Removed Quest Additions due to critical world corrupting bug with schematicannon placed deployers.
+* Nerfed running in twerk growth to match the rate that twerking works.
+* Reworked quest dependancies with command quests to force disable unchosen island quests via a special hidden quest.
+* Did the above as well to force complete hint and clue quests upon relevant main quest completion.
+* THIS MAY BREAK QUEST PROGRESS!  The Awaiting Skyblock Choice quest near the top should be incomplete and invisible after the task completion spam finishes, if not, enter editing mode and reset it's progress.
+* Swapped order of brass and stone & lava main quest due to progression issue.  This late lava progression may change in future.
+* Fixed changed item ID in AE2 growth accellerator quest and diamond clue quest.
+* Removed player kill requirement for zombie iron, zombie piglin gold, and drowned copper (and doubled copper drop rate).
+* Yet another fruitless attempt to fix the quest flavor text rewards damnit.
+* Raised global monster cap to 100 per player that aren't in the same area (vanilla is 70).
+	* Mobs from spawners can go another 64 above this cap.
+* Raised breeding cap to 100 per species per 64 block range (so 100 pigs and 100 villagers in the same chunk is "fine").
+* Dialed back zombified piglin gold ingot drop rate a bit.
+
 ## 0.3.6
 * Added QuickStack mod.  Keys unbound by default.
 	* To anyone trying to change the favorites color, it's borked. #SSRRGG S=saturation, R=red, G=green, nothing = blue.

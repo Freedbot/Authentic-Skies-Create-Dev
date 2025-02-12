@@ -7,10 +7,20 @@
 		ftbchunks.max_claimed: 500
 		ftbchunks.max_force_loaded: 25
 		ftbessentials.home.max: 10
-		command.home: true,
-		command.sethome: true,
-		command.back: true,
-		command.tpa: true,
+		command.say: true
+		command.say.message: true
+		command.msg: true
+		command.msg.targets: true
+		command.msg.targets.message: true
+		command.teammsg: true
+		command.teammsg.message: true
+		command.tellraw: true
+		command.tellraw.targets: true
+		command.tellraw.targets.message: true
+		command.home: true
+		command.sethome: true
+		command.back: true
+		command.tpa: true
 		command.tpahere: true
 	}
 	new: {
@@ -21,11 +31,21 @@
 		ftbchunks.max_claimed: 9
 		ftbchunks.max_force_loaded: 1
 		ftbessentials.home.max: 0
-		command.rtp: false,
-		command.home: false,
-		command.sethome: false,
-		command.back: false,
-		command.tpa: false,
+		command.say: true
+		command.say.message: true
+		command.msg: true
+		command.msg.targets: true
+		command.msg.targets.message: true
+		command.teammsg: true
+		command.teammsg.message: true
+		command.tellraw: true
+		command.tellraw.targets: true
+		command.tellraw.targets.message: true
+		command.rtp: false
+		command.home: false
+		command.sethome: false
+		command.back: false
+		command.tpa: false
 		command.tpahere: false
 	}
 	member: {
@@ -40,8 +60,18 @@
 		ftbchunks.max_claimed: 40
 		ftbchunks.max_force_loaded: 16
 		ftbessentials.home.max: 1
-		command.home: true,
-		command.sethome: true,
+		command.say: true
+		command.say.message: true
+		command.msg: true
+		command.msg.targets: true
+		command.msg.targets.message: true
+		command.teammsg: true
+		command.teammsg.message: true
+		command.tellraw: true
+		command.tellraw.targets: true
+		command.tellraw.targets.message: true
+		command.home: true
+		command.sethome: true
 	}
 	vip: {
 		name: "VIP"
@@ -50,10 +80,20 @@
 		ftbchunks.max_claimed: 60
 		ftbchunks.max_force_loaded: 20
 		ftbessentials.home.max: 3
-		command.home: true,
-		command.sethome: true,
-		command.back: true,
-		command.tpa: true,
+		command.say: true
+		command.say.message: true
+		command.msg: true
+		command.msg.targets: true
+		command.msg.targets.message: true
+		command.teammsg: true
+		command.teammsg.message: true
+		command.tellraw: true
+		command.tellraw.targets: true
+		command.tellraw.targets.message: true
+		command.home: true
+		command.sethome: true
+		command.back: true
+		command.tpa: true
 		command.tpahere: true
 	}
 }

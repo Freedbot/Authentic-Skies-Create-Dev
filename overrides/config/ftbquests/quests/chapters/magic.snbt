@@ -706,7 +706,7 @@
 			icon: "botania:gaia_head"
 			id: "5BE9FE83905E3D07"
 			invisible: true
-			secret: true
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "59369411FE571C5F"
@@ -722,6 +722,7 @@
 			description: ["First you must collect all 6 of the soulbound botania relics as proof of killing Gaia II 6 times.  Then you must submit Gaia's head mounted on terrasteel.  Only then will you truly be guilty enough to earn the everlasting guilty pool."]
 			icon: "botania:creative_pool"
 			id: "029947D6894A4065"
+			optional: true
 			rewards: [{
 				id: "52E1DA39E6224DF2"
 				item: "botania:creative_pool"

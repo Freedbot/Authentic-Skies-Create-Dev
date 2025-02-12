@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
 	//Note tooltip and block edits
 	event.smithing('create:reinforced_sheet', 'netherite_upgrade_smithing_template', 'echo_shard', 'createdeco:netherite_sheet')
 	//End portal frame recipe
-	event.shaped('reinforced_deepslate', [
+	event.shaped('8x reinforced_deepslate', [
 		'DDD',
 		'DRD',
 		'DDD'

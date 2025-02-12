@@ -255,8 +255,14 @@ ServerEvents.recipes(event => {
         'crimson_nylium',
         ['netherrack', 'botania:mycelium_seeds', 'crimson_fungus'])
     event.recipes.create.mixing(
+        'weeping_vines',
+        ['nether_wart_block', 'crimson_roots'])
+    event.recipes.create.mixing(
         'warped_nylium',
         ['netherrack', 'botania:mycelium_seeds', 'warped_fungus'])
+    event.recipes.create.mixing(
+        'twisting_vines',
+        ['warped_wart_block', 'warped_roots'])
     event.recipes.create.mixing(
         'gilded_blackstone',
         ['gilded_blackstone', 'gold_ingot']).heated()
@@ -291,7 +297,7 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting(
         '4x ae2:flawless_budding_quartz',
         [
-            Item.of('minecraft:enchanted_book').enchant('indestructible:indestructible_enchant', 1).weakNBT(),
+            'create_unbreakable:irromolding',
             '4x ae2:flawed_budding_quartz',
             Fluid.of('water', 1000)
         ]

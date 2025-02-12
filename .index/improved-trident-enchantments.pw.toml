@@ -1,13 +1,13 @@
-filename = 'ite-forge-1.20.x-v1.0.jar'
-name = 'Improved Trident Enchantments [Fabric & Quilt]'
+filename = 'improvedtrident-forge-1.20.x-v2.0.jar'
+name = 'Improved Trident Enchantments'
 side = 'both'
 
 [download]
-hash = '6aed440cf0190604854810f581111ea09a7a81eb'
+hash = 'b0479f1c06debcebbed9be0fb607bf836c6cecad'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4661990
+file-id = 5694155
 project-id = 890557

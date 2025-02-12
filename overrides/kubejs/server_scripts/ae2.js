@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
 		'ae2:network/blocks/crank',
 		'ae2:network/blocks/crystal_processing_charger',
 		'ae2:charger/meteorite_compass',
+		'ae2:charger/guide',
 		'ae2:charger/charged_certus_quartz_crystal',
 		'ae2wtlib:quantum_bridge_card',
 		//inscriber is not a crusher
@@ -46,6 +47,8 @@ ServerEvents.recipes(event => {
 		'ae2:fluix_dust',
 		'ae2:sky_dust'
 	)
+	//Needs recipe, no charger, and tesla has alternate book recipe > channeling
+	event.shapeless('ae2:guide', ['book', 'ae2:charged_certus_quartz_crystal'])
 	//crafter balance and earlier accessability
 	event.shaped('ae2:molecular_assembler', [
 		'IGI',
